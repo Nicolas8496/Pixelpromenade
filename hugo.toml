@@ -1,5 +1,5 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.pixelpromenade.eu/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Pixel Promenade'
 theme = 'PaperMod'
-publishDir = "docs"
+publishDir = 'docs'
