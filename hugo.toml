@@ -1,0 +1,19 @@
+baseURL = 'https://Nicolas8496.github.io/'
+languageCode = 'fr'
+title = 'Pixel Promenade'
+theme = 'dream'
+
+[params]
+  author = "Kaz"
+  description = "Un blog minimaliste avec Hugo et le thème Dream."
+  defaultTheme = "light"
+
+[[menu.main]]
+  identifier = "about"
+  name = "À Propos"
+  url = "/about/"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Articles"
+  url = "/posts/"
