@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Pixel Promenade</title>
-    <link>https://Nicolas8496.github.io/categories/</link>
+    <link>https://pixelpromenade.eu/categories/</link>
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 01 Mar 2025 15:44:44 +0100</lastBuildDate>
-    <atom:link href="https://Nicolas8496.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Mar 2025 15:32:48 +0100</lastBuildDate>
+    <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Général</title>
+      <link>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</link>
+      <pubDate>Thu, 06 Mar 2025 15:32:48 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Category1</title>
-      <link>https://Nicolas8496.github.io/categories/category1/</link>
+      <link>https://pixelpromenade.eu/categories/category1/</link>
       <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://Nicolas8496.github.io/categories/category1/</guid>
+      <guid>https://pixelpromenade.eu/categories/category1/</guid>
       <description></description>
     </item>
   </channel>

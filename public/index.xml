@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pixel Promenade</title>
-    <link>https://Nicolas8496.github.io/</link>
+    <link>https://pixelpromenade.eu/</link>
     <description>Recent content on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 01 Mar 2025 15:44:44 +0100</lastBuildDate>
-    <atom:link href="https://Nicolas8496.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Mar 2025 15:32:48 +0100</lastBuildDate>
+    <atom:link href="https://pixelpromenade.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>À propos</title>
+      <link>https://pixelpromenade.eu/posts/a_propos/</link>
+      <pubDate>Thu, 06 Mar 2025 15:32:48 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/posts/a_propos/</guid>
+      <description>&lt;p&gt;Cet À propos vous permettra d&amp;rsquo;en savoir plus sur le pourquoi du comment du qu&amp;rsquo;est-ce que c&amp;rsquo;est que ça de ce blog.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Premier Article</title>
-      <link>https://Nicolas8496.github.io/posts/premier-article/</link>
+      <link>https://pixelpromenade.eu/posts/premier-article/</link>
       <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://Nicolas8496.github.io/posts/premier-article/</guid>
+      <guid>https://pixelpromenade.eu/posts/premier-article/</guid>
       <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Title about</title>
-      <link>https://Nicolas8496.github.io/about/</link>
+      <link>https://pixelpromenade.eu/about/</link>
       <pubDate>Sat, 01 Mar 2025 15:43:41 +0100</pubDate>
-      <guid>https://Nicolas8496.github.io/about/</guid>
+      <guid>https://pixelpromenade.eu/about/</guid>
       <description>&lt;p&gt;This is an about page.&lt;/p&gt;</description>
     </item>
   </channel>

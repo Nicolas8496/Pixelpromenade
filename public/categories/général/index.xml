@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Pixel Promenade</title>
-    <link>https://pixelpromenade.eu/posts/</link>
-    <description>Recent content in Posts on Pixel Promenade</description>
+    <title>Général on Pixel Promenade</title>
+    <link>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</link>
+    <description>Recent content in Général on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Thu, 06 Mar 2025 15:32:48 +0100</lastBuildDate>
-    <atom:link href="https://pixelpromenade.eu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>À propos</title>
       <link>https://pixelpromenade.eu/posts/a_propos/</link>
       <pubDate>Thu, 06 Mar 2025 15:32:48 +0100</pubDate>
       <guid>https://pixelpromenade.eu/posts/a_propos/</guid>
       <description>&lt;p&gt;Cet À propos vous permettra d&amp;rsquo;en savoir plus sur le pourquoi du comment du qu&amp;rsquo;est-ce que c&amp;rsquo;est que ça de ce blog.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Premier Article</title>
-      <link>https://pixelpromenade.eu/posts/premier-article/</link>
-      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/posts/premier-article/</guid>
-      <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
