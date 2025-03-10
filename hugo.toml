@@ -7,6 +7,8 @@ theme = 'dream'
   author = "Kaz"
   description = "Un blog minimaliste avec Hugo et le thème Dream."
   defaultTheme = "light"
+  headerTitle = "Pixel Promenade"
+  motto = "Du café, des livres et une clarinette"
 
 [[menu.main]]
   identifier = "about"
