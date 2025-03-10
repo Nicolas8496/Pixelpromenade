@@ -6,12 +6,19 @@
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 06 Mar 2025 15:32:48 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2025 10:47:43 +0100</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archives</title>
+      <link>https://pixelpromenade.eu/categories/archives/</link>
+      <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/archives/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Général</title>
       <link>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</link>
-      <pubDate>Thu, 06 Mar 2025 15:32:48 +0100</pubDate>
+      <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
       <guid>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</guid>
       <description></description>
     </item>
