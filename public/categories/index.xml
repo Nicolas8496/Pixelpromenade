@@ -29,5 +29,19 @@
       <guid>https://pixelpromenade.eu/categories/category1/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Fantasy</title>
+      <link>https://pixelpromenade.eu/categories/fantasy/</link>
+      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/fantasy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Littérature</title>
+      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
+      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
