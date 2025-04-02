@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Pixel Promenade</title>
-    <link>https://pixelpromenade.eu/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 10 Mar 2025 10:47:43 +0100</lastBuildDate>
-    <atom:link href="https://pixelpromenade.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Mar 2025 19:03:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://pixelpromenade.eu/tags/blog/</link>
-      <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Covid</title>
-      <link>https://pixelpromenade.eu/tags/covid/</link>
-      <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/covid/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Écriture</title>
-      <link>https://pixelpromenade.eu/tags/%C3%A9criture/</link>
-      <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/%C3%A9criture/</guid>
+      <link>http://localhost:1313/tags/blog/</link>
+      <pubDate>Thu, 20 Mar 2025 19:03:44 +0100</pubDate>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Critique</title>
-      <link>https://pixelpromenade.eu/tags/critique/</link>
-      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/critique/</guid>
+      <link>http://localhost:1313/tags/critique/</link>
+      <pubDate>Thu, 20 Mar 2025 19:03:44 +0100</pubDate>
+      <guid>http://localhost:1313/tags/critique/</guid>
       <description></description>
     </item>
     <item>
       <title>Fantasy</title>
-      <link>https://pixelpromenade.eu/tags/fantasy/</link>
-      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/fantasy/</guid>
+      <link>http://localhost:1313/tags/fantasy/</link>
+      <pubDate>Thu, 20 Mar 2025 19:03:44 +0100</pubDate>
+      <guid>http://localhost:1313/tags/fantasy/</guid>
       <description></description>
     </item>
     <item>
       <title>Lecture</title>
-      <link>https://pixelpromenade.eu/tags/lecture/</link>
-      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/lecture/</guid>
+      <link>http://localhost:1313/tags/lecture/</link>
+      <pubDate>Thu, 20 Mar 2025 19:03:44 +0100</pubDate>
+      <guid>http://localhost:1313/tags/lecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Littérature</title>
-      <link>https://pixelpromenade.eu/tags/litt%C3%A9rature/</link>
-      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/litt%C3%A9rature/</guid>
+      <link>http://localhost:1313/tags/litt%C3%A9rature/</link>
+      <pubDate>Thu, 20 Mar 2025 19:03:44 +0100</pubDate>
+      <guid>http://localhost:1313/tags/litt%C3%A9rature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Covid</title>
+      <link>http://localhost:1313/tags/covid/</link>
+      <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
+      <guid>http://localhost:1313/tags/covid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Écriture</title>
+      <link>http://localhost:1313/tags/%C3%A9criture/</link>
+      <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
+      <guid>http://localhost:1313/tags/%C3%A9criture/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag1</title>
-      <link>https://pixelpromenade.eu/tags/tag1/</link>
+      <link>http://localhost:1313/tags/tag1/</link>
       <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/tag1/</guid>
+      <guid>http://localhost:1313/tags/tag1/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag2</title>
-      <link>https://pixelpromenade.eu/tags/tag2/</link>
+      <link>http://localhost:1313/tags/tag2/</link>
       <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/tag2/</guid>
+      <guid>http://localhost:1313/tags/tag2/</guid>
       <description></description>
     </item>
   </channel>

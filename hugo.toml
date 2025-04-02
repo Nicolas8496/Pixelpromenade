@@ -4,11 +4,21 @@ title = 'Pixel Promenade'
 theme = 'dream'
 
 [params]
+  lightTheme = "emerald"
+  darkTheme = "forest"
+
   author = "Kaz"
-  description = "Un blog minimaliste avec Hugo et le thème Dream."
+  description = "Un blog expérimental."
+  avatar = "img/personal/avatar.jpg"
+
   defaultTheme = "light"
+
   headerTitle = "Pixel Promenade"
   motto = "Du café, des livres et une clarinette"
+
+
+  footerBottomText = "Un blog expérimental."
+
 
 [[menu.main]]
   identifier = "about"
