@@ -2,11 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/tags/blogging/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/categories/blogging/</loc>
-    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/brigitte-giraud/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/</loc>
-    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/critique/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/critique/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/goncourt/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/les-gommes/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/07_ouvrir_les_sentiers_de_la_nouvelle_annee/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/robbe-grillet/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/sport/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/sport/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/vivre-vite/</loc>
+    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/hugo/</loc>
     <lastmod>2026-01-21T19:37:53+01:00</lastmod>
@@ -14,16 +62,7 @@
     <loc>https://pixelpromenade.eu/posts/06_test_retour/</loc>
     <lastmod>2026-01-21T19:37:53+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/programmation/</loc>
-    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
     <lastmod>2026-01-21T19:37:53+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/avatar/</loc>
@@ -39,12 +78,6 @@
     <lastmod>2025-04-02T12:00:00+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/cin%C3%A9ma/</loc>
-    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/critique/</loc>
-    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/critique/</loc>
     <lastmod>2025-04-02T12:00:00+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/05_avatar2/</loc>
@@ -66,12 +99,6 @@
     <lastmod>2025-03-20T19:03:44+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/04_drizz/</loc>
-    <lastmod>2025-03-20T19:03:44+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2025-03-20T19:03:44+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
     <lastmod>2025-03-20T19:03:44+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/archives/</loc>
