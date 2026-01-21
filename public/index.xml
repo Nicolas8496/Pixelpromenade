@@ -2,52 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pixel Promenade</title>
-    <link>http://localhost:1313/</link>
+    <link>https://pixelpromenade.eu/</link>
     <description>Recent content on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 02 Apr 2025 12:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jan 2026 19:37:53 +0100</lastBuildDate>
+    <atom:link href="https://pixelpromenade.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La résurrection du blog, moins d&#39;un an après !</title>
+      <link>https://pixelpromenade.eu/posts/06_test_retour/</link>
+      <pubDate>Wed, 21 Jan 2026 19:37:53 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/posts/06_test_retour/</guid>
+      <description>&lt;p&gt;Petit test pour reprendre le contrôle de ce blog. Je reteste toutes les commandes Hugo, l&amp;rsquo;accès à mes comptes, etc.&#xA;Tout cela en vue de reprendre le blog et de republier ici de manière régulière.&#xA;On y croit !&#xA;Et bonne année à tous !&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Critique - Avatar, la voie de l’eau (Spoilers)</title>
-      <link>http://localhost:1313/posts/05_avatar2/</link>
+      <link>https://pixelpromenade.eu/posts/05_avatar2/</link>
       <pubDate>Wed, 02 Apr 2025 12:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/posts/05_avatar2/</guid>
+      <guid>https://pixelpromenade.eu/posts/05_avatar2/</guid>
       <description>&lt;p&gt;Redonnons un peu de vie à cette ancienne critique de film du gros morceau Avatar 2. Je l&amp;rsquo;avais publié il y a maintenant plus de 2 ans sur mon blog précédent. Cela fait longtemps que je n&amp;rsquo;ai pas fait de critique de cinéma&amp;hellip; Peut-être devrais-je me relaisser tenter ? Je regarde des films régulièrement maintenant, après une année de diète quasi-complète, mais je vais hélas rarement au cinéma.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture de la Légende de Drizz tome 3 - Terre promise</title>
-      <link>http://localhost:1313/posts/04_drizz/</link>
+      <link>https://pixelpromenade.eu/posts/04_drizz/</link>
       <pubDate>Thu, 20 Mar 2025 19:03:44 +0100</pubDate>
-      <guid>http://localhost:1313/posts/04_drizz/</guid>
+      <guid>https://pixelpromenade.eu/posts/04_drizz/</guid>
       <description>&lt;p&gt;J&amp;rsquo;ai toujours eu des difficultés à lire. Cela vient sans doute, du moins en partie, d&amp;rsquo;une faible capacité de concentration. Conséquence d&amp;rsquo;une trop grande consommation de films ? de jeux vidéos ? Peut-être bien&amp;hellip; Et le boum des réseaux sociaux n&amp;rsquo;a sûrement pas aidé.&#xA;Mais il y a autre chose. Une difficulté supplémentaire qui s&amp;rsquo;ajoute à cela&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reprendre l&#39;écriture pendant le covid, ou lutter contre la fatigue</title>
-      <link>http://localhost:1313/posts/reprendre-ecriture/</link>
+      <link>https://pixelpromenade.eu/posts/reprendre-ecriture/</link>
       <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
-      <guid>http://localhost:1313/posts/reprendre-ecriture/</guid>
+      <guid>https://pixelpromenade.eu/posts/reprendre-ecriture/</guid>
       <description>&lt;blockquote&gt;&#xD;&#xA;    &lt;p&gt;Commençons notre petit voyage dans le temps, avec un article rédigé et publié le 26 juillet 2021 sur mon ancien blog &lt;em&gt;Cinquante Pages&lt;/em&gt;, sous le titre « Reprendre l’écriture ». Je souffrais alors du covid, et c’est avec un désespoir non dissimulé que j’essayais de renouer avec mon envie d’écrire…&lt;/p&gt;&#xD;&#xA;  &lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>À propos</title>
-      <link>http://localhost:1313/posts/a_propos/</link>
+      <link>https://pixelpromenade.eu/posts/a_propos/</link>
       <pubDate>Thu, 06 Mar 2025 15:32:48 +0100</pubDate>
-      <guid>http://localhost:1313/posts/a_propos/</guid>
+      <guid>https://pixelpromenade.eu/posts/a_propos/</guid>
       <description>&lt;p&gt;Cet À propos vous permettra d&amp;rsquo;en savoir plus sur le pourquoi du comment du qu&amp;rsquo;est-ce que c&amp;rsquo;est que ça de ce blog.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Premier Article</title>
-      <link>http://localhost:1313/posts/premier-article/</link>
+      <link>https://pixelpromenade.eu/posts/premier-article/</link>
       <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>http://localhost:1313/posts/premier-article/</guid>
+      <guid>https://pixelpromenade.eu/posts/premier-article/</guid>
       <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Title about</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://pixelpromenade.eu/about/</link>
       <pubDate>Sat, 01 Mar 2025 15:43:41 +0100</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://pixelpromenade.eu/about/</guid>
       <description>&lt;p&gt;This is an about page.&lt;/p&gt;</description>
     </item>
   </channel>

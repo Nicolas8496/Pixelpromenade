@@ -2,45 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Pixel Promenade</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://pixelpromenade.eu/categories/</link>
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 20 Mar 2025 19:03:44 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jan 2026 19:37:53 +0100</lastBuildDate>
+    <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>https://pixelpromenade.eu/categories/blogging/</link>
+      <pubDate>Wed, 21 Jan 2026 19:37:53 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/blogging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cinéma</title>
+      <link>https://pixelpromenade.eu/categories/cin%C3%A9ma/</link>
+      <pubDate>Wed, 02 Apr 2025 12:00:00 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/cin%C3%A9ma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Critique</title>
+      <link>https://pixelpromenade.eu/categories/critique/</link>
+      <pubDate>Wed, 02 Apr 2025 12:00:00 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/critique/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Fantasy</title>
-      <link>http://localhost:1313/categories/fantasy/</link>
+      <link>https://pixelpromenade.eu/categories/fantasy/</link>
       <pubDate>Thu, 20 Mar 2025 19:03:44 +0100</pubDate>
-      <guid>http://localhost:1313/categories/fantasy/</guid>
+      <guid>https://pixelpromenade.eu/categories/fantasy/</guid>
       <description></description>
     </item>
     <item>
       <title>Littérature</title>
-      <link>http://localhost:1313/categories/litt%C3%A9rature/</link>
+      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
       <pubDate>Thu, 20 Mar 2025 19:03:44 +0100</pubDate>
-      <guid>http://localhost:1313/categories/litt%C3%A9rature/</guid>
+      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
       <description></description>
     </item>
     <item>
       <title>Archives</title>
-      <link>http://localhost:1313/categories/archives/</link>
+      <link>https://pixelpromenade.eu/categories/archives/</link>
       <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
-      <guid>http://localhost:1313/categories/archives/</guid>
+      <guid>https://pixelpromenade.eu/categories/archives/</guid>
       <description></description>
     </item>
     <item>
       <title>Général</title>
-      <link>http://localhost:1313/categories/g%C3%A9n%C3%A9ral/</link>
+      <link>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</link>
       <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
-      <guid>http://localhost:1313/categories/g%C3%A9n%C3%A9ral/</guid>
+      <guid>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</guid>
       <description></description>
     </item>
     <item>
       <title>Category1</title>
-      <link>http://localhost:1313/categories/category1/</link>
+      <link>https://pixelpromenade.eu/categories/category1/</link>
       <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>http://localhost:1313/categories/category1/</guid>
+      <guid>https://pixelpromenade.eu/categories/category1/</guid>
       <description></description>
     </item>
   </channel>

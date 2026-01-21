@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Littérature on Pixel Promenade</title>
-    <link>http://localhost:1313/categories/litt%C3%A9rature/</link>
+    <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
     <description>Recent content in Littérature on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Thu, 20 Mar 2025 19:03:44 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/litt%C3%A9rature/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pixelpromenade.eu/categories/litt%C3%A9rature/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture de la Légende de Drizz tome 3 - Terre promise</title>
-      <link>http://localhost:1313/posts/04_drizz/</link>
+      <link>https://pixelpromenade.eu/posts/04_drizz/</link>
       <pubDate>Thu, 20 Mar 2025 19:03:44 +0100</pubDate>
-      <guid>http://localhost:1313/posts/04_drizz/</guid>
+      <guid>https://pixelpromenade.eu/posts/04_drizz/</guid>
       <description>&lt;p&gt;J&amp;rsquo;ai toujours eu des difficultés à lire. Cela vient sans doute, du moins en partie, d&amp;rsquo;une faible capacité de concentration. Conséquence d&amp;rsquo;une trop grande consommation de films ? de jeux vidéos ? Peut-être bien&amp;hellip; Et le boum des réseaux sociaux n&amp;rsquo;a sûrement pas aidé.&#xA;Mais il y a autre chose. Une difficulté supplémentaire qui s&amp;rsquo;ajoute à cela&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

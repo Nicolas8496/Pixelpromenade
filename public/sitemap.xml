@@ -2,73 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-02T19:00:00+01:00</lastmod>
+    <loc>https://pixelpromenade.eu/categories/blogging/</loc>
+    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-02T19:00:00+01:00</lastmod>
+    <loc>https://pixelpromenade.eu/categories/</loc>
+    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://pixelpromenade.eu/tags/hugo/</loc>
+    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/06_test_retour/</loc>
+    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/programmation/</loc>
+    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-01-21T19:37:53+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/avatar/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/blog/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/cameron/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/cin%C3%A9ma/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/cin%C3%A9ma/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/critique/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/critique/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/05_avatar2/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/la-voie-de-leau/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/way-of-water/</loc>
+    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/fantasy/</loc>
     <lastmod>2025-03-20T19:03:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://pixelpromenade.eu/categories/fantasy/</loc>
     <lastmod>2025-03-20T19:03:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/critique/</loc>
+    <loc>https://pixelpromenade.eu/tags/lecture/</loc>
     <lastmod>2025-03-20T19:03:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fantasy/</loc>
+    <loc>https://pixelpromenade.eu/posts/04_drizz/</loc>
     <lastmod>2025-03-20T19:03:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/fantasy/</loc>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
     <lastmod>2025-03-20T19:03:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lecture/</loc>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
     <lastmod>2025-03-20T19:03:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/04_drizz/</loc>
-    <lastmod>2025-03-20T19:03:44+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/litt%C3%A9rature/</loc>
-    <lastmod>2025-03-20T19:03:44+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/litt%C3%A9rature/</loc>
-    <lastmod>2025-03-20T19:03:44+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-03-20T19:03:44+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/archives/</loc>
+    <loc>https://pixelpromenade.eu/categories/archives/</loc>
     <lastmod>2025-03-10T10:47:43+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/covid/</loc>
+    <loc>https://pixelpromenade.eu/tags/covid/</loc>
     <lastmod>2025-03-10T10:47:43+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%C3%A9criture/</loc>
+    <loc>https://pixelpromenade.eu/tags/%C3%A9criture/</loc>
     <lastmod>2025-03-10T10:47:43+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/g%C3%A9n%C3%A9ral/</loc>
+    <loc>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</loc>
     <lastmod>2025-03-10T10:47:43+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/reprendre-ecriture/</loc>
+    <loc>https://pixelpromenade.eu/posts/reprendre-ecriture/</loc>
     <lastmod>2025-03-10T10:47:43+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/a_propos/</loc>
+    <loc>https://pixelpromenade.eu/posts/a_propos/</loc>
     <lastmod>2025-03-06T15:32:48+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/category1/</loc>
+    <loc>https://pixelpromenade.eu/categories/category1/</loc>
     <lastmod>2025-03-01T15:44:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/premier-article/</loc>
+    <loc>https://pixelpromenade.eu/posts/premier-article/</loc>
     <lastmod>2025-03-01T15:44:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tag1/</loc>
+    <loc>https://pixelpromenade.eu/tags/tag1/</loc>
     <lastmod>2025-03-01T15:44:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tag2/</loc>
+    <loc>https://pixelpromenade.eu/tags/tag2/</loc>
     <lastmod>2025-03-01T15:44:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://pixelpromenade.eu/about/</loc>
     <lastmod>2025-03-01T15:43:41+01:00</lastmod>
   </url>
 </urlset>

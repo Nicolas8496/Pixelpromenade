@@ -17,6 +17,8 @@ tags:
   - cameron
   - critique
   - blog
+  - la voie de l'eau
+  - way of water
 # nolastmod: true
 draft: false
 ---
