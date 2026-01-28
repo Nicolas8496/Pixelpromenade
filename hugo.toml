@@ -10,6 +10,7 @@ theme = 'dream'
   author = "Kaz"
   description = "Un blog expérimental."
   avatar = "img/personal/avatar.jpg"
+  
 
   defaultTheme = "light"
 
