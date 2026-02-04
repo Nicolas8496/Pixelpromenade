@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 28 Jan 2026 12:38:38 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 12:38:38 +0100</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Humeur</title>
+      <link>https://pixelpromenade.eu/categories/humeur/</link>
+      <pubDate>Wed, 04 Feb 2026 12:38:38 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/humeur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Littérature</title>
+      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
+      <pubDate>Wed, 04 Feb 2026 12:38:38 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mélancolie</title>
+      <link>https://pixelpromenade.eu/categories/m%C3%A9lancolie/</link>
+      <pubDate>Wed, 04 Feb 2026 12:38:38 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/m%C3%A9lancolie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paysage</title>
+      <link>https://pixelpromenade.eu/categories/paysage/</link>
+      <pubDate>Wed, 04 Feb 2026 12:38:38 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/paysage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poésie</title>
+      <link>https://pixelpromenade.eu/categories/po%C3%A9sie/</link>
+      <pubDate>Wed, 04 Feb 2026 12:38:38 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/po%C3%A9sie/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Allemagne</title>
       <link>https://pixelpromenade.eu/categories/allemagne/</link>
@@ -20,13 +55,6 @@
       <link>https://pixelpromenade.eu/categories/autriche/</link>
       <pubDate>Wed, 28 Jan 2026 12:38:38 +0100</pubDate>
       <guid>https://pixelpromenade.eu/categories/autriche/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Littérature</title>
-      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
-      <pubDate>Wed, 28 Jan 2026 12:38:38 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
       <description></description>
     </item>
     <item>
@@ -81,7 +109,7 @@
     <item>
       <title>Category1</title>
       <link>https://pixelpromenade.eu/categories/category1/</link>
-      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
+      <pubDate>Thu, 06 Mar 2025 15:44:44 +0100</pubDate>
       <guid>https://pixelpromenade.eu/categories/category1/</guid>
       <description></description>
     </item>

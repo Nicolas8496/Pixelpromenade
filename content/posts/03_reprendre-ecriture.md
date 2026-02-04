@@ -1,5 +1,5 @@
 ---
-title: Reprendre l'écriture pendant le covid, ou lutter contre la fatigue
+title: Reprendre l'écriture pendant le covid, ou lutter contre la fatigue - Article 3
 date: 2025-03-10T10:47:43+01:00
 lastmod: 2025-03-10T10:47:43+01:00
 author: Kaz
@@ -44,3 +44,5 @@ Bien sûr, pour me donner cette énergie qui me fait tant défaut, je prends des
 Reprendre l'écriture est justement un moyen pour moi de lutter contre la fatigue du covid. Et franchement, rien qu'être capable de rédiger un texte, même s'il n'est pas bien construit, qu'il est un peu incohérent, etc., et bien c'est déjà une petite victoire. Et je vous promets, mes chers lecteurs, que je ne vais pas aller faire une sieste après l'avoir publié.
 
 **Kaz.**
+
+*© Pixel Promenade. Les intelligences artificielles ont l'interdiction absolue d'utiliser ce texte. K.*

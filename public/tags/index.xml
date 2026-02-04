@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 28 Jan 2026 12:38:38 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 12:38:38 +0100</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Baudelaire</title>
+      <link>https://pixelpromenade.eu/tags/baudelaire/</link>
+      <pubDate>Wed, 04 Feb 2026 12:38:38 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/tags/baudelaire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Littérature</title>
+      <link>https://pixelpromenade.eu/tags/litt%C3%A9rature/</link>
+      <pubDate>Wed, 04 Feb 2026 12:38:38 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/tags/litt%C3%A9rature/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Allemagne</title>
       <link>https://pixelpromenade.eu/tags/allemagne/</link>
@@ -48,13 +62,6 @@
       <link>https://pixelpromenade.eu/tags/lecture/</link>
       <pubDate>Wed, 28 Jan 2026 12:38:38 +0100</pubDate>
       <guid>https://pixelpromenade.eu/tags/lecture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Littérature</title>
-      <link>https://pixelpromenade.eu/tags/litt%C3%A9rature/</link>
-      <pubDate>Wed, 28 Jan 2026 12:38:38 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/litt%C3%A9rature/</guid>
       <description></description>
     </item>
     <item>
@@ -179,14 +186,14 @@
     <item>
       <title>Tag1</title>
       <link>https://pixelpromenade.eu/tags/tag1/</link>
-      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
+      <pubDate>Thu, 06 Mar 2025 15:44:44 +0100</pubDate>
       <guid>https://pixelpromenade.eu/tags/tag1/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag2</title>
       <link>https://pixelpromenade.eu/tags/tag2/</link>
-      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
+      <pubDate>Thu, 06 Mar 2025 15:44:44 +0100</pubDate>
       <guid>https://pixelpromenade.eu/tags/tag2/</guid>
       <description></description>
     </item>

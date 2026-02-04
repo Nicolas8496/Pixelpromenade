@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/tags/baudelaire/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/humeur/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/09_humeur_ombre_lumiere/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/m%C3%A9lancolie/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/paysage/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/po%C3%A9sie/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/tags/allemagne/</loc>
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
@@ -17,9 +53,6 @@
     <loc>https://pixelpromenade.eu/tags/blog/</loc>
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/categories/</loc>
-    <lastmod>2026-01-28T12:38:38+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/critique/</loc>
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
@@ -29,22 +62,7 @@
     <loc>https://pixelpromenade.eu/tags/lecture/</loc>
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2026-01-28T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
-    <lastmod>2026-01-28T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-01-28T12:38:38+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/posts/08_poetesse_en_temps_de_guerre/</loc>
-    <lastmod>2026-01-28T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-01-28T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/blogging/</loc>
@@ -131,25 +149,25 @@
     <loc>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</loc>
     <lastmod>2025-03-10T10:47:43+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/posts/reprendre-ecriture/</loc>
+    <loc>https://pixelpromenade.eu/posts/03_reprendre-ecriture/</loc>
     <lastmod>2025-03-10T10:47:43+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/posts/a_propos/</loc>
-    <lastmod>2025-03-06T15:32:48+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/categories/category1/</loc>
-    <lastmod>2025-03-01T15:44:44+01:00</lastmod>
+    <lastmod>2025-03-06T15:44:44+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/posts/premier-article/</loc>
-    <lastmod>2025-03-01T15:44:44+01:00</lastmod>
+    <loc>https://pixelpromenade.eu/posts/02_premier-article/</loc>
+    <lastmod>2025-03-06T15:44:44+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/tag1/</loc>
-    <lastmod>2025-03-01T15:44:44+01:00</lastmod>
+    <lastmod>2025-03-06T15:44:44+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/tag2/</loc>
-    <lastmod>2025-03-01T15:44:44+01:00</lastmod>
+    <lastmod>2025-03-06T15:44:44+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/about/</loc>
     <lastmod>2025-03-01T15:43:41+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/01_a_propos/</loc>
+    <lastmod>2025-03-01T15:32:48+01:00</lastmod>
   </url>
 </urlset>

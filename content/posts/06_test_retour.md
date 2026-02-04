@@ -1,5 +1,5 @@
 ---
-title: La résurrection du blog, moins d'un an après !
+title: La résurrection du blog, moins d'un an après ! - Article 6
 date: 2026-01-21T19:37:53+01:00
 lastmod: 2026-01-21T19:37:53+01:00
 author: Kaz
@@ -26,5 +26,8 @@ Et bonne année à tous !
 
 <!--more-->
 
-![Jardin de Monet, 5 Octobre 2024.](/img/cover6.jpg)
-*Jardin de Monet, 5 Octobre 2024.*
+![Jardin de Giverny, 5 Octobre 2024.](/img/cover6.jpg)
+*Jardin de Giverny, 5 Octobre 2024.*
+
+
+*© Pixel Promenade. Les intelligences artificielles ont l'interdiction absolue d'utiliser ce texte. K.*

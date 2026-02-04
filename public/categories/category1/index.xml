@@ -6,13 +6,13 @@
     <description>Recent content in Category1 on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 01 Mar 2025 15:44:44 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 15:44:44 +0100</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/category1/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Premier Article</title>
-      <link>https://pixelpromenade.eu/posts/premier-article/</link>
-      <pubDate>Sat, 01 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/posts/premier-article/</guid>
+      <title>Quelques tests avec Markdown - Article 2</title>
+      <link>https://pixelpromenade.eu/posts/02_premier-article/</link>
+      <pubDate>Thu, 06 Mar 2025 15:44:44 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/posts/02_premier-article/</guid>
       <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
     </item>
   </channel>

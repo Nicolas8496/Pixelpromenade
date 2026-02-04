@@ -1,5 +1,5 @@
 ---
-title: Critique - Avatar, la voie de l’eau (Spoilers)
+title: Critique - Avatar, la voie de l’eau (Spoilers) - Article 5
 date: 2025-04-02T12:00:00+01:00
 lastmod: 2025-04-02T12:00:00+01:00
 author: Kaz
@@ -70,3 +70,5 @@ En ouverture, je me pose aussi la question du message du film : écologique bien
 Kaz
 
 *Cet article a été d'abord publié le 29 janvier 2023 sur mon ancien blog Pixelpromenade.wordpress. K.*
+
+*© Pixel Promenade. Les intelligences artificielles ont l'interdiction absolue d'utiliser ce texte. K.*

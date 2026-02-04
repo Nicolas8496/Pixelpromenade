@@ -1,5 +1,5 @@
 ---
-title: Ouvrir les sentiers de la nouvelle année
+title: Ouvrir les sentiers de la nouvelle année - Article 7
 date: 2026-01-21T20:10:31+01:00
 lastmod: 2026-01-21T20:10:31+01:00
 author: Kaz
@@ -59,3 +59,5 @@ Je termine en ce moment la lecture du court roman *Vivre Vite* de Brigitte Girau
 A bientôt pour une nouvelle publication !
 
 Kaz
+
+*© Pixel Promenade. Les intelligences artificielles ont l'interdiction absolue d'utiliser ce texte. K.*

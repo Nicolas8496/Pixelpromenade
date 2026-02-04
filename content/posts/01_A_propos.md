@@ -1,7 +1,7 @@
 ---
-title: À propos
-date: 2025-03-06T15:32:48+01:00
-lastmod: 2025-03-06T15:32:48+01:00
+title: À propos - Article 1
+date: 2025-03-01T15:32:48+01:00
+lastmod: 2025-03-01T15:32:48+01:00
 author: Kaz
 # avatar: /img/author.jpg
 # authorlink: https://author.site
