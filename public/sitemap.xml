@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-02-11T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-02-11T12:38:38+01:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/tags/baudelaire/</loc>
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
   </url><url>
@@ -26,13 +32,7 @@
     <loc>https://pixelpromenade.eu/categories/paysage/</loc>
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/categories/po%C3%A9sie/</loc>
-    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/</loc>
