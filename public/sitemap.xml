@@ -2,28 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/tags/blog/</loc>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/blog/</loc>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/</loc>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/dimanche/</loc>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/humeur/</loc>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/humeur/</loc>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-02-11T12:38:38+01:00</lastmod>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/11_sur_les_chemins_noirs/</loc>
+    <lastmod>2026-02-19T07:47:27+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/anomalie/</loc>
+    <lastmod>2026-02-11T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/critique/</loc>
+    <lastmod>2026-02-11T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/goncourt/</loc>
+    <lastmod>2026-02-11T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/herv%C3%A9-le-tellier/</loc>
+    <lastmod>2026-02-11T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/10_anomalie_goncourt/</loc>
+    <lastmod>2026-02-11T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-02-11T12:38:38+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
     <lastmod>2026-02-11T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/baudelaire/</loc>
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/categories/</loc>
-    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/humeur/</loc>
-    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/posts/09_humeur_ombre_lumiere/</loc>
-    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/m%C3%A9lancolie/</loc>
@@ -33,9 +66,6 @@
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/po%C3%A9sie/</loc>
-    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/allemagne/</loc>
@@ -48,9 +78,6 @@
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/autriche/</loc>
-    <lastmod>2026-01-28T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/blog/</loc>
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/critique/</loc>
@@ -72,12 +99,6 @@
     <lastmod>2026-01-21T20:10:31+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/brigitte-giraud/</loc>
-    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/critique/</loc>
-    <lastmod>2026-01-21T20:10:31+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/goncourt/</loc>
     <lastmod>2026-01-21T20:10:31+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/les-gommes/</loc>

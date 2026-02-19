@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anomalie | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/tags/anomalie/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Un blog expérimental." />
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/tags/anomalie/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Anomalie">
+  <meta property="og:description" content="Un blog expérimental.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="website">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Anomalie">
+  <meta name="twitter:description" content="Un blog expérimental.">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+     
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Du café, des livres et une clarinette</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+
+
+<div class="flex flex-col md:flex-row mt-4">
+
+  <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
+    <h1 class="text-2xl">Anomalie</h1>
+    <p class="text-sm">1 article</p>
+    <div class="flex flex-wrap gap-4 mt-6">
+      
+
+      
+      
+      <a href="/tags/allemagne/" class="badge h-6 no-underline hover:badge-primary">
+        Allemagne
+      </a>
+      
+      
+      
+      <span class="badge h-6 badge-primary">
+        Anomalie
+      </span>
+      
+      
+      
+      <a href="/tags/autriche/" class="badge h-6 no-underline hover:badge-primary">
+        Autriche
+      </a>
+      
+      
+      
+      <a href="/tags/avatar/" class="badge h-6 no-underline hover:badge-primary">
+        Avatar
+      </a>
+      
+      
+      
+      <a href="/tags/baudelaire/" class="badge h-6 no-underline hover:badge-primary">
+        Baudelaire
+      </a>
+      
+      
+      
+      <a href="/tags/blog/" class="badge h-6 no-underline hover:badge-primary">
+        Blog
+      </a>
+      
+      
+      
+      <a href="/tags/blogging/" class="badge h-6 no-underline hover:badge-primary">
+        Blogging
+      </a>
+      
+      
+      
+      <a href="/tags/brigitte-giraud/" class="badge h-6 no-underline hover:badge-primary">
+        Brigitte Giraud
+      </a>
+      
+      
+      
+      <a href="/tags/cameron/" class="badge h-6 no-underline hover:badge-primary">
+        Cameron
+      </a>
+      
+      
+      
+      <a href="/tags/cin%C3%A9ma/" class="badge h-6 no-underline hover:badge-primary">
+        Cinéma
+      </a>
+      
+      
+      
+      <a href="/tags/covid/" class="badge h-6 no-underline hover:badge-primary">
+        Covid
+      </a>
+      
+      
+      
+      <a href="/tags/critique/" class="badge h-6 no-underline hover:badge-primary">
+        Critique
+      </a>
+      
+      
+      
+      <a href="/tags/dimanche/" class="badge h-6 no-underline hover:badge-primary">
+        Dimanche
+      </a>
+      
+      
+      
+      <a href="/tags/%C3%A9criture/" class="badge h-6 no-underline hover:badge-primary">
+        Écriture
+      </a>
+      
+      
+      
+      <a href="/tags/fantasy/" class="badge h-6 no-underline hover:badge-primary">
+        Fantasy
+      </a>
+      
+      
+      
+      <a href="/tags/goncourt/" class="badge h-6 no-underline hover:badge-primary">
+        Goncourt
+      </a>
+      
+      
+      
+      <a href="/tags/herv%C3%A9-le-tellier/" class="badge h-6 no-underline hover:badge-primary">
+        Hervé Le Tellier
+      </a>
+      
+      
+      
+      <a href="/tags/hugo/" class="badge h-6 no-underline hover:badge-primary">
+        Hugo
+      </a>
+      
+      
+      
+      <a href="/tags/humeur/" class="badge h-6 no-underline hover:badge-primary">
+        Humeur
+      </a>
+      
+      
+      
+      <a href="/tags/ingeborg-bachmann/" class="badge h-6 no-underline hover:badge-primary">
+        Ingeborg Bachmann
+      </a>
+      
+      
+      
+      <a href="/tags/la-voie-de-leau/" class="badge h-6 no-underline hover:badge-primary">
+        La Voie De L&#39;eau
+      </a>
+      
+      
+      
+      <a href="/tags/lecture/" class="badge h-6 no-underline hover:badge-primary">
+        Lecture
+      </a>
+      
+      
+      
+      <a href="/tags/les-gommes/" class="badge h-6 no-underline hover:badge-primary">
+        Les Gommes
+      </a>
+      
+      
+      
+      <a href="/tags/litt%C3%A9rature/" class="badge h-6 no-underline hover:badge-primary">
+        Littérature
+      </a>
+      
+      
+      
+      <a href="/tags/programmation/" class="badge h-6 no-underline hover:badge-primary">
+        Programmation
+      </a>
+      
+      
+      
+      <a href="/tags/robbe-grillet/" class="badge h-6 no-underline hover:badge-primary">
+        Robbe-Grillet
+      </a>
+      
+      
+      
+      <a href="/tags/sport/" class="badge h-6 no-underline hover:badge-primary">
+        Sport
+      </a>
+      
+      
+      
+      <a href="/tags/tag1/" class="badge h-6 no-underline hover:badge-primary">
+        Tag1
+      </a>
+      
+      
+      
+      <a href="/tags/tag2/" class="badge h-6 no-underline hover:badge-primary">
+        Tag2
+      </a>
+      
+      
+      
+      <a href="/tags/vivre-vite/" class="badge h-6 no-underline hover:badge-primary">
+        Vivre Vite
+      </a>
+      
+      
+      
+      <a href="/tags/way-of-water/" class="badge h-6 no-underline hover:badge-primary">
+        Way of Water
+      </a>
+      
+      
+    </div>
+  </div>
+  
+  <div class="divider divider-vertical md:divider-horizontal px-4 md:px-0"></div>
+  
+  <div class="flex-1">
+    
+
+    
+      <div class="dream-grid">
+        
+          <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+            <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/10_anomalie_goncourt/">
+  
+  <figure>
+    
+    <img src="/img/cover10.jpg" alt="L’Anomalie - Que vaut le prix Goncourt de 2020 ? - Article 10" />
+    
+  </figure>
+  
+
+  <div class="card-body">
+    <h2 class="card-title">L’Anomalie - Que vaut le prix Goncourt de 2020 ? - Article 10</h2>
+
+    <p class="date text-base-content/60">
+    
+      Wednesday, Feb 11, 2026
+    
+    </p>
+
+    <p>Je ne connaissais pas Hervé Le Tellier avant l’Anomalie, ce petit roman publié en 2020 et qui a reçu le prestigieux prix Goncourt. Ce n’est même pas dans mes habitudes de lire de la littérature contemporaine, « actuelle ». Mais une amie m’a offert ce petit roman pour Noël 2022 et me l’a conseillé pour son scénario et sa fin « géniale ».</p>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>5 minute read</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+          </div>
+        
+      </div>
+    
+
+    
+  </div>
+</div>
+
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>© 2026 Pixel Promenade</p>
+  
+
+  
+  <p>Un blog expérimental.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>© 2026 Pixel Promenade</p>
+  
+
+  
+  <p>Un blog expérimental.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
