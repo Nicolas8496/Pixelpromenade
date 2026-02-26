@@ -19,13 +19,13 @@ tags:
 draft: false
 ---
 
-Le dimanche, écrire, comme on se l'est promis, dans le refuge de sa chambre, où presque rien ne peut interrompre cet état méditatif, ou de seconde vie, dans lequel on se plonge en esquissant les phrases intimes sur notre machine personnelle.
+> Le dimanche, écrire, comme on se l'est promis, dans le refuge de sa chambre, où presque rien ne peut interrompre cet état méditatif, ou de seconde vue, dans lequel on se plonge en esquissant les phrases intimes sur notre machine personnelle.
 Écrire, mais sans inspiration, sans trame, sans schéma, et se contenter de faire couler la verve et le trop plein de notre gosier à mots, les fruits ramassés à même le sol et dévorés sans être lavés lors des printemps tardifs, se laisser aller à une sorte de transe, pas une fainéantise, non, mais de prendre  le vocable et le style comme il vient, sans matière, sans rien de plus, et retrouver une certaine pureté, légèreté, dans des phrases déchargées, cœur et mystère du langage comme négation de la communication informative.
 
 
 <!--more-->
 
-C’était il y a trois ans, jour pour jour… L’avenir avait trois ans de plus. 
+> C’était il y a trois ans, jour pour jour… L’avenir avait trois ans de plus. 
 Je me rappelle ! Les petites séances d’écriture volées au destin, dans l’espère de sérénité retrouvée le dimanche après-midi, tout au bout du défilement intempestif des obligations -inventées -  professionnelles, sociales, de santé ! Sainte écriture, instants miraculeux, comme les oiseaux migrateurs dans nos ciels familiers, que vous ne cessiez jamais de revenir me voir, dans ma chambre, le dimanche après-midi.
 
 …
