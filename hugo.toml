@@ -15,10 +15,18 @@ theme = 'dream'
   defaultTheme = "light"
 
   headerTitle = "Pixel Promenade"
-  motto = "Du café, des livres et une clarinette"
+  motto = "Un article par semaine - du café et des livres"
 
 
-  footerBottomText = "Un blog expérimental."
+  footerBottomText = "Blog expérimental - Un article par semaine"
+
+  zenMode = true
+
+  siteStartYear = 2025
+
+  ShowShareButtons = false
+  reorderShares = [""]
+
 
 
 [[menu.main]]
@@ -30,3 +38,7 @@ theme = 'dream'
   identifier = "posts"
   name = "Articles"
   url = "/posts/"
+
+[markup]
+  [markup.goldmark.parser.attribute]
+  block = true

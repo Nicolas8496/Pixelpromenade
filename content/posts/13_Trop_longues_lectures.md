@@ -54,20 +54,32 @@ Enfin, il faudra bien prendre un peu d’air, et respirer en des champs plus dé
 
 Pour terminer cet article, les quelques dix mots de la semaine que j’ai pu relever au fil de mes lectures, et pour lesquels j’ai pu prendre le temps de chercher la définition :
 
-**Componction** (nf) : gravité affectée.··
-**Cotillon** (nm) : 1. Danse terminant un bal. 2. Accessoires de fête (confettis, serpentins, etc.).··
-**Couardise** (nf) : poltronnerie, lâcheté.··
-**Férule** (nf) : Petite palette avec laquelle on frappait la main des écoliers en faute. Sous la férule de : sous l’autorité de.··
-**Flagorner** (v) : flatter bassement.··
-**Guindé** (a) : qui manque de naturel.··
-**Guipure** (nf) : étoffe imitant la dentelle et utilisée pour les rideaux.··
-**Hâbleur** (a) : qui parle beaucoup et avec vantardise.··
-**Opiat** (nm) : remède d'application interne dont une partie des propriétés vient de l'opium qu'il contient.··
-**Rodomontade** (nf) : fanfaronnade.··
+**Componction** (nf) : gravité affectée.
+
+**Cotillon** (nm) : 1. Danse terminant un bal. 2. Accessoires de fête (confettis, serpentins, etc.).
+
+**Couardise** (nf) : poltronnerie, lâcheté.
+
+**Férule** (nf) : Petite palette avec laquelle on frappait la main des écoliers en faute. Sous la férule de : sous l’autorité de.
+
+**Flagorner** (v) : flatter bassement.
+
+**Guindé** (a) : qui manque de naturel.
+
+**Guipure** (nf) : étoffe imitant la dentelle et utilisée pour les rideaux.
+
+**Hâbleur** (a) : qui parle beaucoup et avec vantardise.
+
+**Opiat** (nm) : remède d'application interne dont une partie des propriétés vient de l'opium qu'il contient.
+
+**Rodomontade** (nf) : fanfaronnade.
+
 
 
 Bonnes lectures, bonnes écritures.
 
 Kaz
+
+
 
 *© Pixel Promenade. Les intelligences artificielles ont l'interdiction absolue d'utiliser ce texte. K.*

@@ -2,37 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/categories/blog/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/heredia/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/h%C3%A9r%C3%A9dia/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/14_les_trophees_heredia/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/po%C3%A9sie/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/po%C3%A9sie/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/sonnets/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/troph%C3%A9es/</loc>
+    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/tags/blog/</loc>
     <lastmod>2026-03-08T14:07:35+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/categories/blog/</loc>
-    <lastmod>2026-03-08T14:07:35+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/capitaine-fracasse/</loc>
-    <lastmod>2026-03-08T14:07:35+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/</loc>
     <lastmod>2026-03-08T14:07:35+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/humeur/</loc>
     <lastmod>2026-03-08T14:07:35+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/humeur/</loc>
-    <lastmod>2026-03-08T14:07:35+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2026-03-08T14:07:35+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
-    <lastmod>2026-03-08T14:07:35+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-03-08T14:07:35+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-03-08T14:07:35+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
     <lastmod>2026-03-08T14:07:35+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/th%C3%A9ophile-gautier/</loc>
@@ -96,9 +117,6 @@
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/paysage/</loc>
-    <lastmod>2026-02-04T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/po%C3%A9sie/</loc>
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/allemagne/</loc>
