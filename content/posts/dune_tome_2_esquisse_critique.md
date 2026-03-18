@@ -54,7 +54,7 @@ Et si nous considérons l’univers de Dune dans sa globalité, le plus gros ajo
 
 Et puis rien de plus sur le sort des Harkonnens…  
 
-**Conclusion bâclée**
+**En guise de conclusion**
 
 Je me demande, sans avoir vu jusqu’à maintenant la bande-annonce, comment sera l’adaptation en film : le livre m’a l’air bien plus sombre, mélancolique, psychologique, moins « hollywoodien » comme histoire, et Paul en prend beaucoup pour son grade, surtout à la fin… Sans parler de Chani ! Il faudra hélas s’attendre à un film véritablement tragique, à moins que le réalisateur ne se décide de changer le scénario de façon assez radicale. Mais qui sait ? Peut-être aurons-nous un « Œdipe Roi » en mode blockbuster américain ?  
   
