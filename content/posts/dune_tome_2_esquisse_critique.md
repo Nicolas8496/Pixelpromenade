@@ -27,7 +27,7 @@ tags:
 draft: false
 ---
 
-Alors que la première bande-annonce de la troisième partie réalisée par Denis Villeneuve vient d’être dévoilée, le hasard a fait que je terminais tout juste la lecture du tome 2 de la saga de science-fiction *Dune* de Frank Herbert.
+Alors que la bande-annonce de la troisième partie réalisée par Denis Villeneuve vient d’être dévoilée, le hasard a fait que je terminais tout juste la lecture du tome 2 de la saga de science-fiction *Dune* de Frank Herbert.
 
 <!--more-->
 

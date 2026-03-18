@@ -20,7 +20,7 @@ theme = 'dream'
 
   footerBottomText = "Blog expérimental - Un article par semaine"
 
-  zenMode = true
+  zenMode = false
 
   siteStartYear = 2025
 
