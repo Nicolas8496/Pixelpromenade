@@ -2,10 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pixelpromenade.eu/categories/blog/</loc>
-    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/categories/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/critique/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/critique/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/denis-villeneuve/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/dune/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/dune/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/frank-herbert/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/dune_tome_2/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/le-messie-de-dune/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/roman/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/roman/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/science-fiction/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/science-fiction/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/blog/</loc>
     <lastmod>2026-03-11T19:36:33+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/heredia/</loc>
@@ -17,28 +68,13 @@
     <loc>https://pixelpromenade.eu/posts/14_les_trophees_heredia/</loc>
     <lastmod>2026-03-11T19:36:33+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
-    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/po%C3%A9sie/</loc>
     <lastmod>2026-03-11T19:36:33+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/po%C3%A9sie/</loc>
     <lastmod>2026-03-11T19:36:33+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/sonnets/</loc>
-    <lastmod>2026-03-11T19:36:33+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
     <lastmod>2026-03-11T19:36:33+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/troph%C3%A9es/</loc>
@@ -75,9 +111,6 @@
     <lastmod>2026-02-26T08:46:36+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/cin%C3%A9ma/</loc>
-    <lastmod>2026-02-26T08:46:36+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/critique/</loc>
     <lastmod>2026-02-26T08:46:36+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/12_philippe_lacheau/</loc>
@@ -129,9 +162,6 @@
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/autriche/</loc>
-    <lastmod>2026-01-28T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/critique/</loc>
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/ingeborg-bachmann/</loc>

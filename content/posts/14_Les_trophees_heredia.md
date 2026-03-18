@@ -33,8 +33,8 @@ Il y a toute une part des sonnets d’Heredia qui me reste inaccessible, et il e
 Un seul livre, qui plus est de sonnets, qui est peut-être la forme poétique la plus minimaliste après le Haïku, et hop ! Élu à l’Académie française. Victoire explosive ! Triomphe éclatant !  
 Des poèmes à la densité dure à saisir, et il faut creuser pour en libérer toute la beauté, pour en ressentir toute la profondeur. La fameuse lecture « le dictionnaire à la main » dont je parlais dans mon précédent billet.  
 Anatole France disait d’ailleurs, à propos du poète des *Trophées*, dans ses chroniques baptisées « La Vie Littéraire » :  
-« *M. José-Maria de Hérédia, l'excellent poète, [déclare] hautement qu'à son sens la lecture du dictionnaire de Jean Nicot procure plus d'agrément, de plaisir et d'émotion que celle de *Trois mousquetaires* ! Voilà ce que c'est qu'une imagination d'artiste ! *».  
-Mais vaut-il mieux lire le dictionnaire que *Les Trophées* de Heredia ? En voilà une autre, de question !  
+« *M. José-Maria de Hérédia, l'excellent poète, [déclare] hautement qu'à son sens la lecture du dictionnaire de Jean Nicot procure plus d'agrément, de plaisir et d'émotion que celle de Trois mousquetaires ! Voilà ce que c'est qu'une imagination d'artiste !* ».  
+Mais vaut-il mieux lire *Les Trophées* de Heredia que le dictionnaire ? Peut-on y trouver plus de plaisir ?   
 
 **Un poète déjà bien en vogue**
 
