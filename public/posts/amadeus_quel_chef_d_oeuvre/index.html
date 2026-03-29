@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amadeus, quel chef-d’œuvre ! | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="http://localhost:1313/posts/amadeus_quel_chef_d_oeuvre/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Une fois n’est pas coutume, parlons cinéma ! Sortons de notre bibliothèque pour nous précipiter dans les salles obscures… Enfin, c’est ce que j’aurais dit en 1984, année de sortie du film dont je vais vous parler aujourd’hui, Amadeus ! Mais le plaisir éprouvé est intemporel.
+" />
+
+
+<meta name="keywords" content="Amadeus,Oscars,Forman,Mozart,Salieri,Musique,Cinéma,Critique">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="http://localhost:1313/posts/amadeus_quel_chef_d_oeuvre/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Amadeus, quel chef-d’œuvre !">
+  <meta property="og:description" content="Une fois n’est pas coutume, parlons cinéma ! Sortons de notre bibliothèque pour nous précipiter dans les salles obscures… Enfin, c’est ce que j’aurais dit en 1984, année de sortie du film dont je vais vous parler aujourd’hui, Amadeus ! Mais le plaisir éprouvé est intemporel.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-03-01T14:27:40+02:00">
+    <meta property="article:modified_time" content="2026-03-01T14:27:40+02:00">
+    <meta property="article:tag" content="Amadeus">
+    <meta property="article:tag" content="Oscars">
+    <meta property="article:tag" content="Forman">
+    <meta property="article:tag" content="Mozart">
+    <meta property="article:tag" content="Salieri">
+    <meta property="article:tag" content="Musique">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Amadeus, quel chef-d’œuvre !">
+  <meta name="twitter:description" content="Une fois n’est pas coutume, parlons cinéma ! Sortons de notre bibliothèque pour nous précipiter dans les salles obscures… Enfin, c’est ce que j’aurais dit en 1984, année de sortie du film dont je vais vous parler aujourd’hui, Amadeus ! Mais le plaisir éprouvé est intemporel.">
+
+
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Amadeus, quel chef-d’œuvre !">
+  <meta itemprop="description" content="Une fois n’est pas coutume, parlons cinéma ! Sortons de notre bibliothèque pour nous précipiter dans les salles obscures… Enfin, c’est ce que j’aurais dit en 1984, année de sortie du film dont je vais vous parler aujourd’hui, Amadeus ! Mais le plaisir éprouvé est intemporel.">
+  <meta itemprop="datePublished" content="2026-03-01T14:27:40+02:00">
+  <meta itemprop="dateModified" content="2026-03-01T14:27:40+02:00">
+  <meta itemprop="wordCount" content="806">
+  <meta itemprop="keywords" content="Amadeus,Oscars,Forman,Mozart,Salieri,Musique,Cinéma,Critique">
+
+      <header>
+        <h1 itemprop="headline">Amadeus, quel chef-d’œuvre !</h1>
+        <p class="text-sm">
+          
+            Sunday, Mar 1, 2026
+          
+
+          | <span>4 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Sunday, Mar 1, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Une fois n’est pas coutume, parlons cinéma ! Sortons de notre bibliothèque pour nous précipiter dans les salles obscures… Enfin, c’est ce que j’aurais dit en 1984, année de sortie du film dont je vais vous parler aujourd’hui, <em>Amadeus</em> ! Mais le plaisir éprouvé est intemporel.</p>
+<p><strong>Vieille impression d’un vieux film</strong></p>
+<p>Continuons notre voyage dans le temps. La semaine dernière, je vous partageais un ancien texte que j’avais écrit en décembre 2022, à l’aube d’une nouvelle année que je voulais riche en écriture, et plus précisément en publications blogesques.<br>
+Ce texte était alors longtemps resté dans un « placard » et ce n’est que la semaine dernière que j’ai choisi de le ressusciter. J’avais alors enlevé la dernière phrase, qui annonçait une critique portant sur le film <em>Amadeus</em>. Cette critique, d’un film que j’adore, je l’avais notée dans mon téléphone, à peu près à la même période (la note date du 26 décembre 2022). Et puis pareil, pour ne jamais être publiée et hiberner tranquillement. Elle vaut ce qu’elle vaut, mais enfin, la voici.</p>
+<p><strong>Exhumation d’une note à l’arrache</strong></p>
+<p>J’ai récemment pu voir la version longue du film « culte » <em>Amadeus</em>, une sorte de biopic qui retrace la vie du génie de la musique qu’était Wolfgang Amadeus Mozart, au travers des yeux de son admirateur secret, jaloux jusqu’à la folie, Antonio Salieri. Le film, réalisé par Milos Forman, avec Tom Hulce dans le rôle de Mozart et F. Murray Abraham dans le rôle de Salieri, est sorti dans les cinémas en 1984. Il avait alors reçu un très bon accueil critique et remporté de nombreuses récompenses, dont 8 statuettes aux Oscars 1985.</p>
+<p><img src="/img/cover17.jpg" alt="Rocamadour, vue 2, 29 août 2021.">
+<em>Rocamadour, vue 2, 29 août 2021.</em></p>
+<p>Dans l’ensemble j’ai beaucoup aimé ce film, par les performances fulgurantes de ses deux acteurs principaux (mais insistons que les autres acteurs sont aussi tous très bons!) et parce qu’il réussi à faire (re)découvir et apprécier l’œuvre de Mozart par les nombreux extraits de musique et d’Opéra présents dans le film. La scène de <em>Don Giovanni</em> est extraordinaire. Retenons aussi la petite chanson de Papageno ! Et le <em>Requiem</em> final, magistral !</p>
+<p>L’angle d’approche original pris par le réalisateur est de présenter un Mozart exubérant, extravagant, un peu fou, alcoolique, coureur de jupons, fier, conscient de son talent et méprisant ouvertement ses confrères compositeurs. Personnalité repoussante qui a de quoi consterner le noble Salieri, tout dans la retenue, la politesse et la religion. L’italien qui pourtant reconnaît à son rival autrichien un talent immense, et se sentant par ce fait humilié directement par Dieu.</p>
+<p>La version longue du film dure <strong>trois heures</strong> et on sent tout de même quelques longueurs. On comprend que certaines scènes, non nécessaires, avaient été écartées pour la version cinéma, et ce <em>director’s cut</em> s’adresse avant tout aux cinéphiles et aux amateurs de l’œuvre unique de Forman. Mais ces scènes, d’apparence superflues, ont tout de même le mérite d’étendre la temporalité, et de mieux jalonner le développement de la jalousie de Salieri, ce dernier comprenant, par ses compétences, mieux que quiconque le talent unique du jeune autrichien. <strong>Attention les spoilers commencent ici</strong> : on comprend également mieux le plan diabolique que Salieri met en place pour se débarrasser de son rival, en exploitant le rapport au père très compliqué du compositeur-génie, mais aussi ses difficultés financières.</p>
+<p>Salieri lui-même est un personnage fascinant et, répétons-nous un peu, divinement interprété par F. Murray Abraham, qui recevra par ailleurs pour ce rôle la petite statuette dorée. Presque entièrement opposé, par son système de valeurs, à Mozart, jusqu’à incarner une sorte d’Anti-Mozart, mais écrasé par le talent de ce dernier, il a pourtant voué sa vie à la musique, en commettant tous les sacrifices, comprenant une abstinence monacale. C’est un sacrifice divin, et, osons la métaphore, il compose sur l’autel de Dieu. Par contraste, le jeune et irritable Mozart croque, sans retenue, la vie à pleines dents. L’humiliation du compositeur italien n’en est que d’autant plus profonde et spectaculaire.</p>
+<p><strong>Le mot de la fin</strong></p>
+<p>C’est donc un film sur le mystère du talent, du génie, qui dépasse tout ce que le travail et la dévotion peuvent atteindre (sujet à débattre, bien sûr!). On serait tenté de penser que c’est un film qui critique et dénonce comme chose vaine cet ascétisme religieux, prôné pourtant par tant de têtes sages au travers des siècles. Mais que nenni ! Il y a bien justice divine finale : Mozart meurt beaucoup trop jeune dans la pauvreté et la folie. Salieri, qui a cédé au mal, à ce meurtre indirect, est châtié en étant rongé toute sa vie par la jalousie et le remord, et finissant par devenir lui-même fou.</p>
+<p><strong>Concluons que je conseille ce film extraordinaire sans retenue !</strong></p>
+<p>Bonnes séances de cinéma, et à la prochaine !</p>
+<p>Kaz</p>
+<p><em>© Pixel Promenade. L&rsquo;es IA ont l&rsquo;interdiction absolue d&rsquo;utiliser ce texte. K.</em></p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="/js/grid.js"></script>
+
+
+
+
+<script src="/js/main.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

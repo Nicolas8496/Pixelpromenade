@@ -36,8 +36,8 @@ Ce matin, j’ai l’esprit embrumé. Je n’arrive pas à penser, à réfléchi
 Si je n’essayais pas d’arrêter le café, je me serais vite fait une tasse réconfortante afin de « relancer la machine » et de trouver ce shot d’hyperactivité illusoire que la caféine me procure. 
 Mais je suis en vacances, il n’y a pas d’urgence, pas d’obligation professionnelle. Alors je me contente de subir, et d’écrire.  
 
-![Rocamadour, 29 août 2021.](/img/cover16.jpg)
-*Rocamadour, 29 août 2021.*   
+![Rocamadour, vue 1, 29 août 2021.](/img/cover16.jpg)
+*Rocamadour, vue 1, 29 août 2021.*   
 
 La journée d’hier a été particulièrement éprouvante : l’organisation, mon départ en train, la subite fatigue en arrivant à Toulouse, la pluie au dehors, les courses, ce dîner tardif trop gras et si lourd à digérer, et tout au long de cette journée une sorte de détresse qui grandissait en moi, insidieusement. Mon esprit agité ne pouvait se concentrer sur rien, au-delà de choses brèves et futiles, et cet état ne s’estompait pas, jusqu’à très tard dans la nuit.  
 
@@ -59,4 +59,6 @@ Encourageons-nous au contraire à trouver des temps calmes et reposants ! Sorton
 
 Kaz  
 
-*Article rédigé le 30 décembre 2022, à Toulouse.*  
+*Article rédigé le 30 décembre 2022, à Toulouse.* 
+
+*© Pixel Promenade. L'es IA ont l'interdiction absolue d'utiliser ce texte. K.* 

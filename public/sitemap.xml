@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/categories/archive/</loc>
     <lastmod>2026-03-25T19:55:55+01:00</lastmod>
   </url><url>
@@ -33,12 +39,6 @@
     <lastmod>2026-03-25T19:55:55+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/overdose/</loc>
-    <lastmod>2026-03-25T19:55:55+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-03-25T19:55:55+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
     <lastmod>2026-03-25T19:55:55+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/quand_le_cerveau_sature/</loc>
