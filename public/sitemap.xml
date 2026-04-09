@@ -2,22 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/tags/amadeus/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/amadeus_quel_chef_d_oeuvre/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/archives/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/blog/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/cin%C3%A9ma/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/cin%C3%A9ma/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/critique/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/critique/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/forman/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/mozart/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/musique/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/oscars/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/</loc>
     <lastmod>2026-04-01T14:27:40+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/</loc>
     <lastmod>2026-04-01T14:27:40+02:00</lastmod>
   </url><url>
+    <loc>https://pixelpromenade.eu/tags/salieri/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-04-01T14:27:40+02:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/categories/archive/</loc>
     <lastmod>2026-03-25T19:55:55+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/billet/</loc>
-    <lastmod>2026-03-25T19:55:55+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/blog/</loc>
-    <lastmod>2026-03-25T19:55:55+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/</loc>
     <lastmod>2026-03-25T19:55:55+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/d%C3%A9pendance/</loc>
@@ -44,17 +83,8 @@
     <loc>https://pixelpromenade.eu/posts/quand_le_cerveau_sature/</loc>
     <lastmod>2026-03-25T19:55:55+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
-    <lastmod>2026-03-25T19:55:55+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/toulouse/</loc>
     <lastmod>2026-03-25T19:55:55+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/critique/</loc>
-    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/critique/</loc>
-    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/denis-villeneuve/</loc>
     <lastmod>2026-03-18T20:04:04+01:00</lastmod>
@@ -135,9 +165,6 @@
     <lastmod>2026-02-26T08:46:36+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/bande-%C3%A0-fifi/</loc>
-    <lastmod>2026-02-26T08:46:36+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/cin%C3%A9ma/</loc>
     <lastmod>2026-02-26T08:46:36+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/12_philippe_lacheau/</loc>
@@ -242,9 +269,6 @@
     <loc>https://pixelpromenade.eu/tags/cameron/</loc>
     <lastmod>2025-04-02T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/categories/cin%C3%A9ma/</loc>
-    <lastmod>2025-04-02T12:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/posts/05_avatar2/</loc>
     <lastmod>2025-04-02T12:00:00+01:00</lastmod>
   </url><url>
@@ -262,9 +286,6 @@
   </url><url>
     <loc>https://pixelpromenade.eu/posts/04_drizz/</loc>
     <lastmod>2025-03-20T19:03:44+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/archives/</loc>
-    <lastmod>2025-03-10T10:47:43+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/covid/</loc>
     <lastmod>2025-03-10T10:47:43+01:00</lastmod>
