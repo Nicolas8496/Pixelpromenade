@@ -61,4 +61,4 @@ Bonnes séances de cinéma, et à la prochaine !
 
 Kaz
 
-*© Pixel Promenade. L'es IA ont l'interdiction absolue d'utiliser ce texte. K.*
+*© Pixel Promenade. Les IA ont l'interdiction absolue d'utiliser ce texte. K.*

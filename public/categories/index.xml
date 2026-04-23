@@ -6,20 +6,41 @@
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 10 Apr 2026 18:07:47 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 11:48:25 +0200</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://pixelpromenade.eu/categories/blog/</link>
+      <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecriture</title>
+      <link>https://pixelpromenade.eu/categories/ecriture/</link>
+      <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/ecriture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Humeur</title>
+      <link>https://pixelpromenade.eu/categories/humeur/</link>
+      <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/humeur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture</title>
+      <link>https://pixelpromenade.eu/categories/lecture/</link>
+      <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/lecture/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Archives</title>
       <link>https://pixelpromenade.eu/categories/archives/</link>
       <pubDate>Fri, 10 Apr 2026 18:07:47 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/archives/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blog</title>
-      <link>https://pixelpromenade.eu/categories/blog/</link>
-      <pubDate>Fri, 10 Apr 2026 18:07:47 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/blog/</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +69,6 @@
       <link>https://pixelpromenade.eu/categories/billet/</link>
       <pubDate>Wed, 25 Mar 2026 19:55:55 +0100</pubDate>
       <guid>https://pixelpromenade.eu/categories/billet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Humeur</title>
-      <link>https://pixelpromenade.eu/categories/humeur/</link>
-      <pubDate>Wed, 25 Mar 2026 19:55:55 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/categories/humeur/</guid>
       <description></description>
     </item>
     <item>
@@ -146,13 +160,6 @@
       <link>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</link>
       <pubDate>Mon, 10 Mar 2025 10:47:43 +0100</pubDate>
       <guid>https://pixelpromenade.eu/categories/g%C3%A9n%C3%A9ral/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category1</title>
-      <link>https://pixelpromenade.eu/categories/category1/</link>
-      <pubDate>Thu, 06 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/categories/category1/</guid>
       <description></description>
     </item>
   </channel>

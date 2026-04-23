@@ -3,14 +3,14 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tag2 | Pixel Promenade</title>
 
     
 
-<link rel="canonical" href="https://pixelpromenade.eu/tags/tag2/" />
+<link rel="canonical" href="http://localhost:1313/tags/tag2/" />
 
 
 
@@ -22,7 +22,7 @@
 <meta name="generator" content="Hugo 0.144.2">
 
 
-<meta property="og:url" content="https://pixelpromenade.eu/tags/tag2/">
+<meta property="og:url" content="http://localhost:1313/tags/tag2/">
   <meta property="og:site_name" content="Pixel Promenade">
   <meta property="og:title" content="Tag2">
   <meta property="og:description" content="Un blog expérimental.">
@@ -39,9 +39,7 @@
 
 
 
-  
-
-<link rel="stylesheet" href="/css/output.min.css" />
+<link rel="stylesheet" href="/css/output.css" />
 
 
 
@@ -75,7 +73,7 @@
       
       <div>
         
-        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
           Pixel Promenade
         </a>
         
@@ -93,6 +91,11 @@
       <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
         
 
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
 
 
 
@@ -151,6 +154,12 @@
     <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
       
       
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
       
       
 
@@ -215,7 +224,7 @@
 
   <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
     <h1 class="text-2xl">Tag2</h1>
-    <p class="text-sm">1 article</p>
+    <p class="text-sm">2 articles</p>
     <div class="flex flex-wrap gap-4 mt-6">
       
 
@@ -365,8 +374,8 @@
       
       
       
-      <a href="/tags/fableman/" class="badge h-6 no-underline hover:badge-primary">
-        Fableman
+      <a href="/tags/fablemans/" class="badge h-6 no-underline hover:badge-primary">
+        Fablemans
       </a>
       
       
@@ -521,6 +530,12 @@
       
       
       
+      <a href="/tags/proust/" class="badge h-6 no-underline hover:badge-primary">
+        Proust
+      </a>
+      
+      
+      
       <a href="/tags/robbe-grillet/" class="badge h-6 no-underline hover:badge-primary">
         Robbe-Grillet
       </a>
@@ -616,25 +631,77 @@
       <div class="dream-grid">
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/02_premier-article/">
+            <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/xx_billet_humeur/">
   
   <figure>
     
-    <img src="/img/cover2.jpg" alt="Quelques tests avec Markdown - Article 2" />
+    <img src="/img/cover.jpg" alt="Billet_humeur" />
     
   </figure>
   
 
   <div class="card-body">
-    <h2 class="card-title">Quelques tests avec Markdown - Article 2</h2>
+    <h2 class="card-title">Billet_humeur</h2>
 
     <p class="date text-base-content/60">
     
-      Thursday, Mar 6, 2025
+      Wednesday, Mar 12, 2025
     
     </p>
 
     <p>Cut out summary from your post content here.</p>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Author Name</span>
+    
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>4 minute read</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+          </div>
+        
+          <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+            <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/xx_lancement/">
+  
+  <figure>
+    
+    <img src="/img/cover.jpg" alt="Billet_humeur" />
+    
+  </figure>
+  
+
+  <div class="card-body">
+    <h2 class="card-title">Billet_humeur</h2>
+
+    <p class="date text-base-content/60">
+    
+      Wednesday, Mar 12, 2025
+    
+    </p>
+
+    <p>Replongeons environ 2 ans en arrière, en l&rsquo;an de grâce 2023. C&rsquo;étaient les débuts d&rsquo;un blog wordpress que j&rsquo;ai mis à jour pendant environ 4 mois.
+Ce fut pour moi déjà une sacrée performance !
+Alors qu&rsquo;à la base, je voulais publier un article toutes les semaines, sur une durée non définie (des années, des décennies&hellip; ?).</p>
 
     
     <div class="card-actions justify-between items-center mt-4">
@@ -657,7 +724,7 @@
 
       <div class="flex items-center">
         <ion-icon name="time" class="mr-1"></ion-icon>
-        <span>1 minute read</span>
+        <span>2 minute read</span>
       </div>
     </div>
   </div>
@@ -726,6 +793,51 @@
             <div class="dream-grid dream-grid-about">
   
   
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">A propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Hi, my name is Kaz. This is my blog.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Desc1</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Ceci est une nouvelle partie de l&rsquo;à propos !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Desc2</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Ceci est une nouvelle partie de l&rsquo;à propos !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
   
   
 
@@ -796,16 +908,12 @@
 
   
   
-    
-  
-  <script src="/js/grid.min.js"></script>
+  <script src="/js/grid.js"></script>
 
 
 
 
-  
-
-<script src="/js/main.min.js"></script>
+<script src="/js/main.js"></script>
 
     
 

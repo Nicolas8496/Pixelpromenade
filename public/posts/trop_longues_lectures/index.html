@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trop longues lectures ! | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/trop_longues_lectures/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Lit-on encore des longs romans ? Comment l’humain « lambda » peut-il organiser son temps pour ces longues traversées que sont les œuvres épaisses ? Malgré les nombreuses obligations et distractions de la vie ! Je sais que je dois fonctionner avec une grande discipline pour progresser dans des lectures de longue haleine : une dizaine de pages par-ci, une dizaine de pages par-là (accepter une progression « goutte par goutte » de « colibri »), résister à l’appel d’autres lectures… Faire le choix de lire plutôt que de faire d’autres activités… Et toujours ces longs efforts de concentration pour retrouver une myriade de personnages, de lieux et d’enjeux.
+" />
+
+
+<meta name="keywords" content="Littérature,Blog,Humeur,Capitaine Fracasse,Théophile Gautier">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/trop_longues_lectures/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Trop longues lectures !">
+  <meta property="og:description" content="Lit-on encore des longs romans ? Comment l’humain « lambda » peut-il organiser son temps pour ces longues traversées que sont les œuvres épaisses ? Malgré les nombreuses obligations et distractions de la vie ! Je sais que je dois fonctionner avec une grande discipline pour progresser dans des lectures de longue haleine : une dizaine de pages par-ci, une dizaine de pages par-là (accepter une progression « goutte par goutte » de « colibri »), résister à l’appel d’autres lectures… Faire le choix de lire plutôt que de faire d’autres activités… Et toujours ces longs efforts de concentration pour retrouver une myriade de personnages, de lieux et d’enjeux.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-03-08T14:07:35+01:00">
+    <meta property="article:modified_time" content="2026-03-08T14:07:35+01:00">
+    <meta property="article:tag" content="Littérature">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Humeur">
+    <meta property="article:tag" content="Capitaine Fracasse">
+    <meta property="article:tag" content="Théophile Gautier">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Trop longues lectures !">
+  <meta name="twitter:description" content="Lit-on encore des longs romans ? Comment l’humain « lambda » peut-il organiser son temps pour ces longues traversées que sont les œuvres épaisses ? Malgré les nombreuses obligations et distractions de la vie ! Je sais que je dois fonctionner avec une grande discipline pour progresser dans des lectures de longue haleine : une dizaine de pages par-ci, une dizaine de pages par-là (accepter une progression « goutte par goutte » de « colibri »), résister à l’appel d’autres lectures… Faire le choix de lire plutôt que de faire d’autres activités… Et toujours ces longs efforts de concentration pour retrouver une myriade de personnages, de lieux et d’enjeux.">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Trop longues lectures !">
+  <meta itemprop="description" content="Lit-on encore des longs romans ? Comment l’humain « lambda » peut-il organiser son temps pour ces longues traversées que sont les œuvres épaisses ? Malgré les nombreuses obligations et distractions de la vie ! Je sais que je dois fonctionner avec une grande discipline pour progresser dans des lectures de longue haleine : une dizaine de pages par-ci, une dizaine de pages par-là (accepter une progression « goutte par goutte » de « colibri »), résister à l’appel d’autres lectures… Faire le choix de lire plutôt que de faire d’autres activités… Et toujours ces longs efforts de concentration pour retrouver une myriade de personnages, de lieux et d’enjeux.">
+  <meta itemprop="datePublished" content="2026-03-08T14:07:35+01:00">
+  <meta itemprop="dateModified" content="2026-03-08T14:07:35+01:00">
+  <meta itemprop="wordCount" content="766">
+  <meta itemprop="keywords" content="Littérature,Blog,Humeur,Capitaine Fracasse,Théophile Gautier">
+
+      <header>
+        <h1 itemprop="headline">Trop longues lectures !</h1>
+        <p class="text-sm">
+          
+            Sunday, Mar 8, 2026
+          
+
+          | <span>4 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Sunday, Mar 8, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Lit-on encore des longs romans ?
+Comment l’humain « lambda » peut-il organiser son temps pour ces longues traversées que sont les œuvres épaisses ?
+Malgré les nombreuses obligations et distractions de la vie !
+Je sais que je dois fonctionner avec une grande discipline pour progresser dans des lectures de longue haleine : une dizaine de pages par-ci, une dizaine de pages par-là (accepter une progression « goutte par goutte » de « colibri »), résister à l’appel d’autres lectures… Faire le choix de lire plutôt que de faire d’autres activités… Et toujours ces longs efforts de concentration pour retrouver une myriade de personnages, de lieux et d’enjeux.</p>
+<p>Ce n’est clairement pas facile pour moi, qui ait en plus de cela des difficultés de concentration, mais le bonheur éprouvé ensuite, lorsque l’on est plongé dans l’histoire, est sans pareil, et donc cela vaut pour moi cet effort préalable.
+Il me semble bien sûr sage de séparer la lecture de « pavés » par des œuvres plus courtes, plus digestes, d’une écriture souvent plus contemporaine. J’ai un grand plaisir à lire un « petit » <em>Modiano</em> avant de ré-attaquer du <em>Balzac</em>.</p>
+<p><img src="/img/cover13.jpg" alt="Rive du Gardon, 8 août 2021.">
+<em>Rive du Gardon, 8 août 2021.</em></p>
+<p>Autre question : lit-on encore des romans d’aventure, légers, fantaisistes, où il n’y a pas de réflexion profonde sur la morale, la politique, la religion ? Des romans qui ne racontent rien, du moins rien d’important ?
+Des livres qui sont des lieux privilégiés de la beauté de notre langue, la célébration des beaux dialogues, des belles descriptions ?
+De l’art pour l’art…
+Et puis, où planter la haie entre une description dont la beauté touche à l’universalisme, et un intellectualisme trop pédant, une érudition qui laisse trop de lecteurs sur le banc de touche ?
+Enfin, faut-il lire le dictionnaire à la main ?</p>
+<p>Voici quelques-unes des réflexions qui me viennent alors que je reprends la lecture du <em>Capitaine Fracasse</em> (1963) de Théophile Gautier (1811 - 1872). Ce livre est une véritable brique pleine, en plus d’être un pan, que dis-je !, un monument de la littérature française. Proust en parle amplement comme une lecture de jeunesse savoureuse et initiatrice.
+Est-ce que j’aurais moi-même compris quelque chose au <em>Capitaine Fracasse</em> à douze ans ? Vaguement sans doute, l’histoire, et je me serais fait une image toute biaisée par la fantaisie de mon inculture des personnages et des décors. Non, réellement, je serais passé complètement à côté.
+Presque deux décennies plus âgé, je dois reconnaître que ce n’est pas la lecture la plus aisée que j’ai eue. Il faut quand même s’accrocher pour rester dans le ton de cette grandiloquence, sublime certes, mais décorée d’un vocabulaire, de références et de tournures qui sont plus du ressort poétique que de la fluidité d’un roman moderne.
+Quel talent ! Se dit-on quand même face à ce travail magistral, et l’on reste étonné du refus de l’Académie française de le compter parmi ses membres&hellip;</p>
+<p>Mais voilà, je lirai le <em>Capitaine Fracasse</em>, et j’attends la révélation passionnée qu’a eu le jeune Proust, et aussi celle d’une ancienne connaissance, qui avait raconté, au détour d’une conversation de table, dans la splendide ville d’Avignon, que c’était là son roman préféré, avec la <em>Recherche du Temps perdu</em> (décidément, Théophile Gautier et Marcel Proust sont pour moi liés ! ). Peu de temps après cette rencontre avignonaise, j’étais allé acheter le roman, c’était en 2020, et il est resté à sommeiller dans ma bibliothèque pendant six ans&hellip;</p>
+<p>Enfin, il faudra bien prendre un peu d’air, et respirer en des champs plus dégagés. Après cela, j’irai sans doute m’aventurer ailleurs, en des bouquins plus contemporains. Avant de replonger dans les vastes textes de nos aïeux virtuoses.</p>
+<p>Pour terminer cet article, les quelques dix mots de la semaine que j’ai pu relever au fil de mes lectures, et pour lesquels j’ai pu prendre le temps de chercher la définition :</p>
+<p><strong>Componction</strong> (nf) : gravité affectée.</p>
+<p><strong>Cotillon</strong> (nm) : 1. Danse terminant un bal. 2. Accessoires de fête (confettis, serpentins, etc.).</p>
+<p><strong>Couardise</strong> (nf) : poltronnerie, lâcheté.</p>
+<p><strong>Férule</strong> (nf) : Petite palette avec laquelle on frappait la main des écoliers en faute. Sous la férule de : sous l’autorité de.</p>
+<p><strong>Flagorner</strong> (v) : flatter bassement.</p>
+<p><strong>Guindé</strong> (a) : qui manque de naturel.</p>
+<p><strong>Guipure</strong> (nf) : étoffe imitant la dentelle et utilisée pour les rideaux.</p>
+<p><strong>Hâbleur</strong> (a) : qui parle beaucoup et avec vantardise.</p>
+<p><strong>Opiat</strong> (nm) : remède d&rsquo;application interne dont une partie des propriétés vient de l&rsquo;opium qu&rsquo;il contient.</p>
+<p><strong>Rodomontade</strong> (nf) : fanfaronnade.</p>
+<p>Bonnes lectures, bonnes écritures.</p>
+<p>Kaz</p>
+<p><em>© Pixel Promenade. Les intelligences artificielles ont l&rsquo;interdiction absolue d&rsquo;utiliser ce texte. K.</em></p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">A propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Hi, my name is Kaz. This is my blog.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Desc1</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Ceci est une nouvelle partie de l&rsquo;à propos !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Desc2</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Ceci est une nouvelle partie de l&rsquo;à propos !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

@@ -94,6 +94,11 @@
         
 
 
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
 
 
 
@@ -151,6 +156,12 @@
     <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
       
       
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
       
       
 
@@ -216,7 +227,58 @@
 <div class="dream-grid opacity-0">
   
     <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/the_fableman/">
+      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/jeudi_matin_dans_l_atelier/">
+  
+  <figure>
+    
+    <img src="/img/cover19.jpg" alt="Jeudi matin, dans l&#39;atelier" />
+    
+  </figure>
+  
+
+  <div class="card-body">
+    <h2 class="card-title">Jeudi matin, dans l&#39;atelier</h2>
+
+    <p class="date text-base-content/60">
+    
+      Thursday, Apr 23, 2026
+    
+    </p>
+
+    <p>Jeudi matin, avant le travail. Je prends le temps d’esquisser quelques phrases pour le blog, petite tradition hebdomadaire. Pourtant, alors que l’envie est là, beaucoup de choses dont j’aimerais vous parler sont en cours, sont encore inachevées. Je me suis lancé dans plusieurs assez longs textes, impubliables en l’état, et qui demandent un travail de finition non négligeable. Des réflexions sur la littérature, bien sûr, mais aussi la critique d’un roman qui me tient à cœur, et qui me donne pourtant bien du fil à retordre !<br>
+Encore un peu de patience de ce côté-là… En attendant, je vous parle de tout et de rien, tranquillement, la tasse de café à la main.</p>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>3 minute read</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+    </div>
+  
+    <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/petit_retour_sur_the_fablemans/">
   
   <figure>
     
@@ -368,7 +430,7 @@
     </div>
   
     <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/dune_tome_2_esquisse_critique/">
+      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/l_histoire_qui_continue_dune_esquisse_d_une_critique/">
   
   <figure>
     
@@ -418,17 +480,17 @@
     </div>
   
     <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/14_les_trophees_heredia/">
+      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/lecture_des_sonnets_de_heredia/">
   
   <figure>
     
-    <img src="/img/cover14.jpg" alt="Lire des sonnets alors que le soleil brille" />
+    <img src="/img/cover14.jpg" alt="Lecture des sonnets de Heredia" />
     
   </figure>
   
 
   <div class="card-body">
-    <h2 class="card-title">Lire des sonnets alors que le soleil brille</h2>
+    <h2 class="card-title">Lecture des sonnets de Heredia</h2>
 
     <p class="date text-base-content/60">
     
@@ -468,17 +530,17 @@
     </div>
   
     <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/13_trop_longues_lectures/">
+      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/trop_longues_lectures/">
   
   <figure>
     
-    <img src="/img/cover13.jpg" alt="Trop longues lectures ! - Article 13" />
+    <img src="/img/cover13.jpg" alt="Trop longues lectures !" />
     
   </figure>
   
 
   <div class="card-body">
-    <h2 class="card-title">Trop longues lectures ! - Article 13</h2>
+    <h2 class="card-title">Trop longues lectures !</h2>
 
     <p class="date text-base-content/60">
     
@@ -521,17 +583,17 @@ Je sais que je dois fonctionner avec une grande discipline pour progresser dans 
     </div>
   
     <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/12_philippe_lacheau/">
+      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/deux_critiques_pour_le_prix_d_une/">
   
   <figure>
     
-    <img src="/img/cover12.jpg" alt="Deux critiques pour le prix d’une ! Alibi.com 2 et Nicky Larson et le parfum de Cupidon - Article 12" />
+    <img src="/img/cover12.jpg" alt="Deux critiques pour le prix d’une ! Alibi.com 2 et Nicky Larson et le parfum de Cupidon" />
     
   </figure>
   
 
   <div class="card-body">
-    <h2 class="card-title">Deux critiques pour le prix d’une ! Alibi.com 2 et Nicky Larson et le parfum de Cupidon - Article 12</h2>
+    <h2 class="card-title">Deux critiques pour le prix d’une ! Alibi.com 2 et Nicky Larson et le parfum de Cupidon</h2>
 
     <p class="date text-base-content/60">
     
@@ -571,17 +633,17 @@ Je sais que je dois fonctionner avec une grande discipline pour progresser dans 
     </div>
   
     <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/11_billet_humeur_dimanche/">
+      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/une_page_deja_vieille_d_une_sorte_de_journal_intime/">
   
   <figure>
     
-    <img src="/img/cover11.jpg" alt="Une page déjà vieille d&#39;une sorte de journal intime - Article 11" />
+    <img src="/img/cover11.jpg" alt="Une page déjà vieille d&#39;une sorte de journal intime" />
     
   </figure>
   
 
   <div class="card-body">
-    <h2 class="card-title">Une page déjà vieille d&#39;une sorte de journal intime - Article 11</h2>
+    <h2 class="card-title">Une page déjà vieille d&#39;une sorte de journal intime</h2>
 
     <p class="date text-base-content/60">
     
@@ -624,17 +686,17 @@ Je sais que je dois fonctionner avec une grande discipline pour progresser dans 
     </div>
   
     <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/10_anomalie_goncourt/">
+      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/l_anomalie_que_vaut_le_prix_goncourt/">
   
   <figure>
     
-    <img src="/img/cover10.jpg" alt="L’Anomalie - Que vaut le prix Goncourt de 2020 ? - Article 10" />
+    <img src="/img/cover10.jpg" alt="L’Anomalie - Que vaut le prix Goncourt de 2020 ?" />
     
   </figure>
   
 
   <div class="card-body">
-    <h2 class="card-title">L’Anomalie - Que vaut le prix Goncourt de 2020 ? - Article 10</h2>
+    <h2 class="card-title">L’Anomalie - Que vaut le prix Goncourt de 2020 ?</h2>
 
     <p class="date text-base-content/60">
     
@@ -666,56 +728,6 @@ Je sais que je dois fonctionner avec une grande discipline pour progresser dans 
       <div class="flex items-center">
         <ion-icon name="time" class="mr-1"></ion-icon>
         <span>5 minute read</span>
-      </div>
-    </div>
-  </div>
-</a>
-
-    </div>
-  
-    <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
-      <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/09_humeur_ombre_lumiere/">
-  
-  <figure>
-    
-    <img src="/img/cover9.jpg" alt="Humeur - De l’ombre à la lumière, construisons un chemin - Article 9" />
-    
-  </figure>
-  
-
-  <div class="card-body">
-    <h2 class="card-title">Humeur - De l’ombre à la lumière, construisons un chemin - Article 9</h2>
-
-    <p class="date text-base-content/60">
-    
-      Wednesday, Feb 4, 2026
-    
-    </p>
-
-    <p>Aujourd&rsquo;hui un petit billet d&rsquo;humeur mélancolique, par le temps gris qui court, mais avec, je l&rsquo;ai voulu, un peu d&rsquo;espoir, et en récompense finale, pour le lecteur endurant, un poème de Charles Baudelaire. Pardonnez-moi cet élan romantique mis à l&rsquo;écrit le mercredi 28 janvier 2026.</p>
-
-    
-    <div class="card-actions justify-between items-center mt-4">
-      
-        <div class="flex items-center">
-  
-  <span>@</span>
-  
-
-  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-  
-    
-      <span itemprop="name">Kaz</span>
-    
-  
-  </span>
-</div>
-
-      
-
-      <div class="flex items-center">
-        <ion-icon name="time" class="mr-1"></ion-icon>
-        <span>4 minute read</span>
       </div>
     </div>
   </div>
@@ -798,6 +810,51 @@ Je sais que je dois fonctionner avec une grande discipline pour progresser dans 
             <div class="dream-grid dream-grid-about">
   
   
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">A propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Hi, my name is Kaz. This is my blog.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Desc1</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Ceci est une nouvelle partie de l&rsquo;à propos !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Desc2</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Ceci est une nouvelle partie de l&rsquo;à propos !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
   
   
 

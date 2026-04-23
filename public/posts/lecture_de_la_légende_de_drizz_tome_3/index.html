@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture de la Légende de Drizz tome 3 Terre promise | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/lecture_de_la_l%C3%A9gende_de_drizz_tome_3/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="J&rsquo;ai toujours eu des difficultés à lire. Cela vient sans doute, du moins en partie, d&rsquo;une faible capacité de concentration. Conséquence d&rsquo;une trop grande consommation de films ? de jeux vidéos ? Peut-être bien&hellip; Et le boum des réseaux sociaux n&rsquo;a sûrement pas aidé. Mais il y a autre chose. Une difficulté supplémentaire qui s&rsquo;ajoute à cela&hellip;
+" />
+
+
+<meta name="keywords" content="Littérature,Fantasy,Lecture,Critique,Blog">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/lecture_de_la_l%C3%A9gende_de_drizz_tome_3/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Lecture de la Légende de Drizz tome 3 Terre promise">
+  <meta property="og:description" content="J’ai toujours eu des difficultés à lire. Cela vient sans doute, du moins en partie, d’une faible capacité de concentration. Conséquence d’une trop grande consommation de films ? de jeux vidéos ? Peut-être bien… Et le boum des réseaux sociaux n’a sûrement pas aidé. Mais il y a autre chose. Une difficulté supplémentaire qui s’ajoute à cela…">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-20T19:03:44+01:00">
+    <meta property="article:modified_time" content="2025-03-20T19:03:44+01:00">
+    <meta property="article:tag" content="Littérature">
+    <meta property="article:tag" content="Fantasy">
+    <meta property="article:tag" content="Lecture">
+    <meta property="article:tag" content="Critique">
+    <meta property="article:tag" content="Blog">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lecture de la Légende de Drizz tome 3 Terre promise">
+  <meta name="twitter:description" content="J’ai toujours eu des difficultés à lire. Cela vient sans doute, du moins en partie, d’une faible capacité de concentration. Conséquence d’une trop grande consommation de films ? de jeux vidéos ? Peut-être bien… Et le boum des réseaux sociaux n’a sûrement pas aidé. Mais il y a autre chose. Une difficulté supplémentaire qui s’ajoute à cela…">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Lecture de la Légende de Drizz tome 3 Terre promise">
+  <meta itemprop="description" content="J’ai toujours eu des difficultés à lire. Cela vient sans doute, du moins en partie, d’une faible capacité de concentration. Conséquence d’une trop grande consommation de films ? de jeux vidéos ? Peut-être bien… Et le boum des réseaux sociaux n’a sûrement pas aidé. Mais il y a autre chose. Une difficulté supplémentaire qui s’ajoute à cela…">
+  <meta itemprop="datePublished" content="2025-03-20T19:03:44+01:00">
+  <meta itemprop="dateModified" content="2025-03-20T19:03:44+01:00">
+  <meta itemprop="wordCount" content="932">
+  <meta itemprop="keywords" content="Littérature,Fantasy,Lecture,Critique,Blog">
+
+      <header>
+        <h1 itemprop="headline">Lecture de la Légende de Drizz tome 3 Terre promise</h1>
+        <p class="text-sm">
+          
+            Thursday, Mar 20, 2025
+          
+
+          | <span>5 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Thursday, Mar 20, 2025
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>J&rsquo;ai toujours eu des difficultés à lire. Cela vient sans doute, du moins en partie, d&rsquo;une faible capacité de concentration. Conséquence d&rsquo;une trop grande consommation de films ? de jeux vidéos ? Peut-être bien&hellip; Et le boum des réseaux sociaux n&rsquo;a sûrement pas aidé.
+Mais il y a autre chose. Une difficulté supplémentaire qui s&rsquo;ajoute à cela&hellip;</p>
+<p>Comme une faiblesse cognitive, que j&rsquo;ai toujours eu du mal à accepter. Une certaine forme de dyslexie. Je me rappelle avoir toujours été frustré par la lenteur avec laquelle je lisais, surtout en classe, lorsque le professeur nous donnais un temps limité pour lire une page de texte. Dans ces moments, je m&rsquo;apercevais vite de ma lenteur, que je prenais du retard (lorsque mes camarades de classes tournaient la page pour lire ce qu&rsquo;il y avait au dos), je stressais, je me forçais à accélérer quitte à me fatiguer, à forcer sur mes yeux, et finalement je ne comprenais plus rien. J&rsquo;arrivais alors à la fin du texte, en ayant oublié ce qu&rsquo;il disait au début, pas compris ce qu&rsquo;il disait à la fin, et je devais y revenir plusieurs fois pour enfin saisir, par fragments, ce qu&rsquo;il y avait écrit - et ne parlons même pas de l&rsquo;interprétation littéraire.</p>
+<p><img src="/img/cover4.jpg" alt="Völkerschlachtdenkmal, Leipzig, 29 Mai 2022.">
+<em>Völkerschlachtdenkmal, Leipzig, 29 Mai 2022.</em></p>
+<p>Un ami du lycée m&rsquo;avait à l&rsquo;époque introduit à la Légende de Drizz. Il m&rsquo;avait prêté le premier, puis le deuxième tome, et je me rappelle avoir plutôt accroché. Un monde fantasy sombre, riche et cohérent (tiré du jeu de rôle Donjons et Dragons). Un scénario efficace avec moultes retournements de situations. Un héros auquel un jeune lecteur peut facilement s&rsquo;identifier.
+J&rsquo;étais pourtant arrivé à la fin de ma période de lectures fantasy, et lorsque je me suis décidé à me faire offrir le 3ème tome par ma mère (elle m&rsquo;avait pourtant demandé, lors de l&rsquo;achat : &ldquo;tu es sûr que tu vas le lire ?&rdquo;), je l&rsquo;ai bien sagement rangé dans mon étagère à livres où je l&rsquo;ai oublié petit à petit.</p>
+<p>Je devais être en première, ou même plus probablement en terminale. J&rsquo;ai alors commencé à lire de la littérature française &ldquo;classique&rdquo; en commençant avec Victor Hugo : la Légende des Siècles, Les Misérables, Notre Dame de Paris&hellip; Et bien d&rsquo;autres romans &ldquo;incontournables&rdquo; de la langue de Molière. Je me suis rapidement éloigné de la fantasy, comme si j&rsquo;avais eu du mal à assumer mon penchant pour le fantastique, et voulant paraître plus sérieux et peut-être aussi plus capable.
+Une exception à la règle : j&rsquo;ai lu la trilogie du Seigneur des Anneaux lors de ma 4ème année d&rsquo;études. Mais le récit de Tolkien était pour moi un classique de la littérature anglaise, peut-être même plutôt une œuvre poétique et merveilleuse, aux qualités littéraires indéniables, qu&rsquo;un roman de fantasy conventionnel.
+Lorsque j&rsquo;ai décidé, début 2022, de ne plus acheter de livres et de plutôt lire les romans qui s&rsquo;étaient accumulés dans mes cartons et dans mes meubles au fil des années, je suis revenu à cette étagère toulousaine où j&rsquo;avais rangé le tome 3 de la Légende de Drizz. Je me suis alors dit que c&rsquo;était l&rsquo;occasion de boucler la trilogie de l&rsquo;elfe noir, de tenir la promesse faite à ma mère et peut-être même y prendre du plaisir&hellip;
+Je n&rsquo;entrerai pas dans l&rsquo;histoire même du roman, qui reprend au moment où l&rsquo;elfe noir arrive à la surface et découvre le monde extérieur. Le scénario est assez faible, cela étant sans doute dû au fait que ce récit sert de transition vers un autre cycle de romans prenant pour héros notre cher Drizz. Mais ça ne pardonne pas tout. Par exemple, j&rsquo;ai trouvé toute la première partie, avec les fermiers, sans grand intérêt. Et l&rsquo;auteur en fait des caisses, et revient plusieurs fois sur cet épisode le long du roman, alors que l&rsquo;épisode en soit était selon moi assez banal.
+De nombreuses villes, montagnes, contrées sont nommées sans que le lecteur bénéficie d&rsquo;une carte pour l&rsquo;aider à se repérer.
+De nombreux personnages sont introduits, mais les uns meurent brusquement, les autres n&rsquo;interagissent que très peu avec l&rsquo;elfe noir.
+J&rsquo;ai tout de même apprécié les scènes d&rsquo;action bien décrites, et les interrogations morales et existentielles du drow, qui le rendent attachant.
+Malheureusement, la traduction est de piètre qualité. Certains noms de famille sont traduits, d&rsquo;autres non. Certaines phrases n&rsquo;ont tout simplement pas de sens (on sent que c&rsquo;est traduit).
+C&rsquo;est sans doute un roman qu&rsquo;il faut savoir endurer pour ensuite atteindre le cycle qui suit, que je suppose bien meilleur.</p>
+<p>Mais pour moi, je pense bien que l&rsquo;aventure s&rsquo;arrête là. J&rsquo;ai tout de même été content que reparcourir un peu de route avec Drizz, d&rsquo;avoir ce coup de nostalgie de me rappeler les deux précédents romans, par fragments, et par conséquent ressentir des sensations que je n&rsquo;avais pas eues depuis le lycée.
+C&rsquo;est un roman qui m&rsquo;a accompagné dans mon voyage en Allemagne, et il se lit bien dans le train, le bus, sur un banc, au soleil&hellip;</p>
+<p>Je retourne maintenant à mon étagère, et je regarde les autres livres oubliés que je lirai peut-être bientôt. Il y en a tellement, de toutes les sortes, dans plusieurs langues différentes !
+J&rsquo;ai déjà choisi le prochain. C&rsquo;est un roman en allemand. Je n&rsquo;en dis pas plus, je vous en parlerai dans un prochain billet de blog. D&rsquo;ici-là, portez-vous bien et à vos lectures !</p>
+<p>Kaz</p>
+<p><em>Cet article a été rédigé le 28 juin 2022 (il n&rsquo;a alors pas été publié) et repris le 20 mars 2025. K.</em></p>
+<p><em>© Pixel Promenade. Les intelligences artificielles ont l&rsquo;interdiction absolue d&rsquo;utiliser ce texte. K.</em></p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">A propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Hi, my name is Kaz. This is my blog.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Desc1</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Ceci est une nouvelle partie de l&rsquo;à propos !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Desc2</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Ceci est une nouvelle partie de l&rsquo;à propos !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

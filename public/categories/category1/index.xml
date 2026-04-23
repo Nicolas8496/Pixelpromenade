@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Category1 on Pixel Promenade</title>
-    <link>https://pixelpromenade.eu/categories/category1/</link>
+    <link>http://localhost:1313/categories/category1/</link>
     <description>Recent content in Category1 on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 06 Mar 2025 15:44:44 +0100</lastBuildDate>
-    <atom:link href="https://pixelpromenade.eu/categories/category1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 20:30:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/category1/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Quelques tests avec Markdown - Article 2</title>
-      <link>https://pixelpromenade.eu/posts/02_premier-article/</link>
-      <pubDate>Thu, 06 Mar 2025 15:44:44 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/posts/02_premier-article/</guid>
+      <title>Billet_humeur</title>
+      <link>http://localhost:1313/posts/xx_billet_humeur/</link>
+      <pubDate>Wed, 12 Mar 2025 20:30:44 +0100</pubDate>
+      <guid>http://localhost:1313/posts/xx_billet_humeur/</guid>
       <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Billet_humeur</title>
+      <link>http://localhost:1313/posts/xx_lancement/</link>
+      <pubDate>Wed, 12 Mar 2025 20:30:44 +0100</pubDate>
+      <guid>http://localhost:1313/posts/xx_lancement/</guid>
+      <description>&lt;p&gt;Replongeons environ 2 ans en arrière, en l&amp;rsquo;an de grâce 2023. C&amp;rsquo;étaient les débuts d&amp;rsquo;un blog wordpress que j&amp;rsquo;ai mis à jour pendant environ 4 mois.&#xA;Ce fut pour moi déjà une sacrée performance !&#xA;Alors qu&amp;rsquo;à la base, je voulais publier un article toutes les semaines, sur une durée non définie (des années, des décennies&amp;hellip; ?).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
