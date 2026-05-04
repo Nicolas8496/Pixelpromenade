@@ -6,13 +6,34 @@
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 23 Apr 2026 11:48:25 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 18:07:47 +0200</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archives</title>
+      <link>https://pixelpromenade.eu/categories/archives/</link>
+      <pubDate>Sun, 03 May 2026 18:07:47 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/archives/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Blog</title>
       <link>https://pixelpromenade.eu/categories/blog/</link>
-      <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
+      <pubDate>Sun, 03 May 2026 18:07:47 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edito</title>
+      <link>https://pixelpromenade.eu/categories/edito/</link>
+      <pubDate>Sun, 03 May 2026 18:07:47 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/edito/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Humeur</title>
+      <link>https://pixelpromenade.eu/categories/humeur/</link>
+      <pubDate>Sun, 03 May 2026 18:07:47 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/humeur/</guid>
       <description></description>
     </item>
     <item>
@@ -23,24 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>Humeur</title>
-      <link>https://pixelpromenade.eu/categories/humeur/</link>
-      <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/humeur/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Lecture</title>
       <link>https://pixelpromenade.eu/categories/lecture/</link>
       <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/lecture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Archives</title>
-      <link>https://pixelpromenade.eu/categories/archives/</link>
-      <pubDate>Fri, 10 Apr 2026 18:07:47 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/archives/</guid>
       <description></description>
     </item>
     <item>

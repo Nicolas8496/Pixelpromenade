@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edito - le pourquoi de ce blog | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Rédiger la présentation, ou comme je dis ici, l&rsquo;&ldquo;édito&rdquo; d&rsquo;un blog, est loin d&rsquo;être une chose aisée. Le blog permet toutes les libertés au créateur qui met à l&rsquo;écrit le foisonnement intérieur, foisonnement qui part souvent dans tous les sens. Comment en capturer l&rsquo;essence fondamentale ? Mais ce texte, qui date de trois ans déjà, légèrement dépoussiéré, reprend bien quelques lignes directrices qui m&rsquo;animent encore aujourd&rsquo;hui. Peut-être qu&rsquo;il saura trouver quelque résonnance en vous également.
+" />
+
+
+<meta name="keywords" content="Edito,Humeur,Blog,Ecriture,Inspiration">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Edito - le pourquoi de ce blog">
+  <meta property="og:description" content="Rédiger la présentation, ou comme je dis ici, l’“édito” d’un blog, est loin d’être une chose aisée. Le blog permet toutes les libertés au créateur qui met à l’écrit le foisonnement intérieur, foisonnement qui part souvent dans tous les sens. Comment en capturer l’essence fondamentale ? Mais ce texte, qui date de trois ans déjà, légèrement dépoussiéré, reprend bien quelques lignes directrices qui m’animent encore aujourd’hui. Peut-être qu’il saura trouver quelque résonnance en vous également.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-05-03T18:07:47+02:00">
+    <meta property="article:modified_time" content="2026-05-03T18:07:47+02:00">
+    <meta property="article:tag" content="Edito">
+    <meta property="article:tag" content="Humeur">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Ecriture">
+    <meta property="article:tag" content="Inspiration">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Edito - le pourquoi de ce blog">
+  <meta name="twitter:description" content="Rédiger la présentation, ou comme je dis ici, l’“édito” d’un blog, est loin d’être une chose aisée. Le blog permet toutes les libertés au créateur qui met à l’écrit le foisonnement intérieur, foisonnement qui part souvent dans tous les sens. Comment en capturer l’essence fondamentale ? Mais ce texte, qui date de trois ans déjà, légèrement dépoussiéré, reprend bien quelques lignes directrices qui m’animent encore aujourd’hui. Peut-être qu’il saura trouver quelque résonnance en vous également.">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Edito - le pourquoi de ce blog">
+  <meta itemprop="description" content="Rédiger la présentation, ou comme je dis ici, l’“édito” d’un blog, est loin d’être une chose aisée. Le blog permet toutes les libertés au créateur qui met à l’écrit le foisonnement intérieur, foisonnement qui part souvent dans tous les sens. Comment en capturer l’essence fondamentale ? Mais ce texte, qui date de trois ans déjà, légèrement dépoussiéré, reprend bien quelques lignes directrices qui m’animent encore aujourd’hui. Peut-être qu’il saura trouver quelque résonnance en vous également.">
+  <meta itemprop="datePublished" content="2026-05-03T18:07:47+02:00">
+  <meta itemprop="dateModified" content="2026-05-03T18:07:47+02:00">
+  <meta itemprop="wordCount" content="726">
+  <meta itemprop="keywords" content="Edito,Humeur,Blog,Ecriture,Inspiration">
+
+      <header>
+        <h1 itemprop="headline">Edito - le pourquoi de ce blog</h1>
+        <p class="text-sm">
+          
+            Sunday, May 3, 2026
+          
+
+          | <span>4 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Sunday, May 3, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <blockquote>
+    <p>Rédiger la présentation, ou comme je dis ici, l&rsquo;&ldquo;édito&rdquo; d&rsquo;un blog, est loin d&rsquo;être une chose aisée. Le blog permet toutes les libertés au créateur qui met à l&rsquo;écrit le foisonnement intérieur, foisonnement qui part souvent dans tous les sens. Comment en capturer l&rsquo;essence fondamentale ?
+Mais ce texte, qui date de trois ans déjà, légèrement dépoussiéré, reprend bien quelques lignes directrices qui m&rsquo;animent encore aujourd&rsquo;hui. Peut-être qu&rsquo;il saura trouver quelque résonnance en vous également.</p>
+  </blockquote>
+
+<p>Chers lecteurs,</p>
+<p>J’aimerais vous parler aujourd’hui de la motivation première à l’origine de ce blog. Car des blogs, j’en ai eu quelques-uns, et je me faisais blogueur pendant certaines périodes de ma vie. Puis je passais à autre chose, et je revenais, et je repartais, etc.</p>
+<p>J’ai d’ailleurs toujours écris, en petite quantité, et dès que j’arrêtais d’écrire, je sentais un vide et une frustration qui me ramenais à l’écriture.</p>
+<p>Suite à cela, après des années d’écriture et de blogging, je me trouve face à de nombreux chantiers perdus, inachevés, oubliés, que je souhaite maintenant redécouvrir, reprendre, tel un explorateur n&rsquo;allant pas vers l&rsquo;inconnu du dehors, mais ouvrant les cartons poussiéreux de sa propre chambre.</p>
+<p><img src="/img/cover20.jpg" alt="Collioure, vue 3, 31 août 2021.">
+<em>Collioure, vue 3, 31 août 2021.</em></p>
+<p>J’aimerais me faire archéologue de mes propres textes, de mes propres errances, et revenir à des chemins que j’ai commencé à tracer, puis abandonné, pour continuer ce traçage vers des inconnus multiples.</p>
+<p>J’aimerais prendre le temps de m’arrêter, revenir en arrière, réfléchir sur mes propres cheminements, et ainsi solidifier mes fondations, alors que la vie pousse et tire toujours vers des horizons nouveaux, vers des tabula rasa perpétuels et radicaux.</p>
+<p>C’est un exercice purement égotiste, j’en conviens. Mais en faisant cela je ne cherche ni à me flatter, ni à me mettre sous une lumière favorable. Je cherche seulement à retrouver les rêveries d’une jeunesse qui me paraît lointaine, à poursuivre ces rêves, fidèlement à mes volontés passées. Rester fidèle à moi-même, à mon enfant intérieur.</p>
+<p>C’est trop facile de passer toujours à autre chose. L’exercice consiste à faire preuve de persévérance. Et peut-être, au bout du chemin, depuis mon esprit déformé d’aujourd’hui, retrouver les fragments d’une Innocence perdue…</p>
+<p>Mais il n’y a pas que cela…</p>
+<p>Cette « fouille » que je vous propose, elle se dirige aussi vers les éléments matériels de mon passés. Objets qui se sont accumulés au fil des années, sans que je prenne nécessairement le temps d’en jouir.</p>
+<p>Les livres, les magazines, les carnets de notes remplis de textes inachevés et d’idées avortées… Connaissez-vous cette sensation presque religieux d’ouvrir pour la première fois un roman que l’on s’est offert il y a cinq ou dix ans en se jurant de le lire dans la semaine ?</p>
+<p>Et même dans notre vie numérique : un jeu que l’on a acheté sur <em>Steam</em> il y a plus de dix ans, et que l’on installe enfin pour la première fois…</p>
+<p>Car chaque achat, chaque présent a sa signification, sa valeur, et l’exercice consiste aussi à retrouver cette valeur que l’on accordait à l’objet, qui maintenant a été tout lessivé de sa nouveauté, et d’en jouir enfin, et de comprendre le pourquoi de cette acquisition.</p>
+<p>Le passé, je dirais même la mémoire, est plein de révélations qui n’attendent que de se présenter à l’explorateur que nous sommes.</p>
+<p>Cela va à l’encontre du principe de société de consommation : nous voulons nous arrêter, nous voulons reculer, repartir des années en arrière, et contempler nos anciennes ruines, et découvrir nos secrets ensevelis trop vite.</p>
+<p>Il faut que je vous avoue que ma vie s’écoule sur un courant trop rapide. Les déménagements s’enchaînent (pourquoi ne puis-je pas rester dans une ville plus d’un an ou deux?), les placards et les étagères se remplissent… Les cartons qu’on ne prend plus la peine d’ouvrir, la chambre d’enfant chez les parents qui recèle encore tant de secrets.</p>
+<p>Je ne me fais pas d’illusion : jamais je ne remonterai complètement le fleuve, et aussi j’ai comme tout le monde soif de nouveauté et de surprise. Mais ces quelques petits efforts, faisons-les bien, rendons hommage à tous nos « moi » que l’on a oublié au fil du temps…</p>
+<p>Mais retournons à nos lectures, à nos écritures&hellip;</p>
+<p>Kaz</p>
+<p><em>Cet article a été publié originellement le mardi 21 mars 2023 sur mon ancien blog pixelpromenadefr.wordpress.com.</em></p>
+<p><em>© Pixel Promenade. Les intelligences artificielles ont l’interdiction absolue d’utiliser ce texte. K.</em></p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">A propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Bonjour !  Je m&rsquo;appelle Kaz et ceci est mon petit blog.
+On parle de tout et de rien, mais surtout de livres et de cinéma.
+J&rsquo;essaie de sortir de ma petite besace d&rsquo;amateur un article par semaine.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Présentation</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Quelques mots sur moi&hellip;<br>
+J&rsquo;aime le café&hellip; je suis même plutôt addict !
+J&rsquo;aime les livres&hellip; Idem.
+J&rsquo;aime plutôt le cinéma même si je suis souvent déçu (envoyer vos recos !).
+J&rsquo;aime faire des listes de lecture interminables. Lol !</p>
+<p>Blog en construction, soyez indulgents SVP :D</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Contacts et réseaux</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Les contacts et réseaux vont être mis à jour bientôt ! Désolé du retard !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

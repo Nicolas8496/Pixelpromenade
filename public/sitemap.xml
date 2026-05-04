@@ -2,19 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/categories/archives/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/tags/blog/</loc>
-    <lastmod>2026-04-23T11:48:25+02:00</lastmod>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/blog/</loc>
-    <lastmod>2026-04-23T11:48:25+02:00</lastmod>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/</loc>
-    <lastmod>2026-04-23T11:48:25+02:00</lastmod>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/categories/ecriture/</loc>
-    <lastmod>2026-04-23T11:48:25+02:00</lastmod>
+    <loc>https://pixelpromenade.eu/tags/ecriture/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/edito/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/edito/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/humeur/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/humeur/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/inspiration/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/ecriture/</loc>
     <lastmod>2026-04-23T11:48:25+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/jeudi_matin_dans_l_atelier/</loc>
@@ -23,20 +53,8 @@
     <loc>https://pixelpromenade.eu/categories/lecture/</loc>
     <lastmod>2026-04-23T11:48:25+02:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-04-23T11:48:25+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-04-23T11:48:25+02:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/proust/</loc>
     <lastmod>2026-04-23T11:48:25+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
-    <lastmod>2026-04-23T11:48:25+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/archives/</loc>
-    <lastmod>2026-04-10T18:07:47+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/cin%C3%A9ma/</loc>
     <lastmod>2026-04-10T18:07:47+02:00</lastmod>
@@ -90,9 +108,6 @@
     <lastmod>2026-03-25T19:55:55+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/ecrans/</loc>
-    <lastmod>2026-03-25T19:55:55+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/humeur/</loc>
     <lastmod>2026-03-25T19:55:55+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/migraine/</loc>
