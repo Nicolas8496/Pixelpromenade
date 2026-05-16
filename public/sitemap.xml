@@ -2,16 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/tags/blog/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/chronique/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/chronique_printaniere/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/critique/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/humeur/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/proust/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-05-16T12:46:11+02:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/categories/archives/</loc>
     <lastmod>2026-05-03T18:07:47+02:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/tags/blog/</loc>
-    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/categories/blog/</loc>
-    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/</loc>
     <lastmod>2026-05-03T18:07:47+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/ecriture/</loc>
@@ -29,19 +59,7 @@
     <loc>https://pixelpromenade.eu/tags/humeur/</loc>
     <lastmod>2026-05-03T18:07:47+02:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/categories/humeur/</loc>
-    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/inspiration/</loc>
-    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-05-03T18:07:47+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
     <lastmod>2026-05-03T18:07:47+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/ecriture/</loc>
@@ -53,9 +71,6 @@
     <loc>https://pixelpromenade.eu/categories/lecture/</loc>
     <lastmod>2026-04-23T11:48:25+02:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/tags/proust/</loc>
-    <lastmod>2026-04-23T11:48:25+02:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/cin%C3%A9ma/</loc>
     <lastmod>2026-04-10T18:07:47+02:00</lastmod>
   </url><url>
@@ -63,9 +78,6 @@
     <lastmod>2026-04-10T18:07:47+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/critique/</loc>
-    <lastmod>2026-04-10T18:07:47+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/critique/</loc>
     <lastmod>2026-04-10T18:07:47+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/fablemans/</loc>
@@ -141,12 +153,6 @@
     <lastmod>2026-03-18T20:04:04+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/le-messie-de-dune/</loc>
-    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
     <lastmod>2026-03-18T20:04:04+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/roman/</loc>

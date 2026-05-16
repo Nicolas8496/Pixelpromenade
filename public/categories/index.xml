@@ -6,8 +6,36 @@
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 03 May 2026 18:07:47 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 12:46:11 +0200</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chronique</title>
+      <link>https://pixelpromenade.eu/categories/chronique/</link>
+      <pubDate>Sat, 16 May 2026 12:46:11 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/chronique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Critique</title>
+      <link>https://pixelpromenade.eu/categories/critique/</link>
+      <pubDate>Sat, 16 May 2026 12:46:11 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/critique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Humeur</title>
+      <link>https://pixelpromenade.eu/categories/humeur/</link>
+      <pubDate>Sat, 16 May 2026 12:46:11 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/humeur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Littérature</title>
+      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
+      <pubDate>Sat, 16 May 2026 12:46:11 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Archives</title>
       <link>https://pixelpromenade.eu/categories/archives/</link>
@@ -27,13 +55,6 @@
       <link>https://pixelpromenade.eu/categories/edito/</link>
       <pubDate>Sun, 03 May 2026 18:07:47 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/edito/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Humeur</title>
-      <link>https://pixelpromenade.eu/categories/humeur/</link>
-      <pubDate>Sun, 03 May 2026 18:07:47 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/humeur/</guid>
       <description></description>
     </item>
     <item>
@@ -58,13 +79,6 @@
       <description></description>
     </item>
     <item>
-      <title>Critique</title>
-      <link>https://pixelpromenade.eu/categories/critique/</link>
-      <pubDate>Fri, 10 Apr 2026 18:07:47 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/critique/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Archive</title>
       <link>https://pixelpromenade.eu/categories/archive/</link>
       <pubDate>Wed, 25 Mar 2026 19:55:55 +0100</pubDate>
@@ -83,13 +97,6 @@
       <link>https://pixelpromenade.eu/categories/dune/</link>
       <pubDate>Wed, 18 Mar 2026 20:04:04 +0100</pubDate>
       <guid>https://pixelpromenade.eu/categories/dune/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Littérature</title>
-      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
-      <pubDate>Wed, 18 Mar 2026 20:04:04 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
       <description></description>
     </item>
     <item>
