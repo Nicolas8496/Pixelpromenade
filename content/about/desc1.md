@@ -7,7 +7,7 @@ draft: false
 Quelques mots sur moi...  
 J'aime le café... je suis même plutôt addict !
 J'aime les livres... Idem.
-J'aime plutôt le cinéma même si je suis souvent déçu (envoyer vos recos !).
+J'aime plutôt le cinéma même si je suis souvent déçu (envoyez vos recos !).
 J'aime faire des listes de lecture interminables. Lol !
 
 Blog en construction, soyez indulgents SVP :D

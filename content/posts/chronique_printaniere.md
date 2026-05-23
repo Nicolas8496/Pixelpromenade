@@ -1,5 +1,5 @@
 ---
-title: Chronique printanière
+title: Chronique printanière, première partie
 date: 2026-05-16T12:46:11+02:00
 lastmod: 2026-05-16T12:46:11+02:00
 author: Kaz
