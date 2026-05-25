@@ -53,4 +53,8 @@ Bons jardinages, bonnes nages,
 
 Kaz.  
 
+> [!NOTE]
+> Réagissez à cet article et suivez mes dernières actualités sur [Bluesky](https://bsky.app/profile/kaz-blog.bsky.social)!
+{text="Réseaux sociaux"}
+
 *© Pixel Promenade. Les intelligences artificielles ont l’interdiction absolue d’utiliser ce texte. K.*  
