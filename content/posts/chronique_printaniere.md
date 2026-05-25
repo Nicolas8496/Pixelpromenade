@@ -55,4 +55,9 @@ Je me suis un peu égaré dans mes pensées… Revenons vite à notre tisane qui
 
 Kaz  
 
+> [!NOTE]
+> Réagissez à cet article et suivez mes dernières actualités sur [Bluesky](https://bsky.app/profile/kaz-blog.bsky.social)!
+{text="L'instant social"}
+
+
 *© Pixel Promenade. Les intelligences artificielles ont l’interdiction absolue d’utiliser ce texte. K.*  
