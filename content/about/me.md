@@ -8,4 +8,6 @@ Bonjour !  Je m'appelle Kaz et ceci est mon petit blog artisanal.
 
 On parle de tout et de rien, mais surtout de livres, de cinéma, de mes questionnements quotidiens.  
 
-J'essaie de sortir de ma petite besace d'amateur un article par semaine. Revenez vite sur le blog !  
+J'essaie de sortir de ma petite besace d'amateur un article par semaine.  
+
+Vous pouvez consulter l'édito du blog en cliquant [ICI](https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/).
