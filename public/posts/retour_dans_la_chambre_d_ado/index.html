@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retour dans la chambre d’ado. Lire l’Assassin Royal de Robin Hobb. | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/retour_dans_la_chambre_d_ado/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Lorsque je suis revenu passer un temps à Toulouse pendant les fêtes de fin d’année (fin 2024), j’ai retrouvé ma chambre d’ado, qui depuis 10 ans n’a qu’évolué de manière minime.
+Dans cette chambre, il y a un placard incrusté dans un mur, avec des portes coulissantes qui permettent soit de voir le côté droit, sorte d’armoire de rangement pour les vêtements, soit de voir le côté gauche, des étagères assez profondes, avec surtout une grande collection de livres. Ma collection personnelle, presque secrète, presque honteuse&hellip;
+" />
+
+
+<meta name="keywords" content="Assassin Royal,Blog,Fantasy,Robin Hobb">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/retour_dans_la_chambre_d_ado/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Retour dans la chambre d’ado. Lire l’Assassin Royal de Robin Hobb.">
+  <meta property="og:description" content="Lorsque je suis revenu passer un temps à Toulouse pendant les fêtes de fin d’année (fin 2024), j’ai retrouvé ma chambre d’ado, qui depuis 10 ans n’a qu’évolué de manière minime.
+Dans cette chambre, il y a un placard incrusté dans un mur, avec des portes coulissantes qui permettent soit de voir le côté droit, sorte d’armoire de rangement pour les vêtements, soit de voir le côté gauche, des étagères assez profondes, avec surtout une grande collection de livres. Ma collection personnelle, presque secrète, presque honteuse…">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-06-07T15:04:37+02:00">
+    <meta property="article:modified_time" content="2026-06-07T15:04:37+02:00">
+    <meta property="article:tag" content="Assassin Royal">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Fantasy">
+    <meta property="article:tag" content="Robin Hobb">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Retour dans la chambre d’ado. Lire l’Assassin Royal de Robin Hobb.">
+  <meta name="twitter:description" content="Lorsque je suis revenu passer un temps à Toulouse pendant les fêtes de fin d’année (fin 2024), j’ai retrouvé ma chambre d’ado, qui depuis 10 ans n’a qu’évolué de manière minime.
+Dans cette chambre, il y a un placard incrusté dans un mur, avec des portes coulissantes qui permettent soit de voir le côté droit, sorte d’armoire de rangement pour les vêtements, soit de voir le côté gauche, des étagères assez profondes, avec surtout une grande collection de livres. Ma collection personnelle, presque secrète, presque honteuse…">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Retour dans la chambre d’ado. Lire l’Assassin Royal de Robin Hobb.">
+  <meta itemprop="description" content="Lorsque je suis revenu passer un temps à Toulouse pendant les fêtes de fin d’année (fin 2024), j’ai retrouvé ma chambre d’ado, qui depuis 10 ans n’a qu’évolué de manière minime.
+Dans cette chambre, il y a un placard incrusté dans un mur, avec des portes coulissantes qui permettent soit de voir le côté droit, sorte d’armoire de rangement pour les vêtements, soit de voir le côté gauche, des étagères assez profondes, avec surtout une grande collection de livres. Ma collection personnelle, presque secrète, presque honteuse…">
+  <meta itemprop="datePublished" content="2026-06-07T15:04:37+02:00">
+  <meta itemprop="dateModified" content="2026-06-07T15:04:37+02:00">
+  <meta itemprop="wordCount" content="1472">
+  <meta itemprop="keywords" content="Assassin Royal,Blog,Fantasy,Robin Hobb">
+
+      <header>
+        <h1 itemprop="headline">Retour dans la chambre d’ado. Lire l’Assassin Royal de Robin Hobb.</h1>
+        <p class="text-sm">
+          
+            Sunday, Jun 7, 2026
+          
+
+          | <span>7 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Sunday, Jun 7, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Lorsque je suis revenu passer un temps à Toulouse pendant les fêtes de fin d’année (fin 2024), j’ai retrouvé ma chambre d’ado, qui depuis 10 ans n’a qu’évolué de manière minime.<br>
+Dans cette chambre, il y a un placard incrusté dans un mur, avec des portes coulissantes qui permettent soit de voir le côté droit, sorte d’armoire de rangement pour les vêtements, soit de voir le côté gauche, des étagères assez profondes, avec surtout une grande collection de livres. Ma collection personnelle, presque secrète, presque honteuse&hellip;</p>
+<p><strong>La réserve secrète de ma chambre d’ado</strong></p>
+<p>C’est une sorte d’accumulation : il y a d’une part les livres de ma jeunesse, du collège, voire de l’école primaire. Par exemple : une édition du <em>Hobbit</em> en allemand que j’ai depuis l’âge de 10 ans environ.<br>
+D’autre part, il y a les livres que j’ai reçu, ou que je me suis acheté pendant mes trois années de lycée : surtout de la fantasy, de la science fiction, et bien sûr les « classiques » qui étaient au programme scolaire.<br>
+Une part supplémentaire de cette collection, ce sont les livres obtenus pendant mes études. Ce n’est pas la moindre des parts. Pourtant, je n’ai pas fait d’études littéraires. Mais une de mes occupations favorites dans ce temps-là était d’aller en librairie, de flâner dans les rayons, et de m’offrir un ou deux bouquins. Beaucoup de poches. Beaucoup de cadeaux également.</p>
+<p><img src="/img/cover23.jpg" alt="Sur le chemin de Saint-Jacques, 25 août 2021.">
+<em>Sur le chemin de Saint-Jacques, 25 août 2021.</em></p>
+<p>Et enfin, il y a de nombreux livres qui ont atterris là sans que je sache l’explication exacte. Des livres que mes parents ont posé discrètement dans les étagères. Des livres récupérés de je ne sais où, des déstockages de bibliothèques, des oubliés d’amis perdus de vue, etc, et tous ces ajouts, avec les autres, forment une collection assez gargantuesque.</p>
+<p>Lorsque je porte maintenant mon regard sur cet ensemble, c’est avec l’œil du côté gauche d’un archiviste, et l’œil du côté droit d’un archéologue. Sachant que je n’ai pas lu la moitié de cette accumulation, j’essaie de me rappeler en quelles circonstances j’avais choisi d’acheter tel ou tel bouquin, ou qui me l’avait offert, et pourquoi. J’essaie de me rappeler mes inspirations et mes projets momentanés perdus dans le passé. Ou bien la petite phrase de présentation d’un proche, lors de la remise du cadeau livresque, parfois encore ancrée dans ma mémoire. Rien que cette impulsion subjuguante, ce reflet de la passion dans les yeux, cette invitation à entrer dans quelque chose de l’univers intime de la personne.
+Le « <em>Lis ça.</em> » plein de profondeur et de force de mon père&hellip;</p>
+<p>Enfin, je sélectionne, dans les longues rangées des ouvrages non lus, un de ces égarés, presque au hasard, mais me souvenant très bien que je l’avais tenu dans mes mains, celui-là aussi, à dix-huit ou vingt ans, plein de joie et de convoitise. Ce livre, par le titre, la couverture, réactive les anciens souvenirs. Je reprends mon élan d’inspiration suspendu, tel que je l’avais laissé, sur pause, depuis tout ce temps.</p>
+<p>C’est ce que j’ai fait en reprenant l’<em>Assassin royal</em>.
+Un livre que je me suis acheté au lycée, en <em>Première</em> sans doute, lorsque j’avais 16 ou 17 ans. Comme évoqué plus haut, je lisais alors beaucoup de fantasy et de science fiction. J’étais à la recherche de sagas à la mode, dont je pourrais ensuite discuter avec mon entourage. À cette époque, l’un de mes amis était admirateur de ce roman. Mais, pour une raison que j’ignore, je n’ai jamais eu le courage de me lancer réellement, après cet achat. Qu’est-ce qui m’avait alors retenu ? Pourquoi acheter un roman, pour finalement même pas en lire le début ?</p>
+<p><strong>Plaisir de lire. Difficultés à lire.</strong></p>
+<p>Aller à la librairie, lorsque j’étais lycéen, était un petit plaisir solitaire, une sortie que je faisais généralement le samedi. J’allais souvent à Gibert Joseph, où il y avait d’ailleurs également des films, des bandes dessinées, des mangas. Lorsque je rentrais enfin chez moi, le nouveau livre dans un petit sac en plastique, j’étais épuisé du contact avec la ville, et souvent incapable de me mettre directement à lire. C’est sans doute ce qui s’était passé : je rentre chez moi, je m’assois épuisé sur le canapé, je pose le sac plastique à côté de moi. Quelques temps plus tard, je n’ai plus envie de lire, je range le roman dans la fameuse étagère. Et puis je passe à autre chose. Je le garde en réserve, convaincu de retomber dessus tôt ou tard.</p>
+<p>Il faut que je précise que je lis assez lentement, et à l’époque surtout la lecture me demandait un véritable effort. J’avais alors beaucoup de mal à me figurer les histoires, à comprendre ce qui se passe exactement, et à saisir toutes les subtilités d’un style… Trop d’ordinateur, peut-être ? Trop de distractions sans doute. Assez rapidement, mon esprit se couvrait de brume, et je lisais les phrases sans les saisir, de manière automatique. J’étais convaincu que j’allais un jour avoir un déclic, devenir une sorte de « super-lecteur », et que mes capacités de lecture allaient se décupler, mes lectures se multiplier. Aujourd’hui, je peux dire que je comprends bien mieux ce que je lis, mais que je ne suis pas pour autant devenu un coureur de vitesse du papier encré, ni un tourneur de pages de l’extrême.</p>
+<p>Mais à cette époque toulousaine, dans ce possible enchaînement de circonstances, inévitablement, je me suis intéressé à d’autres choses, à l’occasion à d’autres livres, et l’<em>Assassin Royal</em> est entré dans une longue hibernation.</p>
+<p><strong>Petite critique de l’œuvre</strong></p>
+<p>En vivant à Strasbourg, ces trois dernières années, j’ai entendu deux amies d’un peu plus de mon âge encenser l’<em>Assassin Royal</em>, à deux occasions séparées. Qu’elles y reviennent souvent. Qu’elles adorent. J’ai pris cela comme un signe. L’envie est revenue. Et, en revenant à Toulouse, en décembre 2024, je le repère dans les étagères, et l’emporte avec moi à Strasbourg. Trois mois plus tard, je le lis enfin. En parallèle de mon métier d’ingénieur, de ma vie de couple, d’un voyage en Allemagne. Je m’étonne du style (de la traduction) qui me paraît parfois un peu hasardeux. La construction bizarre du récit. Les noms propres des personnages et des villes, les noms communs inventés, qui laissent parfois penser à un monde improvisé plutôt que construit et pleinement médité tel que l’on peut le trouver chez Tolkien. Des passages creux, indéniablement. Et parfois, des actions tellement vives qu’elles ne sont pas suffisamment décrites pour être pleinement intelligibles. L’invraisemblance de cette formation d’assassin. Mais au-delà de cela, je suis charmé par les personnages et l’univers. Certaines scènes sont plaisantes à suivre. La magie telle qu’elle est présente dans ce monde ne manque pas d’originalité, et promet de belles révélations pour la suite. J’aime aussi l’idée que la famille royale se transmet une sorte de pouvoir surnaturel qu’elle garde jalousement. Les princes doivent porter comme nom une qualité, une vertu qui est censée les caractériser, et ce nom a alors une influence sur eux.</p>
+<p>Beaucoup de mystère encore que ce premier tome, qui promet pour la suite des développements et des révélations. J’avoue avoir hâte de savoir tous les dénouements des histoires ici commencées.
+Pour conclure, passé le stade de l’écriture laborieuse et parfois confuse, du monde qui semble encore peu pensé et construit dans ce premier tome (ce qui laisse aussi le charme d’un univers qui se développe sous nos yeux, comme une fleur qui se déploie), si l’on arrive à pardonner tout cela, on se laissera se prendre d’affection à l’égard de certains personnages, et l’intrigue est suffisamment prenante pour toujours vouloir savoir la suite.</p>
+<p>Je dois aussi dire que j’ai particulièrement apprécié une histoire plus « bon enfant », plus simple, plus insouciante, en quelque sorte, à la suite de mes dernières lectures trop sérieuses. Un petit retour en adolescence, telle que je l’attendais, et la poursuite d’une quête initiatique rafraîchissante, invitant à l’aventure, qui me laisse songeur en pensant à ce que j’aurais pu devenir si j’avais réussi, à l’époque, à surmonter mon épuisement et à m’engager dans cette lecture fantasy originale.</p>
+<p>Même si cela n’est sans doute pas prévu à court terme, je prévois de continuer la lecture de cette saga prometteuse. Je sais d’ailleurs qu’elle a largement fait ses preuves auprès du public et qu’elle n’a en somme plus rien à prouver. J’en déduis que je ne serai certainement pas déçu. Une lecture qui fait rêver, qui procure cette sensation d’évasion qui fait tant de bien ! Merci Robin Hobb.</p>
+<p>Kaz.</p>
+<p><em>(Article rédigé le 11 mai 2025)</em></p>
+
+
+
+  <blockquote class="dream-alert note">
+    <p class="heading">
+      <ion-icon name="information-circle-outline"></ion-icon>L&#39;instant social 💙</p>
+    <p>Réagissez à cet article et suivez mes dernières actualités sur <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">Bluesky</a>
+!</p>
+  </blockquote>
+
+
+
+
+  <blockquote class="dream-alert tip">
+    <p class="heading">
+      <ion-icon name="bulb-outline"></ion-icon>D&#39;autres articles du blog pourraient vous intéresser 🕮</p>
+    <p>Découvrez mon billet <a href="https://pixelpromenade.eu/posts/trop_longues_lectures/" target="_blank">Trop longues lectures</a>
+.</p>
+  </blockquote>
+
+<p><em>© Pixel Promenade. Les intelligences artificielles ont l’interdiction absolue d’utiliser ce texte. K.</em></p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">À propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Bonjour !  Je m&rsquo;appelle Kaz et ceci est mon petit blog artisanal.</p>
+<p>On parle de tout et de rien, mais surtout de livres, de cinéma, de mes questionnements quotidiens.</p>
+<p>J&rsquo;essaie de sortir de ma petite besace d&rsquo;amateur un article par semaine.</p>
+<p>Vous pouvez consulter l&rsquo;édito du blog en cliquant <a href="https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/" target="_blank">ICI</a>
+.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Présentation</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Quelques mots sur moi&hellip;<br>
+J&rsquo;aime le café&hellip; je suis même plutôt addict !<br>
+J&rsquo;aime les livres&hellip; Idem.<br>
+J&rsquo;aime plutôt le cinéma même si je suis souvent déçu (envoyez vos recos !).<br>
+J&rsquo;aime faire des listes de lecture interminables. Lol !</p>
+<p>Blog en construction, soyez indulgents SVP :D</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Contacts et réseaux</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Échangeons ensemble et suivez-moi sur les réseaux :-)</p>
+<p>Vous pouvez me suivre et m&rsquo;écrire sur Bluesky : <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">@Kaz-blog</a>
+</p>
+<p>Vous pouvez aussi m&rsquo;envoyer un mail à : <a href="tengor.sienne@mailo.com">tengor.sienne@mailo.com</a>
+</p>
+<p>Je réponds à tous vos messages !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
