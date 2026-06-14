@@ -6,20 +6,27 @@
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 07 Jun 2026 15:04:37 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 14:10:27 +0200</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog</title>
-      <link>https://pixelpromenade.eu/categories/blog/</link>
-      <pubDate>Sun, 07 Jun 2026 15:04:37 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/blog/</guid>
+      <title>Cinéma</title>
+      <link>https://pixelpromenade.eu/categories/cin%C3%A9ma/</link>
+      <pubDate>Sun, 14 Jun 2026 14:10:27 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/cin%C3%A9ma/</guid>
       <description></description>
     </item>
     <item>
       <title>Critique</title>
       <link>https://pixelpromenade.eu/categories/critique/</link>
-      <pubDate>Sun, 07 Jun 2026 15:04:37 +0200</pubDate>
+      <pubDate>Sun, 14 Jun 2026 14:10:27 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/critique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://pixelpromenade.eu/categories/blog/</link>
+      <pubDate>Sun, 07 Jun 2026 15:04:37 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/blog/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +90,6 @@
       <link>https://pixelpromenade.eu/categories/lecture/</link>
       <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/lecture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cinéma</title>
-      <link>https://pixelpromenade.eu/categories/cin%C3%A9ma/</link>
-      <pubDate>Fri, 10 Apr 2026 18:07:47 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/cin%C3%A9ma/</guid>
       <description></description>
     </item>
     <item>
