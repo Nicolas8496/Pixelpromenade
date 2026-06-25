@@ -1,5 +1,5 @@
 ---
-title: Journal du quotidien. Balade en vélo. Lecture.
+title: Journal du quotidien. Balade à vélo. Lecture.
 date: 2026-06-25T08:57:52+02:00
 lastmod: 2026-06-25T08:57:52+02:00
 author: Kaz
@@ -30,7 +30,7 @@ Je reprends ce petit billet rédigé début février*, en cette période actuell
 
 Mais bref ! Ces esquisses ne méritent pas une trop longue introduction. Venez avec moi vous balader à vélo au bord du Rhin, puis plongez avec moi dans Les Années de Annie Ernaux...  
 
-**Balade en vélo**  
+**Balade à vélo**  
 
 La sortie le dimanche fut comme la libération d’un poids. Enfin pouvoir redécouvrir les caresses de ce soleil trop longtemps resté caché. Soleil d’hiver, délice qui fait oublier le vent froid. Et puis contempler la beauté de ce ciel bleu, d’un bleu si clair et pourtant si intense !  
 Notre balade à vélo nous a fait découvrir les nouveaux immeubles de ce quartier Port-du-Rhin, entre les industries, le chemin de fer, les routes tracées de manières hasardeuses, et encore ces nombreux terrains vagues.  
