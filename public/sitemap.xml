@@ -2,10 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pixelpromenade.eu/tags/blog/</loc>
-    <lastmod>2026-06-25T08:57:52+02:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/categories/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/critique/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/pendule-de-foucault/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/roman/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/templiers/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/umberto-eco/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/umberto-eco/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/un_roman_unique_sur_le_complot_des_templiers/</loc>
+    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/blog/</loc>
     <lastmod>2026-06-25T08:57:52+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/chronique/</loc>
@@ -15,21 +51,6 @@
     <lastmod>2026-06-25T08:57:52+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/journal_du_quotidien_balade_en_velo_lecture/</loc>
-    <lastmod>2026-06-25T08:57:52+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2026-06-25T08:57:52+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
-    <lastmod>2026-06-25T08:57:52+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-06-25T08:57:52+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-06-25T08:57:52+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
     <lastmod>2026-06-25T08:57:52+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/v%C3%A9lo/</loc>
@@ -45,9 +66,6 @@
     <lastmod>2026-06-14T14:10:27+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/critique/</loc>
-    <lastmod>2026-06-14T14:10:27+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/critique/</loc>
     <lastmod>2026-06-14T14:10:27+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/darren-aronofsky/</loc>
@@ -198,9 +216,6 @@
     <lastmod>2026-03-18T20:04:04+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/le-messie-de-dune/</loc>
-    <lastmod>2026-03-18T20:04:04+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/roman/</loc>
     <lastmod>2026-03-18T20:04:04+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/roman/</loc>

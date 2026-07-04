@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un roman unique sur le complot des Templiers | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/un_roman_unique_sur_le_complot_des_templiers/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Après divers tumultes et fatigues accumulés, j’atterris dans un week-end heureusement vide, sans plan arrêté d’avance, sans grande obligation, et mon corps, enfin, souffle. Après les sursauts d’agitations d’un esprit qui ne saisit pas encore qu’il peut se détendre, le calme, enfin, s’installe, et la relative lucidité nécessaire pour écrire (sublime pénate !) vient m’octroyer sa grâce. Le silence de l’appartement est bien doux à mes oreilles, mes pensées parviennent enfin à s’organiser, mes envies d’avenir se cultivent.
+" />
+
+
+<meta name="keywords" content="Littérature,Roman,Templiers,Umberto Eco,Pendule De Foucault">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/un_roman_unique_sur_le_complot_des_templiers/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Un roman unique sur le complot des Templiers">
+  <meta property="og:description" content="Après divers tumultes et fatigues accumulés, j’atterris dans un week-end heureusement vide, sans plan arrêté d’avance, sans grande obligation, et mon corps, enfin, souffle. Après les sursauts d’agitations d’un esprit qui ne saisit pas encore qu’il peut se détendre, le calme, enfin, s’installe, et la relative lucidité nécessaire pour écrire (sublime pénate !) vient m’octroyer sa grâce. Le silence de l’appartement est bien doux à mes oreilles, mes pensées parviennent enfin à s’organiser, mes envies d’avenir se cultivent.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-07-04T18:54:25+02:00">
+    <meta property="article:modified_time" content="2026-07-04T18:54:25+02:00">
+    <meta property="article:tag" content="Littérature">
+    <meta property="article:tag" content="Roman">
+    <meta property="article:tag" content="Templiers">
+    <meta property="article:tag" content="Umberto Eco">
+    <meta property="article:tag" content="Pendule De Foucault">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Un roman unique sur le complot des Templiers">
+  <meta name="twitter:description" content="Après divers tumultes et fatigues accumulés, j’atterris dans un week-end heureusement vide, sans plan arrêté d’avance, sans grande obligation, et mon corps, enfin, souffle. Après les sursauts d’agitations d’un esprit qui ne saisit pas encore qu’il peut se détendre, le calme, enfin, s’installe, et la relative lucidité nécessaire pour écrire (sublime pénate !) vient m’octroyer sa grâce. Le silence de l’appartement est bien doux à mes oreilles, mes pensées parviennent enfin à s’organiser, mes envies d’avenir se cultivent.">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Un roman unique sur le complot des Templiers">
+  <meta itemprop="description" content="Après divers tumultes et fatigues accumulés, j’atterris dans un week-end heureusement vide, sans plan arrêté d’avance, sans grande obligation, et mon corps, enfin, souffle. Après les sursauts d’agitations d’un esprit qui ne saisit pas encore qu’il peut se détendre, le calme, enfin, s’installe, et la relative lucidité nécessaire pour écrire (sublime pénate !) vient m’octroyer sa grâce. Le silence de l’appartement est bien doux à mes oreilles, mes pensées parviennent enfin à s’organiser, mes envies d’avenir se cultivent.">
+  <meta itemprop="datePublished" content="2026-07-04T18:54:25+02:00">
+  <meta itemprop="dateModified" content="2026-07-04T18:54:25+02:00">
+  <meta itemprop="wordCount" content="918">
+  <meta itemprop="keywords" content="Littérature,Roman,Templiers,Umberto Eco,Pendule De Foucault">
+
+      <header>
+        <h1 itemprop="headline">Un roman unique sur le complot des Templiers</h1>
+        <p class="text-sm">
+          
+            Saturday, Jul 4, 2026
+          
+
+          | <span>5 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Saturday, Jul 4, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Après divers tumultes et fatigues accumulés, j’atterris dans un week-end heureusement vide, sans plan arrêté d’avance, sans grande obligation, et mon corps, enfin, souffle. Après les sursauts d’agitations d’un esprit qui ne saisit pas encore qu’il peut se détendre, le calme, enfin, s’installe, et la relative lucidité nécessaire pour écrire (sublime pénate !) vient m’octroyer sa grâce.
+Le silence de l’appartement est bien doux à mes oreilles, mes pensées parviennent enfin à s’organiser, mes envies d’avenir se cultivent.</p>
+<p>Il n’y a pas de meilleur moment pour faire une petite entrée sur ce blog. Ce que je vous propose aujourd’hui, c’est la critique* de l’un de mes romans préférés : <em>Le Pendule de Foucault</em> de Umberto Eco.</p>
+<p><img src="/img/cover26.jpg" alt="Temple du Donon, 17 septembre 2022.">
+<em>Temple du Donon, 17 septembre 2022.</em></p>
+<p><strong>Venons-en au sujet</strong></p>
+<p><em>Le Pendule de Foucault</em> est un roman de Umberto Eco (1932 – 2016) publié en 1988. J’ai pu le lire dans la traduction française de Jean-Noël Schifano, que je trouve au passage excellente, aux éditions <em>Le Livre de Poche</em>. Le livre nous raconte l’histoire des templiers, mais de manière quelque peu revisitée, en dressant une sorte de vaste complot mondial. Foisonnant de références historiques et littéraires, c’est une véritable bible à celui qui cherche une histoire pleine de bonnes idées, d’imagination, de rebondissements et d’érudition. Le bibliophile est aussi amplement servi, puisque l’on suit les péripéties d’une petite maison d’édition, et de trois compères imbus de lectures de toutes sortes. Enfin, l’histoire proche et presque palpable, la fin de la Seconde Guerre Mondiale, Mai 68 et les décennies suivantes, est également traitée avec une grande pertinence et un zeste de nostalgie.</p>
+<p><strong>À l’épreuve de la lecture</strong></p>
+<p>Mon expérience de lecture s’est étendue sur un ou deux mois, avec quelques décrochages. Il faut dire que c’est une œuvre très longue : 867 pages dans l’édition du <em>Livre de Poche</em>. Il met un peu de temps à démarrer, les premières pages se déroulant au musée des Arts et Métiers étant assez nébuleuses, puisque l’on est en pleine découverte d’une scène et d’une psychologie déstabilisantes.</p>
+<p>Le rythme varie au fil des pages et des chapitres. Parfois lent, contemplatif, et peut-être légèrement laborieux pour moi (mais cela permet tout de même des moments de respiration), il sait accélérer soudainement, et l’intrigue se déploie alors de façon ingénieuse et savoureuse. Le dévoilement du plan, dans la seconde moitié du roman, a été un plaisir de lecture inégalé depuis longtemps.</p>
+<p>Les trois personnages principaux, les amis Casaubon (le narrateur), Belbo et Diotallevi, sont attachants, et on prend le temps de découvrir leurs vies, leurs aspirations, les nuances de leurs psychologies. Les personnages féminins sont peut-être un peu moins approfondis, plus artificiels, et semblent ne servir qu’à faire chavirer le cœur des hommes. Malgré cela, le personnage de Lorenza est terriblement déstabilisant, cruel, mystique, en un mot : insaisissable.</p>
+<p>La période de mai 68, l’esprit étudiant imprégné de socialisme et de communisme, établit une ambiance et un monde qui semblent révolus. Au-delà de la nostalgie, il y a une insouciance, une naïveté, un orgueil, que nous autres générations suivantes n’avons pas connu, hélas, en proies aux désillusions de notre époque. Cela me rappelle un peu les récits de mon père, de ses propres rêves…</p>
+<p>La fin est fulgurante, et les personnages se trouvent comme sublimés, chacun à sa façon. La construction narrative du récit est d’une intelligence rare.</p>
+<p><strong>Petite anecdote</strong></p>
+<p>L’utilisation de l’ordinateur, de l’algorithme nommé « Aboulafia » est absolument visionnaire ! Un programme qui génère automatiquement des phrases à partir de certaines instructions. C’est déjà un balbutiement d’intelligence artificielle générative… Et ce nom, Aboulafia, est resté dans mon esprit. Je voyageais alors à Malte. Lors de mon passage sur l’île de Comino, j’ai découvert une stèle qui indiquait que l’ermite mystique Avraham ben Samuel Aboulafia y avait vécu, en exil, durant les dernières années de sa vie (XIIIème siècle). Sur cette petite île à l’ouest de Malte, où il n’y a presque rien, à peine une parcelle de garrigue, il écrivit le <em>Livre du Signe</em> ou <em>Sefer Ha-Ot</em>… Quel hasard troublant de retrouver la trace du cabaliste mystique !</p>
+<p><strong>En guise de conclusion</strong></p>
+<p>Il s’agit là d’un roman initiatique, d’apprentissage à la pensée hermétique, qui déniche les symboles et fait des liens avec tout, jusqu’à l’absurde. Si l’on ne tient pas compte de ce point de bascule où l’on flirte amplement avec la folie, et qui rappelle les théories du complot les plus surprenantes de notre temps, il y a une certaine méthode d’observation du monde qui est dévoilée, un ré-enchantement, qui invite à regarder les choses avec un œil neuf, avec la flamme de l’interprétation. Cela rajoute un peu de plaisir dans nos mornes quotidiens, un peu de magie dans notre gris de laboratoire ! Comment, après la lecture de cette œuvre, entrer dans une église ou un palais, sans guetter les signes, les indications, et chercher le sens de certaines peintures, ou sculptures, dont la signification semble échapper ?</p>
+<p>Je ne saurais que recommander vivement cette lecture unique, qui donne envie de se plonger dans d’autres œuvres de cet écrivain italien majeur.</p>
+<p>Kaz</p>
+<p>.* J’avais rédigé un premier jet de cet article en janvier 2023, sur un carnet, en vue d’une potentielle future publication sur un blog.</p>
+
+
+
+  <blockquote class="dream-alert note">
+    <p class="heading">
+      <ion-icon name="information-circle-outline"></ion-icon>L&#39;instant social 💙</p>
+    <p>Réagissez à cet article et suivez mes dernières actualités sur <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">Bluesky</a>
+!</p>
+  </blockquote>
+
+
+
+
+  <blockquote class="dream-alert tip">
+    <p class="heading">
+      <ion-icon name="bulb-outline"></ion-icon>D&#39;autres articles du blog pourraient vous intéresser 🕮</p>
+    <p>Découvrez mon billet <a href="https://pixelpromenade.eu/posts/journal_du_quotidien_balade_en_velo_lecture/" target="_blank">Journal du quotidien. Balade à vélo. Lecture.</a>
+.</p>
+  </blockquote>
+
+<p>© Pixel Promenade. Les intelligences artificielles, même Aboulafia, ont l’interdiction absolue d’utiliser ce texte. K.</p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">À propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Bonjour !  Je m&rsquo;appelle Kaz et ceci est mon petit blog artisanal.</p>
+<p>On parle de tout et de rien, mais surtout de livres, de cinéma, de mes questionnements quotidiens.</p>
+<p>J&rsquo;essaie de sortir de ma petite besace d&rsquo;amateur un article par semaine.</p>
+<p>Vous pouvez consulter l&rsquo;édito du blog en cliquant <a href="https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/" target="_blank">ICI</a>
+.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Présentation</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Quelques mots sur moi&hellip;<br>
+J&rsquo;aime le café&hellip; je suis même plutôt addict !<br>
+J&rsquo;aime les livres&hellip; Idem.<br>
+J&rsquo;aime plutôt le cinéma même si je suis souvent déçu (envoyez vos recos !).<br>
+J&rsquo;aime faire des listes de lecture interminables. Lol !</p>
+<p>Blog en construction, soyez indulgents SVP :D</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Contacts et réseaux</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Échangeons ensemble et suivez-moi sur les réseaux :-)</p>
+<p>Vous pouvez me suivre et m&rsquo;écrire sur Bluesky : <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">@Kaz-blog</a>
+</p>
+<p>Vous pouvez aussi m&rsquo;envoyer un mail à : <a href="tengor.sienne@mailo.com">tengor.sienne@mailo.com</a>
+</p>
+<p>Je réponds à tous vos messages !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
