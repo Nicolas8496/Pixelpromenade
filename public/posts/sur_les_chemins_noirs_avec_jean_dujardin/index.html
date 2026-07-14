@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sur Les Chemins Noirs avec Jean Dujardin, entre randonnées et quête de sagesse | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/sur_les_chemins_noirs_avec_jean_dujardin/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="J’écris aujourd’hui* un billet pour vous partager mes impressions suite à mon visionnage vendredi soir du film de Denis Imbert Sur Les Chemins Noirs, sorti dans les salles françaises le 22 mars 2023, et avec Jean Dujardin dans le rôle principal. Ce film est adapté du récit autobiographique best-seller éponyme de Sylvain Tesson, publié en 2016. Il ne m&rsquo;est pas aisé de faire la critique d’un tel film, tant mes sentiments à son égard restent troubles et mon opinion indécise. Mais rentrons dans le vif du sujet !
+" />
+
+
+<meta name="keywords" content="Cinéma,Critique,Sur Les Chemins Noirs,Jean Dujardin,Denis Imbert,Sylvain Tesson">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/sur_les_chemins_noirs_avec_jean_dujardin/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Sur Les Chemins Noirs avec Jean Dujardin, entre randonnées et quête de sagesse">
+  <meta property="og:description" content="J’écris aujourd’hui* un billet pour vous partager mes impressions suite à mon visionnage vendredi soir du film de Denis Imbert Sur Les Chemins Noirs, sorti dans les salles françaises le 22 mars 2023, et avec Jean Dujardin dans le rôle principal. Ce film est adapté du récit autobiographique best-seller éponyme de Sylvain Tesson, publié en 2016. Il ne m’est pas aisé de faire la critique d’un tel film, tant mes sentiments à son égard restent troubles et mon opinion indécise. Mais rentrons dans le vif du sujet !">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-07-14T09:44:03+02:00">
+    <meta property="article:modified_time" content="2026-07-14T09:44:03+02:00">
+    <meta property="article:tag" content="Cinéma">
+    <meta property="article:tag" content="Critique">
+    <meta property="article:tag" content="Sur Les Chemins Noirs">
+    <meta property="article:tag" content="Jean Dujardin">
+    <meta property="article:tag" content="Denis Imbert">
+    <meta property="article:tag" content="Sylvain Tesson">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sur Les Chemins Noirs avec Jean Dujardin, entre randonnées et quête de sagesse">
+  <meta name="twitter:description" content="J’écris aujourd’hui* un billet pour vous partager mes impressions suite à mon visionnage vendredi soir du film de Denis Imbert Sur Les Chemins Noirs, sorti dans les salles françaises le 22 mars 2023, et avec Jean Dujardin dans le rôle principal. Ce film est adapté du récit autobiographique best-seller éponyme de Sylvain Tesson, publié en 2016. Il ne m’est pas aisé de faire la critique d’un tel film, tant mes sentiments à son égard restent troubles et mon opinion indécise. Mais rentrons dans le vif du sujet !">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Sur Les Chemins Noirs avec Jean Dujardin, entre randonnées et quête de sagesse">
+  <meta itemprop="description" content="J’écris aujourd’hui* un billet pour vous partager mes impressions suite à mon visionnage vendredi soir du film de Denis Imbert Sur Les Chemins Noirs, sorti dans les salles françaises le 22 mars 2023, et avec Jean Dujardin dans le rôle principal. Ce film est adapté du récit autobiographique best-seller éponyme de Sylvain Tesson, publié en 2016. Il ne m’est pas aisé de faire la critique d’un tel film, tant mes sentiments à son égard restent troubles et mon opinion indécise. Mais rentrons dans le vif du sujet !">
+  <meta itemprop="datePublished" content="2026-07-14T09:44:03+02:00">
+  <meta itemprop="dateModified" content="2026-07-14T09:44:03+02:00">
+  <meta itemprop="wordCount" content="783">
+  <meta itemprop="keywords" content="Cinéma,Critique,Sur Les Chemins Noirs,Jean Dujardin,Denis Imbert,Sylvain Tesson">
+
+      <header>
+        <h1 itemprop="headline">Sur Les Chemins Noirs avec Jean Dujardin, entre randonnées et quête de sagesse</h1>
+        <p class="text-sm">
+          
+            Tuesday, Jul 14, 2026
+          
+
+          | <span>4 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Tuesday, Jul 14, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>J’écris aujourd’hui* un billet pour vous partager mes impressions suite à mon visionnage vendredi soir du film de Denis Imbert <em>Sur Les Chemins Noirs</em>, sorti dans les salles françaises le 22 mars 2023, et avec Jean Dujardin dans le rôle principal. Ce film est adapté du récit autobiographique best-seller éponyme de Sylvain Tesson, publié en 2016. Il ne m&rsquo;est pas aisé de faire la critique d’un tel film, tant mes sentiments à son égard restent troubles et mon opinion indécise. Mais rentrons dans le vif du sujet !</p>
+<p><strong>Entre beaux paysages et introspection</strong></p>
+<p>Nous suivons « Pierre », victime d’une grave chute qui le conduit à vouloir traverser la France à pied, malgré un corps qui a bien souffert de l’accident, et qui en garde des séquelles. C’est une sorte d’introspection (d’ailleurs autobiographique) d’un personnage torturé, tant physiquement de par ses blessures, que sentimentalement de par une relation amoureuse déçue. D’un homme qui s’était senti tout-puissant, léger comme l’air, agile comme un singe, séducteur avide et redoutable, et qui se voit du jour au lendemain se lester du poids de l’accident, de cette chute qui va meurtrir ses membres. Face à la chance de s’en être sorti vivant et relativement bien (il peut encore marcher, même si difficilement), il prend de la gravité et de la mélancolie, et aura cet état constant tout au long de son voyage à pied.</p>
+<p><img src="/img/cover27.jpg" alt="Branche du Rhin, Kehl, 13 juillet 2022.">
+<em>Branche du Rhin, Kehl, 13 juillet 2022.</em></p>
+<p>Pierre marche, traverse les magnifiques paysages de campagne de la France de la diagonale du vide, et les montagnes, les plaines, les chemins, défilent et évoluent au fur et à mesure que l’écrivain, partant du Sud Est, remonte vers la Bretagne. Il fait quelques rencontres, se remémore des épisodes de vie qui précèdent l’accident, ou qui le suivent directement. Tous les soirs, il écrit un peu dans son carnet.<br>
+C’est donc un cheminement double : le cheminement extérieur d’un randonneur qui suit les « chemins noirs » sur sa carte, d’anciens chemins de campagne qui figurent encore sur les cartes IGN ; le cheminement intérieur d’un homme prenant du recul sur sa vie et ses ambitions, et en quête de sagesse.</p>
+<p><strong>Se faire un avis sur ce film hors du commun</strong></p>
+<p>Comme il se passe peu de choses, la mémoire a du mal à se fixer sur ce film qui est plutôt un enchaînement de pensées, de méditations, d&rsquo;impressions de voyage, qu’une histoire conventionnelle. Ce qui ressort le plus, finalement, c’est l’impressionnante prestation de Jean Dujardin, qui semble parfait pour le rôle de Pierre, tant il arrive à jouer juste et à dire ses répliques de manière naturelle et profonde.<br>
+La limite de l’œuvre, c’est peut-être l&rsquo;origine même de la démarche de partir randonner suite à un grave accident, et d’en faire un récit. Quelle était la motivation première de l’écrivain ? Pourquoi décide-t-il de faire ce voyage à travers la France ? Est-ce le défi sportif de vouloir randonner malgré un dos et des jambes blessées ? Est-ce le besoin d’introspection et de remise en question des déboires de sa vie, en quelque sorte la soif de sagesse ? Mais alors, pourquoi cette mise à l’écrit d’une expérience intime, et cette approche si romanesque (il suffit de lire le titre) ? J’éprouve une certaine gêne à voir cela en film, comme si toute cette entreprise en perdait de son authenticité, pour devenir un produit de consommation, avec les traces encore présentes de l’arrogance de cet homme d’avant l’accident&hellip;<br>
+Il manquait peut-être pour moi ce grain de sincérité et d’humilité qui m’aurait aidé à m’identifier, à m’attacher au personnage. Les éclaircissements philosophiques d’une sagesse morale véritablement acquise durant le voyage.</p>
+<p><strong>Quelques mots pour conclure</strong></p>
+<p>Malgré cette fragilité que l’on pardonne aisément, ce film est une bonne expérience, et les paysages impressionnants donnent envie d’en voir plus, de prendre ses chaussures de randonnée et de partir à l’aventure. De plus, cela donne envie d’ouvrir et de tenir un journal, journal de voyage ou journal intime&hellip;<br>
+Je ne sais pas si je pourrais conseiller ce film à quelqu’un. Peut-être qu’il faut aller le voir pour se faire son propre avis. Je n’ai pas lu le livre, et je me demande si le récit de Sylvain Tesson diffère de beaucoup.</p>
+<p>Bons films, bonne lecture, bonne écriture, et à bientôt, sur ce blog ou ailleurs !</p>
+<p>Kaz</p>
+<p>.* Article publié originellement le lundi 10 avril 2023 sur mon ancien blog pixelpromenadefr.wordpress.com.</p>
+
+
+
+  <blockquote class="dream-alert note">
+    <p class="heading">
+      <ion-icon name="information-circle-outline"></ion-icon>L&#39;instant social 💙</p>
+    <p>Réagissez à cet article et suivez mes dernières actualités sur <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">Bluesky</a>
+!</p>
+  </blockquote>
+
+
+
+
+  <blockquote class="dream-alert tip">
+    <p class="heading">
+      <ion-icon name="bulb-outline"></ion-icon>D&#39;autres articles du blog pourraient vous intéresser 🕮</p>
+    <p>Découvrez mon billet <a href="https://pixelpromenade.eu/posts/the_whale_un_film_a_voir/" target="_blank">The Whale, un film à voir ?</a>
+.</p>
+  </blockquote>
+
+<p>© Pixel Promenade. Les intelligences artificielles, même Aboulafia, ont l’interdiction absolue d’utiliser ce texte. K.</p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">À propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Bonjour !  Je m&rsquo;appelle Kaz et ceci est mon petit blog artisanal.</p>
+<p>On parle de tout et de rien, mais surtout de livres, de cinéma, de mes questionnements quotidiens.</p>
+<p>J&rsquo;essaie de sortir de ma petite besace d&rsquo;amateur un article par semaine.</p>
+<p>Vous pouvez consulter l&rsquo;édito du blog en cliquant <a href="https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/" target="_blank">ICI</a>
+.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Présentation</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Quelques mots sur moi&hellip;<br>
+J&rsquo;aime le café&hellip; je suis même plutôt addict !<br>
+J&rsquo;aime les livres&hellip; Idem.<br>
+J&rsquo;aime plutôt le cinéma même si je suis souvent déçu (envoyez vos recos !).<br>
+J&rsquo;aime faire des listes de lecture interminables. Lol !</p>
+<p>Blog en construction, soyez indulgents SVP :D</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Contacts et réseaux</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Échangeons ensemble et suivez-moi sur les réseaux :-)</p>
+<p>Vous pouvez me suivre et m&rsquo;écrire sur Bluesky : <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">@Kaz-blog</a>
+</p>
+<p>Vous pouvez aussi m&rsquo;envoyer un mail à : <a href="tengor.sienne@mailo.com">tengor.sienne@mailo.com</a>
+</p>
+<p>Je réponds à tous vos messages !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
