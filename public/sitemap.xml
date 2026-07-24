@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/tags/blog/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/categories/</loc>
-    <lastmod>2026-07-14T09:44:03+02:00</lastmod>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/chronique/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/chronique_estivale/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/%C3%A9t%C3%A9/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/humeur/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/vacances/</loc>
+    <lastmod>2026-07-24T19:36:43+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/cin%C3%A9ma/</loc>
     <lastmod>2026-07-14T09:44:03+02:00</lastmod>
@@ -23,12 +53,6 @@
     <loc>https://pixelpromenade.eu/tags/jean-dujardin/</loc>
     <lastmod>2026-07-14T09:44:03+02:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-07-14T09:44:03+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-07-14T09:44:03+02:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/sur-les-chemins-noirs/</loc>
     <lastmod>2026-07-14T09:44:03+02:00</lastmod>
   </url><url>
@@ -37,12 +61,6 @@
   </url><url>
     <loc>https://pixelpromenade.eu/tags/sylvain-tesson/</loc>
     <lastmod>2026-07-14T09:44:03+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
-    <lastmod>2026-07-14T09:44:03+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2026-07-04T18:54:25+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
     <lastmod>2026-07-04T18:54:25+02:00</lastmod>
@@ -64,15 +82,6 @@
   </url><url>
     <loc>https://pixelpromenade.eu/posts/un_roman_unique_sur_le_complot_des_templiers/</loc>
     <lastmod>2026-07-04T18:54:25+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/blog/</loc>
-    <lastmod>2026-06-25T08:57:52+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/chronique/</loc>
-    <lastmod>2026-06-25T08:57:52+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/humeur/</loc>
-    <lastmod>2026-06-25T08:57:52+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/journal_du_quotidien_balade_en_velo_lecture/</loc>
     <lastmod>2026-06-25T08:57:52+02:00</lastmod>
