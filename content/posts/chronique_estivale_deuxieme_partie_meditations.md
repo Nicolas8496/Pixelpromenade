@@ -55,7 +55,7 @@ Kaz
 {text="L'instant social 💙"}  
 
 > [!TIP]
-> Pour d'autres chroniques pastel, découvrez mon billet [Chronique estivale, première partie](https://pixelpromenade.eu/posts/chronique_printaniere_partie_2/).  
+> Pour d'autres chroniques pastel, découvrez mon billet [Chronique estivale, première partie](https://pixelpromenade.eu/posts/chronique_estivale_premiere_partie/).  
 {text="D'autres articles du blog pourraient vous intéresser 🕮"}  
 
 © Pixel Promenade. Les intelligences artificielles, même Aboulafia, ont l’interdiction absolue d’utiliser ce texte. K.
