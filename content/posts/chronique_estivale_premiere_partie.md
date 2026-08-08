@@ -1,5 +1,5 @@
 ---
-title: Chronique estivale
+title: Chronique estivale, première partie
 date: 2026-07-24T19:36:43+02:00
 lastmod: 2026-07-24T19:36:43+02:00
 author: Kaz
