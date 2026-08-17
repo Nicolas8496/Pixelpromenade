@@ -6,8 +6,15 @@
     <description>Recent content on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 08 Aug 2026 13:28:45 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 20:41:55 +0200</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Requiem pour un ancien blog</title>
+      <link>https://pixelpromenade.eu/posts/requiem_pour_un_ancien_blog/</link>
+      <pubDate>Mon, 17 Aug 2026 20:41:55 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/posts/requiem_pour_un_ancien_blog/</guid>
+      <description>&lt;p&gt;J’aimerais vous parler dans cet article de mon précédent blog, que j’ai choisi de mettre « hors ligne » il y a quelques temps. Ce n’est pas parce que je ne m’y retrouvais plus dans sa ligne éditoriale, d’ailleurs la plupart de ses textes ont été republiés ici. Mais je voulais depuis longtemps franchir le pas de la création d’un site internet de A à Z, de manière artisanale, et j’ai pu, grâce au framework Hugo qui simplifie beaucoup la tâche, me libérer &lt;em&gt;enfiiiin&lt;/em&gt; du carcan Wordpress. Ainsi, mon vieux blog Wordpress n’avait plus lieu d’exister, et ayant réutilisé son nom de domaine pour mon site actuel, sur lequel vous vous trouvez présentement, j’ai préféré éviter de garder une espèce de doublon désuète, et je l&amp;rsquo;ai mis en « Off ».&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chronique estivale, deuxième partie. Méditations.</title>
       <link>https://pixelpromenade.eu/posts/chronique_estivale_deuxieme_partie_meditations/</link>
