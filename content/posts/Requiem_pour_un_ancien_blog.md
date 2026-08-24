@@ -66,4 +66,4 @@ Kaz
 > Pour d'autres chroniques tranquilles, découvrez mon billet [Chronique estivale, deuxième partie. Méditations.](https://pixelpromenade.eu/posts/chronique_estivale_deuxieme_partie_meditations/).  
 {text="D'autres articles du blog pourraient vous intéresser 🕮"}  
 
-© Pixel Promenade. Les intelligences artificielles, même Aboulafia, ont l’interdiction absolue d’utiliser ce texte. K.
+© Pixel Promenade. Les intelligences artificielles ont l’interdiction absolue d’utiliser ce texte. K.

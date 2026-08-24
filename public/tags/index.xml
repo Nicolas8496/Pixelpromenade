@@ -6,13 +6,48 @@
     <description>Recent content in Tags on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 17 Aug 2026 20:41:55 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 19:38:56 +0200</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://pixelpromenade.eu/tags/blog/</link>
-      <pubDate>Mon, 17 Aug 2026 20:41:55 +0200</pubDate>
+      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
       <guid>https://pixelpromenade.eu/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture</title>
+      <link>https://pixelpromenade.eu/tags/lecture/</link>
+      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/tags/lecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Littérature</title>
+      <link>https://pixelpromenade.eu/tags/litt%C3%A9rature/</link>
+      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/tags/litt%C3%A9rature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proust</title>
+      <link>https://pixelpromenade.eu/tags/proust/</link>
+      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/tags/proust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Umberto Eco</title>
+      <link>https://pixelpromenade.eu/tags/umberto-eco/</link>
+      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/tags/umberto-eco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vacances</title>
+      <link>https://pixelpromenade.eu/tags/vacances/</link>
+      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/tags/vacances/</guid>
       <description></description>
     </item>
     <item>
@@ -27,20 +62,6 @@
       <link>https://pixelpromenade.eu/tags/%C3%A9t%C3%A9/</link>
       <pubDate>Sat, 08 Aug 2026 13:28:45 +0200</pubDate>
       <guid>https://pixelpromenade.eu/tags/%C3%A9t%C3%A9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Littérature</title>
-      <link>https://pixelpromenade.eu/tags/litt%C3%A9rature/</link>
-      <pubDate>Sat, 08 Aug 2026 13:28:45 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/tags/litt%C3%A9rature/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vacances</title>
-      <link>https://pixelpromenade.eu/tags/vacances/</link>
-      <pubDate>Sat, 08 Aug 2026 13:28:45 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/tags/vacances/</guid>
       <description></description>
     </item>
     <item>
@@ -107,13 +128,6 @@
       <description></description>
     </item>
     <item>
-      <title>Umberto Eco</title>
-      <link>https://pixelpromenade.eu/tags/umberto-eco/</link>
-      <pubDate>Sat, 04 Jul 2026 18:54:25 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/tags/umberto-eco/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Brendan Fraser</title>
       <link>https://pixelpromenade.eu/tags/brendan-fraser/</link>
       <pubDate>Sun, 14 Jun 2026 14:10:27 +0200</pubDate>
@@ -167,13 +181,6 @@
       <link>https://pixelpromenade.eu/tags/piscine/</link>
       <pubDate>Sat, 23 May 2026 11:09:19 +0200</pubDate>
       <guid>https://pixelpromenade.eu/tags/piscine/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Proust</title>
-      <link>https://pixelpromenade.eu/tags/proust/</link>
-      <pubDate>Sat, 16 May 2026 12:46:11 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/tags/proust/</guid>
       <description></description>
     </item>
     <item>
@@ -482,13 +489,6 @@
       <link>https://pixelpromenade.eu/tags/ingeborg-bachmann/</link>
       <pubDate>Wed, 28 Jan 2026 12:38:38 +0100</pubDate>
       <guid>https://pixelpromenade.eu/tags/ingeborg-bachmann/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lecture</title>
-      <link>https://pixelpromenade.eu/tags/lecture/</link>
-      <pubDate>Wed, 28 Jan 2026 12:38:38 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/tags/lecture/</guid>
       <description></description>
     </item>
     <item>

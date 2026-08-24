@@ -6,27 +6,34 @@
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 17 Aug 2026 20:41:55 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 19:38:56 +0200</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blog</title>
-      <link>https://pixelpromenade.eu/categories/blog/</link>
-      <pubDate>Mon, 17 Aug 2026 20:41:55 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/blog/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Chronique</title>
       <link>https://pixelpromenade.eu/categories/chronique/</link>
-      <pubDate>Mon, 17 Aug 2026 20:41:55 +0200</pubDate>
+      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/chronique/</guid>
       <description></description>
     </item>
     <item>
       <title>Humeur</title>
       <link>https://pixelpromenade.eu/categories/humeur/</link>
-      <pubDate>Mon, 17 Aug 2026 20:41:55 +0200</pubDate>
+      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/humeur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Littérature</title>
+      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
+      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://pixelpromenade.eu/categories/blog/</link>
+      <pubDate>Mon, 17 Aug 2026 20:41:55 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/blog/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +48,6 @@
       <link>https://pixelpromenade.eu/categories/critique/</link>
       <pubDate>Tue, 14 Jul 2026 09:44:03 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/critique/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Littérature</title>
-      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
-      <pubDate>Sat, 04 Jul 2026 18:54:25 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
       <description></description>
     </item>
     <item>
