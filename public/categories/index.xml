@@ -6,8 +6,22 @@
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 24 Aug 2026 19:38:56 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 17:19:42 +0200</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Critique</title>
+      <link>https://pixelpromenade.eu/categories/critique/</link>
+      <pubDate>Tue, 08 Sep 2026 17:19:42 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/critique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Littérature</title>
+      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
+      <pubDate>Tue, 08 Sep 2026 17:19:42 +0200</pubDate>
+      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Chronique</title>
       <link>https://pixelpromenade.eu/categories/chronique/</link>
@@ -23,13 +37,6 @@
       <description></description>
     </item>
     <item>
-      <title>Littérature</title>
-      <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
-      <pubDate>Mon, 24 Aug 2026 19:38:56 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Blog</title>
       <link>https://pixelpromenade.eu/categories/blog/</link>
       <pubDate>Mon, 17 Aug 2026 20:41:55 +0200</pubDate>
@@ -41,13 +48,6 @@
       <link>https://pixelpromenade.eu/categories/cin%C3%A9ma/</link>
       <pubDate>Tue, 14 Jul 2026 09:44:03 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/cin%C3%A9ma/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Critique</title>
-      <link>https://pixelpromenade.eu/categories/critique/</link>
-      <pubDate>Tue, 14 Jul 2026 09:44:03 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/critique/</guid>
       <description></description>
     </item>
     <item>
