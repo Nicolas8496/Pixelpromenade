@@ -1,5 +1,5 @@
 ---
-title: Un roman court et émouvant sur l'amour naissant et le decalage des classes sociales
+title: Un roman court et émouvant sur l'amour naissant et le décalage des classes sociales
 date: 2026-09-08T17:19:42+02:00
 lastmod: 2026-09-08T17:19:42+02:00
 author: Kaz
@@ -37,12 +37,12 @@ Qui avait glissé ce petit livre qui ne paie pas de mine dans la bibliothèque d
 Quelle main mystérieuse, sortie de l’ombre et d’un autre temps, me tendit indirectement ce livre fin, discret, que j’allais mettre un certain temps à remarquer, puis un autre, bien plus long, à lire ?  
 Ce livre, je l’ai lu, une dizaine d’années après cette découverte incongrue, sur un coup de tête. Je sortais de la lecture des *Vrilles de la Vigne*, petites nouvelles autobiographiques et champêtres dont la première, l’éponyme, avait un double sens de lecture qui m’a tout de suite frappé et séduit. Je voulais profiter de l’occasion pour continuer ma découverte de Colette, car c'est de cette écrivaine qu'il s'agit. Je lisais donc *Mitsou*.  
 
-![Plateau de Lacamp, 24 décembre 2023.](/img/cover32.jpg)
-*Plateau de Lacamp, 24 décembre 2023.* 
+![Plateau de Lacamp, 1, 24 décembre 2023.](/img/cover32.jpg)
+*Plateau de Lacamp, 1, 24 décembre 2023.* 
 
 **Une romance au lendemain terne**  
 
-*Mitsou* est un roman court de Colette qui mélange les procédés littéraires. On y trouve des scènes de théâtre (mais aux didascalies très longues et développées) ainsi que des échanges épistolaires. L’histoire débute par une rencontre furtive de l’actrice (entretenue) Mitsou et d’un soldat, dans la loge de l’artiste, au sein d’un music-hall parisien, dans un contexte de Première Guerre Mondiale. Cette première rencontre laisse aux deux protagonistes une impression très forte, et un désir puissant de se revoir. Suit un échange épistolaire où naît véritablement l’amour, un amour s’appuyant sur ces quelques minutes passées à s'observer, sur les phrases au désir contenu des deux correspondants, un amour qui finalement s’appuie sur presque rien…  
+*Mitsou* est un roman court, publié par Colette en 1919, qui mélange les procédés littéraires. On y trouve des scènes de théâtre (mais aux didascalies très longues et développées) ainsi que des échanges épistolaires. L’histoire débute par une rencontre furtive de l’actrice (entretenue) Mitsou et d’un soldat, dans la loge de l’artiste, au sein d’un music-hall parisien, dans un contexte de Première Guerre Mondiale. Cette première rencontre laisse aux deux protagonistes une impression très forte, et un désir puissant de se revoir. Suit un échange épistolaire où naît véritablement l’amour, un amour s’appuyant sur ces quelques minutes passées à s'observer, sur les phrases au désir contenu des deux correspondants, un amour qui finalement s’appuie sur presque rien…  
 Les retrouvailles sont prévues à l’occasion d’un passage à Paris du lieutenant. Mais c’est pour ce dernier une douche froide. L’amour retombe violemment, dès lors que tous ses fantasmes de finesse et d’intelligence sont démentis par cette femme « du peuple », avec des manières ingénues qui lui paraissent grossières.  
 Le roman ne manque pas de modernité et n’est pas sans rappeler de manière troublante les dynamiques de rencard qui peuvent avoir lieux de nos jours via les sites de rencontres, où les photos, puis les échanges par messages, peuvent produire des attentes en décalage avec la réalité.  
 Il y a la fameuse scène du dîner où le lieutenant bleu se rend soudain compte qu’il ne désire plus cette femme, dont il avait su excuser les fautes d’orthographe parce qu’elle savait exprimer ses idées de manière sincère et authentique, mais dont il n’arrive pas à faire abstraction de son manque de tenue, de culture, d’esprit mondain, dans ce restaurant chic.  
