@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronique inachevée. Réflexions périmées. Fouille. | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/chronique_inachevee_reflexions_perimees_fouille/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Il y a un sens profond que recèle la retouche d’anciens fragments de textes que l’on redécouvre dans des cahiers appartenant déjà à une autre époque de sa vie. Ces phrases, que l’on avait tracées lors de soirées que l’on ne connaît plus, dans des états d’âme que l’on n’a plus, il s’agit d’en reprendre le fil, d’en retrouver l’élan, et de continuer la broderie commencée… Et ainsi de se remettre petit à petit dans la peau de cet être que l’on était jadis, de poursuivre une trajectoire interrompue. L’Idée, la grande, est là tapie dans l’ombre, s’étend comme une vaste ville plongée dans la nuit, et n’attend que le retour du visiteur.
+" />
+
+
+<meta name="keywords" content="Blog,Présentation">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/chronique_inachevee_reflexions_perimees_fouille/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Chronique inachevée. Réflexions périmées. Fouille.">
+  <meta property="og:description" content="Il y a un sens profond que recèle la retouche d’anciens fragments de textes que l’on redécouvre dans des cahiers appartenant déjà à une autre époque de sa vie. Ces phrases, que l’on avait tracées lors de soirées que l’on ne connaît plus, dans des états d’âme que l’on n’a plus, il s’agit d’en reprendre le fil, d’en retrouver l’élan, et de continuer la broderie commencée… Et ainsi de se remettre petit à petit dans la peau de cet être que l’on était jadis, de poursuivre une trajectoire interrompue. L’Idée, la grande, est là tapie dans l’ombre, s’étend comme une vaste ville plongée dans la nuit, et n’attend que le retour du visiteur.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-10-13T21:36:05+02:00">
+    <meta property="article:modified_time" content="2026-10-13T21:36:05+02:00">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Présentation">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Chronique inachevée. Réflexions périmées. Fouille.">
+  <meta name="twitter:description" content="Il y a un sens profond que recèle la retouche d’anciens fragments de textes que l’on redécouvre dans des cahiers appartenant déjà à une autre époque de sa vie. Ces phrases, que l’on avait tracées lors de soirées que l’on ne connaît plus, dans des états d’âme que l’on n’a plus, il s’agit d’en reprendre le fil, d’en retrouver l’élan, et de continuer la broderie commencée… Et ainsi de se remettre petit à petit dans la peau de cet être que l’on était jadis, de poursuivre une trajectoire interrompue. L’Idée, la grande, est là tapie dans l’ombre, s’étend comme une vaste ville plongée dans la nuit, et n’attend que le retour du visiteur.">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Chronique inachevée. Réflexions périmées. Fouille.">
+  <meta itemprop="description" content="Il y a un sens profond que recèle la retouche d’anciens fragments de textes que l’on redécouvre dans des cahiers appartenant déjà à une autre époque de sa vie. Ces phrases, que l’on avait tracées lors de soirées que l’on ne connaît plus, dans des états d’âme que l’on n’a plus, il s’agit d’en reprendre le fil, d’en retrouver l’élan, et de continuer la broderie commencée… Et ainsi de se remettre petit à petit dans la peau de cet être que l’on était jadis, de poursuivre une trajectoire interrompue. L’Idée, la grande, est là tapie dans l’ombre, s’étend comme une vaste ville plongée dans la nuit, et n’attend que le retour du visiteur.">
+  <meta itemprop="datePublished" content="2026-10-13T21:36:05+02:00">
+  <meta itemprop="dateModified" content="2026-10-13T21:36:05+02:00">
+  <meta itemprop="wordCount" content="777">
+  <meta itemprop="keywords" content="Blog,Présentation">
+
+      <header>
+        <h1 itemprop="headline">Chronique inachevée. Réflexions périmées. Fouille.</h1>
+        <p class="text-sm">
+          
+            Tuesday, Oct 13, 2026
+          
+
+          | <span>4 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Tuesday, Oct 13, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Il y a un sens profond que recèle la retouche d’anciens fragments de textes que l’on redécouvre dans des cahiers appartenant déjà à une autre époque de sa vie. Ces phrases, que l’on avait tracées lors de soirées que l’on ne connaît plus, dans des états d’âme que l’on n’a plus, il s’agit d’en reprendre le fil, d’en retrouver l’élan, et de continuer la broderie commencée… Et ainsi de se remettre petit à petit dans la peau de cet être que l’on était jadis, de poursuivre une trajectoire interrompue. L’Idée, la grande, est là tapie dans l’ombre, s’étend comme une vaste ville plongée dans la nuit, et n’attend que le retour du visiteur.</p>
+<p>Cet été, en emportant dans mes vacances un cahier que j’utilisais entre 2020 et 2023, je retombe sur quelques notes, esquisses de textes, de projets, de préparations pour un blog à venir… Outre le plaisir de se replonger dans ces petits « jeux » d’écriture, l’envie m’est venue de réutiliser de cette matière pour mon blog actuel. Et en quelque sorte d’aller au bout d’une certaine démarche d’écriture, même si je m’y remets avec mon regard, ma façon de penser et d’écrire d’aujourd’hui. Il y a en particulier une demi-page, qui, à l’aide de reformulations et d’enrichissements, pourrait donner quelque chose d’intéressant. Cette demi-page date environ de juin 2022, et a donc plus de quatre ans. Elle contient une petite présentation de blog, mais qui part rapidement en introspection. Bonne lecture !</p>
+<p><img src="/img/cover37.jpg" alt="La Forêt Noire, 14 février 2026.">
+<em>La Forêt Noire, 14 février 2026.</em></p>
+<p><strong>Quand je présentais mon blog en 2022…</strong></p>
+<p>Chers visiteurs, bienvenus.</p>
+<p>Vous allez trouver sur ce site les écrits d’un « monsieur tout-le-monde » qui essaie, avec une difficulté avouée, de créer et de fixer des moments de méditation dans une vie qui va trop vite.</p>
+<p>Oui, les choses vont bien trop vite pour ma capacité d’assimilation, et ce depuis le baccalauréat. Avec les études, il y a eu une accélération terrible. Ai-je dès lors voulu trop faire de choses, et ai-je alors excessivement saturé mon emploi du temps ? Les études, les vacances, le travail, l’amitié et bien sûr l’amour : les choses se sont enchaînées au pas de course, sans me laisser le temps de m’en distancer.</p>
+<p>Il faudrait pour moi qu’une seconde en fasse trois ou quatre…</p>
+<p>Je me trouve constamment plongé dans une cascade de sollicitations cognitives dont la quantité et l’inlassable renouvellement m’épuisent. J’ai parfois l’impression d’avoir une capacité de concentration en miettes, réduite jusqu’à des fragments isolés et minuscules, incapables de s’attacher en profondeur aux choses. Ce sont des centaines de phares clignotant dans toutes les directions de l’espace, et je ne puis pas distinguer de destination précise.</p>
+<p>Cela vient-il de mes yeux qui n’y voient plus très clair ? La vie m’est-elle devenue floue ? Ou bien est-ce la fatigue qui, à force de nuits trop brèves (réflexes débiles de ma jeunesse perdue!), s’est infiltrée jusque dans mes veines, s’est interposée aux élans de ma biologie interne ?<br>
+Ou encore, tout simplement, la course d’obstacles de ma vie est-elle trop dense, trop difficile pour l’athlète las que je suis devenu ?</p>
+<p>Il est sans doute grand temps que je prenne mes responsabilités.</p>
+<p><strong>Interruption d’une réflexion perdue…</strong></p>
+<p>Le texte s’arrête là, à ce moment précis où il s’agissait de dessiner un avenir plus en accord avec mes besoins (et, accessoirement, de véritablement présenter le blog!). Mais je ne suis pas arrivé à fournir l’effort de le concevoir, d’en tracer les lignes directrices, d’en choisir la couleur… Cela aurait sans doute terminé en article feel-good à to-do list comme on en trouve tant sur internet ! (Je ne dis pas ça pour me moquer, je n’arrête pas de faire des listes, lol!)<br>
+Maintenant que ces quatre années sont passées, que mon quotidien a beaucoup changé, continuer ce texte en inventant ce que j’aurais pu dire à l’époque me paraît bien vain. Mais peut-être n’ai-je, dans le fond, pas tant changé que ça, et mes valeurs, que je vois d’ailleurs sans doute plus clairement à l’heure actuelle, sont restées les mêmes ?<br>
+J’en parlerai sûrement dans une prochaine chronique…</p>
+<p>D’ici-là, bonnes lectures, bonnes écritures !</p>
+<p>Kaz</p>
+
+
+
+  <blockquote class="dream-alert note">
+    <p class="heading">
+      <ion-icon name="information-circle-outline"></ion-icon>L&#39;instant social 💙</p>
+    <p>Réagissez à cet article et suivez mes dernières actualités sur <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">Bluesky</a>
+!</p>
+  </blockquote>
+
+
+
+
+  <blockquote class="dream-alert tip">
+    <p class="heading">
+      <ion-icon name="bulb-outline"></ion-icon>D&#39;autres articles du blog pourraient vous intéresser 1/2 🕮</p>
+    <p>Venez découvrir ma dernière chronique du genre : <a href="https://pixelpromenade.eu/posts/chronique_nocturne_premiere_partie_angoisses_du_lecteur_moralites/" target="_blank">Chronique nocturne, première partie. Angoisses du lecteur. Moralités.</a>
+.</p>
+  </blockquote>
+
+
+
+
+  <blockquote class="dream-alert tip">
+    <p class="heading">
+      <ion-icon name="bulb-outline"></ion-icon>D&#39;autres articles du blog pourraient vous intéresser 2/2 🕮</p>
+    <p>Retrouvez la première partie de ma critique de La Chute de Camus par ici : <a href="https://pixelpromenade.eu/posts/critique_de_la_chute_de_camus_premiere_partie/" target="_blank">Critique de La Chute de Camus, première partie</a>
+.</p>
+  </blockquote>
+
+<p>© Pixel Promenade. Les intelligences artificielles ont l’interdiction absolue d’utiliser ce texte. K.</p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">À propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Bonjour !  Je m&rsquo;appelle Kaz et ceci est mon petit blog artisanal.</p>
+<p>On parle de tout et de rien, mais surtout de livres, de cinéma, de mes questionnements quotidiens.</p>
+<p>J&rsquo;essaie de sortir de ma petite besace d&rsquo;amateur un article par semaine.</p>
+<p>Vous pouvez consulter l&rsquo;édito du blog en cliquant <a href="https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/" target="_blank">ICI</a>
+.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Présentation</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Quelques mots sur moi&hellip;<br>
+J&rsquo;aime le café&hellip; je suis même plutôt addict !<br>
+J&rsquo;aime les livres&hellip; Idem.<br>
+J&rsquo;aime plutôt le cinéma même si je suis souvent déçu (envoyez vos recos !).<br>
+J&rsquo;aime faire des listes de lecture interminables. Lol !</p>
+<p>Blog en construction, soyez indulgents SVP :D</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Contacts et réseaux</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Échangeons ensemble et suivez-moi sur les réseaux :-)</p>
+<p>Vous pouvez me suivre et m&rsquo;écrire sur Bluesky : <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">@Kaz-blog</a>
+</p>
+<p>Vous pouvez aussi m&rsquo;envoyer un mail à : <a href="tengor.sienne@mailo.com">tengor.sienne@mailo.com</a>
+</p>
+<p>Je réponds à tous vos messages !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
