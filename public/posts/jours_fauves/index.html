@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jours fauves | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/jours_fauves/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Les jours fauves viennent à nous dans les trébuchements du chemin. Ils nous guettent dans les ornières, percent le feuillage de leurs yeux jaunes, attendent patiemment le moment propice. Leur bond, nous le devinons à l’avance, nous le sentons dans l’invisible élan, dans la contraction silencieuse de leurs muscles. L’indicible seconde précédant leur surgissement est pleine de leur souffle glacé… Terribles heures dans la rumeur de leurs grognements ! Mais déjà la pluie troue le brouillard, disperse la noire haleine…
+" />
+
+
+<meta name="keywords" content="Blog,Humeur,Poésie,Lecture">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/jours_fauves/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Jours fauves">
+  <meta property="og:description" content="Les jours fauves viennent à nous dans les trébuchements du chemin. Ils nous guettent dans les ornières, percent le feuillage de leurs yeux jaunes, attendent patiemment le moment propice. Leur bond, nous le devinons à l’avance, nous le sentons dans l’invisible élan, dans la contraction silencieuse de leurs muscles. L’indicible seconde précédant leur surgissement est pleine de leur souffle glacé… Terribles heures dans la rumeur de leurs grognements ! Mais déjà la pluie troue le brouillard, disperse la noire haleine…">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-10-23T19:46:50+02:00">
+    <meta property="article:modified_time" content="2026-10-23T19:46:50+02:00">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Humeur">
+    <meta property="article:tag" content="Poésie">
+    <meta property="article:tag" content="Lecture">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Jours fauves">
+  <meta name="twitter:description" content="Les jours fauves viennent à nous dans les trébuchements du chemin. Ils nous guettent dans les ornières, percent le feuillage de leurs yeux jaunes, attendent patiemment le moment propice. Leur bond, nous le devinons à l’avance, nous le sentons dans l’invisible élan, dans la contraction silencieuse de leurs muscles. L’indicible seconde précédant leur surgissement est pleine de leur souffle glacé… Terribles heures dans la rumeur de leurs grognements ! Mais déjà la pluie troue le brouillard, disperse la noire haleine…">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Jours fauves">
+  <meta itemprop="description" content="Les jours fauves viennent à nous dans les trébuchements du chemin. Ils nous guettent dans les ornières, percent le feuillage de leurs yeux jaunes, attendent patiemment le moment propice. Leur bond, nous le devinons à l’avance, nous le sentons dans l’invisible élan, dans la contraction silencieuse de leurs muscles. L’indicible seconde précédant leur surgissement est pleine de leur souffle glacé… Terribles heures dans la rumeur de leurs grognements ! Mais déjà la pluie troue le brouillard, disperse la noire haleine…">
+  <meta itemprop="datePublished" content="2026-10-23T19:46:50+02:00">
+  <meta itemprop="dateModified" content="2026-10-23T19:46:50+02:00">
+  <meta itemprop="wordCount" content="1086">
+  <meta itemprop="keywords" content="Blog,Humeur,Poésie,Lecture">
+
+      <header>
+        <h1 itemprop="headline">Jours fauves</h1>
+        <p class="text-sm">
+          
+            Friday, Oct 23, 2026
+          
+
+          | <span>6 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Friday, Oct 23, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Les jours fauves viennent à nous dans les trébuchements du chemin. Ils nous guettent dans les ornières, percent le feuillage de leurs yeux jaunes, attendent patiemment le moment propice. Leur bond, nous le devinons à l’avance, nous le sentons dans l’invisible élan, dans la contraction silencieuse de leurs muscles. L’indicible seconde précédant leur surgissement est pleine de leur souffle glacé… Terribles heures dans la rumeur de leurs grognements ! Mais déjà la pluie troue le brouillard, disperse la noire haleine…</p>
+<p><strong>Route de nuit</strong></p>
+<p>Le long jour blanc et pluvieux s’achève dans cette course nocturne élucidée par le jeu des phares. L’axe de bitume s’entortille mystérieusement dans un horizon aveugle couronné de sa traînée interminable de sapins. Que reste-il du jour, et qui n’est pas déjà de la nuit, si ce n’est ce corps fatigué qui en garde les vagues empruntes mouillées, affalé sur le tableau de bord, déchiffrant la route, la trop longue route du retour ?<br>
+Les yeux, les yeux surtout, avides d’éclat, se figent comme des pierres, se dilatent comme des bouches ouvertes, mangent la danse confuse des lueurs qui pavent la vie devenue une ligne menue… Le tracé de crayon timide qui luit à peine sur le carton noir, ouvrant les interprétations, brouillonnant les avenirs…<br>
+La fatigue se répand en nuage comme une vapeur de hammam, et l’esprit se dissociant du corps nage dans un bain tiède, tend de vagues tentacules vers les branches de réalité, reste encore ancré dans une tension douloureuse qui tire jusque dans la cellule mère.<br>
+L’arrivée est alors plus un rêve qu’un soulagement. A-t-on quitté l’ancien monde pour entrer dans un autre ? Le relâchement ne se fait pas, ne se fait plus, tant le cœur est encore dans la lutte de la route, combat qui se répand dans l’avenir et le sommeil, irrite dans l’immobilité du corps, électrise les mains, tantôt sur le volant, maintenant crispées sur le vide. Le repos se perd à reculons, semble irrattrapable, et on se réduit à en renifler les empruntes, la trace, l’irrésistible rumeur. Ce repos qui ne viendra que plus tard, dans l’après-midi du lendemain, les portes fermées sur l’extérieur, à l’abri des rayons bavards.<br>
+Le travail, que l’on essaye d’endiguer dans des limitations claires, dans un compromis qui ne tarit pas complètement notre vitalité, parfois déborde impitoyablement, brise les boucliers, et happe nos dernières ressources…</p>
+<p><img src="/img/cover38.jpg" alt="Les Vosges, 15 mai 2026.">
+<em>Les Vosges, 15 mai 2026.</em></p>
+<p><strong>Autre fatigue. Notes dans un coin de page…</strong></p>
+<p>La semaine se termine doucement. Je viens à bout de ma pause déjeuner, et bientôt je rentrerai profiter de mon vendredi soir à la maison. J’ai été un peu ambitieux cette semaine, avec cette soirée jeux entre amis dès lundi, la sortie au musée, des trois séances de sport… Une grosse fatigue m’a envahi mercredi, le soir, à mon retour d’un déplacement (je n’arrivais pas à faire quelque chose de constructif), et a continué le lendemain, où je n’étais pas capable de grand-chose.<br>
+Je n’ai maintenant qu’une seule envie pour la fin d’après-midi : m’asseoir sur un fauteuil confortable, lire pendant au moins une heure. Le temps minimum, je trouve, pour redescendre sur terre, se calmer, entrer dans un état méditatif. Je veux finir Une Chambre à Soi de Virginia Woolf, dont il me reste une quinzaine de pages, et reprendre Sous le Soleil de Satan de Bernanos, dont j’ai passé la moitié. Et j’ai déjà hâte de lire tout autre chose, et de me replonger dans Consuelo de George Sand, qui sera sans doute la joie de mes vacances à Berlin, de mon mois de novembre. J’ai aussi sur ma table de chevet ce numéro hors-série de Télérama dédié à George Sand, sorti cette année.<br>
+C’est une pente bien glissante que de programmer ainsi ses lectures, et on verra si mes envies et mes inspirations resteront dans une telle discipline. Mais c’est en tout cas ce dont j’ai envie maintenant, et il me tarde d’être à nouveau dans les réflexions de Virginia Woolf, dans la prose magistrale de Bernanos, dans les pages pleines de mystère et d’aventure de George Sand.</p>
+<p><strong>Jeu de pierre</strong></p>
+<p>Marquons ce week-end de deux pierres, l’une blanche et l’autre noire. Deux galets trouvés sur le rivage.<br>
+La première, la blanche, est la pierre de la création littéraire. C’est une pierre douce, chaude encore par la caresse du soleil. Elle liquéfie voluptueusement l’esprit. Elle crée une poche de réalité loin des devoirs immédiats, loin de tout pragmatisme productiviste. Dans son aura, le temps s’écoule selon des lois inconnues. Elle est l’outil du colleur de phrases, qui emprunte des mots pour en faire des associations nouvelles. La phrase, alliage de blocs divergents, de forces contraires, qui fuit sans cesse et qu’il est si difficile de saisir, d’épicer avec justesse. La phrase qui renferme l’effet, qui a ce pouvoir de sortilège, d’évocation, puisant dans la ressource intime de la langue. Le montage se dresse, parfois monstrueux, grossier, souvent dans un écroulement de vaines intentions, rarement de la saveur que l’on recherche. Voici la pierre blanche, qui fait perdre pied, réserve ce moment de vie à la page. Je veux écrire ce week-end, me prendre ce temps de recroquevillement dans une bulle où je peux laisser s’épanouir ma soif de création artistique…<br>
+La seconde, la pierre noire, est la pierre de la préparation de l’avenir. C’est la pierre de la responsabilité et du sang froid. Il me faut un grand effort de réalisme, durant lequel je placerai des pions pour mon avenir, luttant contre les angoisses et autres dérives. Réfréner les pulsions de vitalité, la soif de repos, de littérature, est un exercice douloureux qui m’est extrêmement difficile. La pierre noire est surprenamment froide et impersonnelle, exige un rapport distant à soi-même, un détachement de général d’armée, irrite l’âme, écarte les couleurs pour ne laisser que les chiffres. Elle guide vers les affreuses cuisines où lève la pâte insipide qui bluffe les marchands du temple.<br>
+Rien de beau, rien de précieux dans tout cela, à part peut-être une lueur… Se faire chercheur de cette lueur.</p>
+<p>Deux galets magiques qui représentent les deux forces que je veux, que je dois cultiver. Construire en accord de ces deux pierres… Comme nous tous !</p>
+<p>Amis lecteurs, merci pour votre passage. Bonnes lectures, bonnes écritures,</p>
+<p>Kaz</p>
+
+
+
+  <blockquote class="dream-alert note">
+    <p class="heading">
+      <ion-icon name="information-circle-outline"></ion-icon>L&#39;instant social 💙</p>
+    <p>Réagissez à cet article et suivez mes dernières actualités sur <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">Bluesky</a>
+!</p>
+  </blockquote>
+
+
+
+
+  <blockquote class="dream-alert tip">
+    <p class="heading">
+      <ion-icon name="bulb-outline"></ion-icon>D&#39;autres articles du blog pourraient vous intéresser 🕮</p>
+    <p>Venez découvrir ma dernière chronique : <a href="https://pixelpromenade.eu/posts/chronique_inachevee_reflexions_perimees_fouille/" target="_blank">Chronique inachevée. Réflexions périmées. Fouille.</a>
+.</p>
+  </blockquote>
+
+<p>© Pixel Promenade. Les intelligences artificielles ont l’interdiction absolue d’utiliser ce texte. K.</p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">À propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Bonjour !  Je m&rsquo;appelle Kaz et ceci est mon petit blog artisanal.</p>
+<p>On parle de tout et de rien, mais surtout de livres, de cinéma, de mes questionnements quotidiens.</p>
+<p>J&rsquo;essaie de sortir de ma petite besace d&rsquo;amateur un article par semaine.</p>
+<p>Vous pouvez consulter l&rsquo;édito du blog en cliquant <a href="https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/" target="_blank">ICI</a>
+.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Présentation</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Quelques mots sur moi&hellip;<br>
+J&rsquo;aime le café&hellip; je suis même plutôt addict !<br>
+J&rsquo;aime les livres&hellip; Idem.<br>
+J&rsquo;aime plutôt le cinéma même si je suis souvent déçu (envoyez vos recos !).<br>
+J&rsquo;aime faire des listes de lecture interminables. Lol !</p>
+<p>Blog en construction, soyez indulgents SVP :D</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Contacts et réseaux</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Échangeons ensemble et suivez-moi sur les réseaux :-)</p>
+<p>Vous pouvez me suivre et m&rsquo;écrire sur Bluesky : <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">@Kaz-blog</a>
+</p>
+<p>Vous pouvez aussi m&rsquo;envoyer un mail à : <a href="tengor.sienne@mailo.com">tengor.sienne@mailo.com</a>
+</p>
+<p>Je réponds à tous vos messages !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
