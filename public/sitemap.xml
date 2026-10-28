@@ -2,14 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/tags/allemagne/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/berlin/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/berlin/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/tags/blog/</loc>
-    <lastmod>2026-10-23T19:46:50+02:00</lastmod>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/</loc>
-    <lastmod>2026-10-23T19:46:50+02:00</lastmod>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/chronique/</loc>
-    <lastmod>2026-10-23T19:46:50+02:00</lastmod>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/chronique_berlinoise/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/george-sand/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/lecture/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/voyage/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/voyage/</loc>
+    <lastmod>2026-10-28T19:44:04+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/%C3%A9criture/</loc>
     <lastmod>2026-10-23T19:46:50+02:00</lastmod>
@@ -23,22 +62,10 @@
     <loc>https://pixelpromenade.eu/posts/jours_fauves/</loc>
     <lastmod>2026-10-23T19:46:50+02:00</lastmod>
   </url><url>
-    <loc>https://pixelpromenade.eu/tags/lecture/</loc>
-    <lastmod>2026-10-23T19:46:50+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-10-23T19:46:50+02:00</lastmod>
-  </url><url>
     <loc>https://pixelpromenade.eu/tags/po%C3%A9sie/</loc>
     <lastmod>2026-10-23T19:46:50+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/po%C3%A9sie/</loc>
-    <lastmod>2026-10-23T19:46:50+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-10-23T19:46:50+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
     <lastmod>2026-10-23T19:46:50+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/chronique_inachevee_reflexions_perimees_fouille/</loc>
@@ -60,12 +87,6 @@
     <lastmod>2026-10-09T18:07:08+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/la-chute/</loc>
-    <lastmod>2026-10-09T18:07:08+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2026-10-09T18:07:08+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
     <lastmod>2026-10-09T18:07:08+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/souvenirs/</loc>
@@ -400,9 +421,6 @@
   </url><url>
     <loc>https://pixelpromenade.eu/categories/paysage/</loc>
     <lastmod>2026-02-04T12:38:38+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/allemagne/</loc>
-    <lastmod>2026-01-28T12:38:38+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/allemagne/</loc>
     <lastmod>2026-01-28T12:38:38+01:00</lastmod>

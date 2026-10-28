@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Berlin on Pixel Promenade</title>
+    <link>https://pixelpromenade.eu/tags/berlin/</link>
+    <description>Recent content in Berlin on Pixel Promenade</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 28 Oct 2026 19:44:04 +0100</lastBuildDate>
+    <atom:link href="https://pixelpromenade.eu/tags/berlin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chronique berlinoise</title>
+      <link>https://pixelpromenade.eu/posts/chronique_berlinoise/</link>
+      <pubDate>Wed, 28 Oct 2026 19:44:04 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/posts/chronique_berlinoise/</guid>
+      <description>&lt;p&gt;Retour à l’appartement. L’air frais met tant de temps à se chauffer. Les pièces sont silencieuses, sombres en cette fin de journée. Le sachet de tisane tilleul-citron infuse près de moi, et le frigo pousse sa chansonnette grésillante. Après le long voyage retour, une mauvaise nuit, et le travail, tant l’esprit que le corps réclament du calme, du temps, du vide. Et je pianote pourtant à mon ordinateur portable, après avoir lancé la machine des habits du voyage, et sur le point de chauffer l’eau des lentilles.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
