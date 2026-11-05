@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronique cantalienne | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/chronique_cantalienne/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Quelques notes prises sur mon téléphone constituent une grande part des rares traces de mon voyage estival dans la contrée cantaloue. La lecture de ces phrases, ou plutôt de ces bribes pianotées au soleil, au bord d’un lac, me replonge dans cette petite semaine d’insouciance dont j’aimerais maintenant vous partager les distantes impressions. Mais comment traduire en mots ce calme serein qui nous accueillit dès la sortie de la voiture ? La rumeur des clochettes qui nous a bercé de sa chanson paisible ? L’air pur et frais qui nous a enivré tout du long ? Amis lecteurs, je ferai au mieux…
+" />
+
+
+<meta name="keywords" content="Blog,Voyage,Librairie,Cantal,Lecture,Littérature,Théophile Gautier,Le Salaire De La Peur">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/chronique_cantalienne/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="Chronique cantalienne">
+  <meta property="og:description" content="Quelques notes prises sur mon téléphone constituent une grande part des rares traces de mon voyage estival dans la contrée cantaloue. La lecture de ces phrases, ou plutôt de ces bribes pianotées au soleil, au bord d’un lac, me replonge dans cette petite semaine d’insouciance dont j’aimerais maintenant vous partager les distantes impressions. Mais comment traduire en mots ce calme serein qui nous accueillit dès la sortie de la voiture ? La rumeur des clochettes qui nous a bercé de sa chanson paisible ? L’air pur et frais qui nous a enivré tout du long ? Amis lecteurs, je ferai au mieux…">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-11-05T18:00:57+01:00">
+    <meta property="article:modified_time" content="2026-11-05T18:00:57+01:00">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Voyage">
+    <meta property="article:tag" content="Librairie">
+    <meta property="article:tag" content="Cantal">
+    <meta property="article:tag" content="Lecture">
+    <meta property="article:tag" content="Littérature">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Chronique cantalienne">
+  <meta name="twitter:description" content="Quelques notes prises sur mon téléphone constituent une grande part des rares traces de mon voyage estival dans la contrée cantaloue. La lecture de ces phrases, ou plutôt de ces bribes pianotées au soleil, au bord d’un lac, me replonge dans cette petite semaine d’insouciance dont j’aimerais maintenant vous partager les distantes impressions. Mais comment traduire en mots ce calme serein qui nous accueillit dès la sortie de la voiture ? La rumeur des clochettes qui nous a bercé de sa chanson paisible ? L’air pur et frais qui nous a enivré tout du long ? Amis lecteurs, je ferai au mieux…">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Chronique cantalienne">
+  <meta itemprop="description" content="Quelques notes prises sur mon téléphone constituent une grande part des rares traces de mon voyage estival dans la contrée cantaloue. La lecture de ces phrases, ou plutôt de ces bribes pianotées au soleil, au bord d’un lac, me replonge dans cette petite semaine d’insouciance dont j’aimerais maintenant vous partager les distantes impressions. Mais comment traduire en mots ce calme serein qui nous accueillit dès la sortie de la voiture ? La rumeur des clochettes qui nous a bercé de sa chanson paisible ? L’air pur et frais qui nous a enivré tout du long ? Amis lecteurs, je ferai au mieux…">
+  <meta itemprop="datePublished" content="2026-11-05T18:00:57+01:00">
+  <meta itemprop="dateModified" content="2026-11-05T18:00:57+01:00">
+  <meta itemprop="wordCount" content="690">
+  <meta itemprop="keywords" content="Blog,Voyage,Librairie,Cantal,Lecture,Littérature,Théophile Gautier,Le Salaire De La Peur">
+
+      <header>
+        <h1 itemprop="headline">Chronique cantalienne</h1>
+        <p class="text-sm">
+          
+            Thursday, Nov 5, 2026
+          
+
+          | <span>4 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Thursday, Nov 5, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Quelques notes prises sur mon téléphone constituent une grande part des rares traces de mon voyage estival dans la contrée cantaloue. La lecture de ces phrases, ou plutôt de ces bribes pianotées au soleil, au bord d’un lac, me replonge dans cette petite semaine d’insouciance dont j’aimerais maintenant vous partager les distantes impressions. Mais comment traduire en mots ce calme serein qui nous accueillit dès la sortie de la voiture ? La rumeur des clochettes qui nous a bercé de sa chanson paisible ? L’air pur et frais qui nous a enivré tout du long ? Amis lecteurs, je ferai au mieux…</p>
+<p><strong>Souvenir livresque</strong></p>
+<p>Le Cantal nous a offert, cet été, tant de beaux souvenirs ! Ma pensée émue se pose sur cette petite librairie de Riom, ayant des airs de Tabac-Presse, mais à la surprenante richesse en terme de littérature. Je fouille le rayon des romans contemporains. M.A. vient me voir avec un petit livre intitulé <em>La Cafetière</em> de Théophile Gautier, en me disant qu’elle a pensé à moi, et à ma fameuse dépendance au café… Je trouve cela très amusant et désire maintenant lire les trois nouvelles fantastiques, assez curieuses, de ce mince recueil. Le temps viendra où j’écrirai un article entier sur le café, ma boisson sacrée !<br>
+Je suis agréablement surpris par leur choix très complet en matière de littérature classique. Cela me donne envie de m’offrir un petit roman, allant à l’encontre de tous mes principes de sobriété ! Les romans de Colette me font de l’œil. Les Flaubert également. <em>Bouvard et Pécuchet</em> m’a été chaudement recommandé par un ancien ami de mon père… Je choisis finalement, sans rien en savoir à l’avance, <em>Le Salaire de la Peur</em> (note rétrospective : je ne m’attendais pas du tout à ça, mon dieu!)…<br>
+Le Café Déco Archi de Riom est un havre de tranquillité. La déco intérieure est d’un goût artiste, et le petit jardin secret à l’arrière est une bulle de verdure bienvenue lorsque les rayons du soleil invitent à y prendre place. Plaisir de boire le café dans une tasse en porcelaine. L’ambiance nous invite à la contemplation, à la réflexion douce, au rêve. Nous n’allons pas assez souvent au café !</p>
+<p><strong>Pause au bord du Lac</strong></p>
+<p>Assis à l&rsquo;ombre des saules pleureurs, au bord du lac, nous nous laissons bercer par le tintement des clochettes bovines. L’étendue d’eau semble nous observer de son grand œil brun, gris, et bleu dans les reflets du ciel. Aujourd’hui, la nature nous a encerclé, toute grande, et j’essaie de me détacher des livres et de l’écriture. Toujours mes pensées y reviennent. A mes lectures, à mes écritures… Les mots, les lettres, se surimposent sur les beaux clichés du Cantal dont ma mémoire s’imprègne…</p>
+<p><img src="/img/cover40.jpg" alt="Au sommet du Puy Mary, 4 septembre 2026.">
+<em>Au sommet du Puy Mary, 4 septembre 2026.</em></p>
+<p><strong>Randonnée au Puy du Christ</strong></p>
+<p>Ascension de ce mont baptisé le Puy du Christ. Le regard se perd sans cesse dans le haut paysage : les sommets bruns et desséchés des puys, les arbres étagés dans les pentes, les pâturages et les taches marron, noires et blanches des vaches <em>salers</em>. L&rsquo;air est calme et sec, le noble silence de la marche ne se trouble que par le tintement des clochettes et le vrombissement des rares voitures.
+Au sommet du Puy du Christ, nous montons sur la tour de guet à l’échelle peu praticable, très raide, ayant un échelon descellé. Les branchages supérieurs des grands arbres masquent partiellement la magnifique vue que nous espérions. Mais derrière les stries sombres des branches, nous apercevons çà et là les verts pastels de la vallée…<br>
+Plus tard, après la descente, nous nous octroyons l’apéritif bien mérité. Je souffle à M.A :<br>
+– Maintenant, j’aimerais prendre le temps d’écrire.<br>
+– Oui mais j’aimerais qu’on dîne, parce que j’ai faim.<br>
+– Alors on écrit après ?<br>
+– Oui.</p>
+<p>Kaz</p>
+
+
+
+  <blockquote class="dream-alert note">
+    <p class="heading">
+      <ion-icon name="information-circle-outline"></ion-icon>L&#39;instant social 💙</p>
+    <p>Réagissez à cet article et suivez mes dernières actualités sur <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">Bluesky</a>
+!</p>
+  </blockquote>
+
+
+
+
+  <blockquote class="dream-alert tip">
+    <p class="heading">
+      <ion-icon name="bulb-outline"></ion-icon>D&#39;autres articles du blog pourraient vous intéresser 🕮</p>
+    <p>Venez découvrir ma dernière chronique ! Un autre voyage, cette fois en pays germanique : <a href="https://pixelpromenade.eu/posts/chronique_berlinoise/" target="_blank">Chronique berlinoise</a>
+.</p>
+  </blockquote>
+
+<p>© Pixel Promenade. Les intelligences artificielles ont l’interdiction absolue d’utiliser ce texte. K.</p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">À propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Bonjour !  Je m&rsquo;appelle Kaz et ceci est mon petit blog artisanal.</p>
+<p>On parle de tout et de rien, mais surtout de livres, de cinéma, de mes questionnements quotidiens.</p>
+<p>J&rsquo;essaie de sortir de ma petite besace d&rsquo;amateur un article par semaine.</p>
+<p>Vous pouvez consulter l&rsquo;édito du blog en cliquant <a href="https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/" target="_blank">ICI</a>
+.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Présentation</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Quelques mots sur moi&hellip;<br>
+J&rsquo;aime le café&hellip; je suis même plutôt addict !<br>
+J&rsquo;aime les livres&hellip; Idem.<br>
+J&rsquo;aime plutôt le cinéma même si je suis souvent déçu (envoyez vos recos !).<br>
+J&rsquo;aime faire des listes de lecture interminables. Lol !</p>
+<p>Blog en construction, soyez indulgents SVP :D</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Contacts et réseaux</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Échangeons ensemble et suivez-moi sur les réseaux :-)</p>
+<p>Vous pouvez me suivre et m&rsquo;écrire sur Bluesky : <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">@Kaz-blog</a>
+</p>
+<p>Vous pouvez aussi m&rsquo;envoyer un mail à : <a href="tengor.sienne@mailo.com">tengor.sienne@mailo.com</a>
+</p>
+<p>Je réponds à tous vos messages !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
