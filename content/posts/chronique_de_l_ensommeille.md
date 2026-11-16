@@ -18,7 +18,7 @@ tags:
   - lecture
   - littérature
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 Je me retrouve enfin dans mon petit chez moi, au calme, après une période agitée et quelque peu insomniaque. Le lave-linge ronronne dans la salle de bain, des papiers sont éparpillés sur mon bureau, et par les volets baissés s’immiscent quelques timides rayons solaires. La canicule est passée, reviendra peut-être, mais qu’importe, en ce moment, je peux écrire, et tout va bien…  
