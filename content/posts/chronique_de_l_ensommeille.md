@@ -50,7 +50,7 @@ Kaz
 {text="L'instant social 💙"}  
 
 > [!TIP]
-> Venez découvrir ma dernière chronique en terre cantalienne : [Chronique berlinoise](https://pixelpromenade.eu/posts/chronique_cantalienne/).  
+> Venez découvrir ma dernière chronique en terre cantalienne : [Chronique cantalienne](https://pixelpromenade.eu/posts/chronique_cantalienne/).  
 {text="D'autres articles du blog pourraient vous intéresser 🕮"}  
 
 
