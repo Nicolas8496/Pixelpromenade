@@ -2,34 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixelpromenade.eu/categories/article/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
     <loc>https://pixelpromenade.eu/tags/blog/</loc>
-    <lastmod>2026-11-13T18:51:42+01:00</lastmod>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/</loc>
-    <lastmod>2026-11-13T18:51:42+01:00</lastmod>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/la_question_du_livre_d_occasion/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/lecture/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/lecture/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/livre/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/categories/livre/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/livre-doccasion/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/posts/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
+  </url><url>
+    <loc>https://pixelpromenade.eu/tags/</loc>
+    <lastmod>2026-11-26T20:01:22+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/categories/chronique/</loc>
     <lastmod>2026-11-13T18:51:42+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/chronique_de_l_ensommeille/</loc>
-    <lastmod>2026-11-13T18:51:42+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/lecture/</loc>
-    <lastmod>2026-11-13T18:51:42+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/litt%C3%A9rature/</loc>
-    <lastmod>2026-11-13T18:51:42+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/litt%C3%A9rature/</loc>
-    <lastmod>2026-11-13T18:51:42+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/</loc>
-    <lastmod>2026-11-13T18:51:42+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/posts/</loc>
-    <lastmod>2026-11-13T18:51:42+01:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/tags/</loc>
     <lastmod>2026-11-13T18:51:42+01:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/voyage/</loc>
@@ -279,9 +297,6 @@
     <lastmod>2026-04-23T11:48:25+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/posts/jeudi_matin_dans_l_atelier/</loc>
-    <lastmod>2026-04-23T11:48:25+02:00</lastmod>
-  </url><url>
-    <loc>https://pixelpromenade.eu/categories/lecture/</loc>
     <lastmod>2026-04-23T11:48:25+02:00</lastmod>
   </url><url>
     <loc>https://pixelpromenade.eu/tags/fablemans/</loc>

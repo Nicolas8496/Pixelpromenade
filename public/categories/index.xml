@@ -6,20 +6,41 @@
     <description>Recent content in Categories on Pixel Promenade</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 13 Nov 2026 18:51:42 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 20:01:22 +0100</lastBuildDate>
     <atom:link href="https://pixelpromenade.eu/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chronique</title>
-      <link>https://pixelpromenade.eu/categories/chronique/</link>
-      <pubDate>Fri, 13 Nov 2026 18:51:42 +0100</pubDate>
-      <guid>https://pixelpromenade.eu/categories/chronique/</guid>
+      <title>Article</title>
+      <link>https://pixelpromenade.eu/categories/article/</link>
+      <pubDate>Thu, 26 Nov 2026 20:01:22 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/article/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture</title>
+      <link>https://pixelpromenade.eu/categories/lecture/</link>
+      <pubDate>Thu, 26 Nov 2026 20:01:22 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/lecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Littérature</title>
       <link>https://pixelpromenade.eu/categories/litt%C3%A9rature/</link>
-      <pubDate>Fri, 13 Nov 2026 18:51:42 +0100</pubDate>
+      <pubDate>Thu, 26 Nov 2026 20:01:22 +0100</pubDate>
       <guid>https://pixelpromenade.eu/categories/litt%C3%A9rature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Livre</title>
+      <link>https://pixelpromenade.eu/categories/livre/</link>
+      <pubDate>Thu, 26 Nov 2026 20:01:22 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/livre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chronique</title>
+      <link>https://pixelpromenade.eu/categories/chronique/</link>
+      <pubDate>Fri, 13 Nov 2026 18:51:42 +0100</pubDate>
+      <guid>https://pixelpromenade.eu/categories/chronique/</guid>
       <description></description>
     </item>
     <item>
@@ -132,13 +153,6 @@
       <link>https://pixelpromenade.eu/categories/ecriture/</link>
       <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
       <guid>https://pixelpromenade.eu/categories/ecriture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lecture</title>
-      <link>https://pixelpromenade.eu/categories/lecture/</link>
-      <pubDate>Thu, 23 Apr 2026 11:48:25 +0200</pubDate>
-      <guid>https://pixelpromenade.eu/categories/lecture/</guid>
       <description></description>
     </item>
     <item>

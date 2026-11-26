@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La question du livre d’occasion | Pixel Promenade</title>
+
+    
+
+<link rel="canonical" href="https://pixelpromenade.eu/posts/la_question_du_livre_d_occasion/" />
+
+
+
+<meta name="author" content="Kaz" />
+<meta name="description" content="Le sujet de ma chronique est un débat qui est revenu plusieurs fois dans l’actualité, et je suis toujours surpris par les positions prises. Il y a en effet des libraires et des journalistes qui militent pour mettre fin au livre d’occasion, ou encore pour introduire une nouvelle taxe sur ces livres, afin de limiter leur circulation…. Mais pourquoi tant de haine ?
+" />
+
+
+<meta name="keywords" content="Blog,Livre,Livre D&#39;occasion,Lecture,Littérature">
+
+
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<meta property="og:url" content="https://pixelpromenade.eu/posts/la_question_du_livre_d_occasion/">
+  <meta property="og:site_name" content="Pixel Promenade">
+  <meta property="og:title" content="La question du livre d’occasion">
+  <meta property="og:description" content="Le sujet de ma chronique est un débat qui est revenu plusieurs fois dans l’actualité, et je suis toujours surpris par les positions prises. Il y a en effet des libraires et des journalistes qui militent pour mettre fin au livre d’occasion, ou encore pour introduire une nouvelle taxe sur ces livres, afin de limiter leur circulation…. Mais pourquoi tant de haine ?">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-11-26T20:01:22+01:00">
+    <meta property="article:modified_time" content="2026-11-26T20:01:22+01:00">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Livre">
+    <meta property="article:tag" content="Livre D&#39;occasion">
+    <meta property="article:tag" content="Lecture">
+    <meta property="article:tag" content="Littérature">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La question du livre d’occasion">
+  <meta name="twitter:description" content="Le sujet de ma chronique est un débat qui est revenu plusieurs fois dans l’actualité, et je suis toujours surpris par les positions prises. Il y a en effet des libraires et des journalistes qui militent pour mettre fin au livre d’occasion, ou encore pour introduire une nouvelle taxe sur ces livres, afin de limiter leur circulation…. Mais pourquoi tant de haine ?">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.jpg" alt="Pixel Promenade" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://pixelpromenade.eu/" class="text-lg font-semibold cursor-pointer">
+          Pixel Promenade
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Un article par semaine - du café et des livres</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="La question du livre d’occasion">
+  <meta itemprop="description" content="Le sujet de ma chronique est un débat qui est revenu plusieurs fois dans l’actualité, et je suis toujours surpris par les positions prises. Il y a en effet des libraires et des journalistes qui militent pour mettre fin au livre d’occasion, ou encore pour introduire une nouvelle taxe sur ces livres, afin de limiter leur circulation…. Mais pourquoi tant de haine ?">
+  <meta itemprop="datePublished" content="2026-11-26T20:01:22+01:00">
+  <meta itemprop="dateModified" content="2026-11-26T20:01:22+01:00">
+  <meta itemprop="wordCount" content="1152">
+  <meta itemprop="keywords" content="Blog,Livre,Livre D&#39;occasion,Lecture,Littérature">
+
+      <header>
+        <h1 itemprop="headline">La question du livre d’occasion</h1>
+        <p class="text-sm">
+          
+            Thursday, Nov 26, 2026
+          
+
+          | <span>6 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Thursday, Nov 26, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Kaz</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Le sujet de ma chronique est un débat qui est revenu plusieurs fois dans l’actualité, et je suis toujours surpris par les positions prises. Il y a en effet des libraires et des journalistes qui militent pour mettre fin au livre d’occasion, ou encore pour introduire une nouvelle taxe sur ces livres, afin de limiter leur circulation…. Mais pourquoi tant de haine ?</p>
+<p><em>Cet article a en grande partie été rédigé le 3 juillet 2026. Il a été remanié le 26 novembre 2026.</em></p>
+<p><img src="/img/cover42.jpg" alt="Vue sur la Seine, Paris, 26 mai 2026.">
+<em>Vue sur la Seine, Paris, 26 mai 2026.</em></p>
+<p>Le sujet de ma chronique est un débat qui est revenu plusieurs fois dans l’actualité, et je suis toujours surpris par les positions prises. Il y a en effet des libraires et des journalistes qui militent pour mettre fin au livre d’occasion, ou encore pour introduire une nouvelle taxe sur ces livres, afin de limiter leur circulation…. Mais pourquoi tant de haine ?</p>
+<p>Il semblerait que ces livres de seconde main représentent 20% des livres achetés en 2022, pour seulement 10% de la valeur du marché. Un livre sur cinq est donc un livre d’occasion, et est généralement vendu bien moins cher qu’un livre neuf (Pour plus d’informations, voir l’étude du Ministère de la Culture et La Sofia).</p>
+<p>Il s’agit d’une part de marché sur laquelle les libraires n’ont que très peu d’emprise, et qui n’est que peu lucrative. Et le problème qui se pose est clair : acheter un livre d’occasion ne rémunère ni l’auteur, ni l’éditeur, et il est très peu probable que l’on passe par l’intermédiaire d’une librairie. Les sites internet d’échanges de seconde main fleurissent, <em>Leboncoin</em> et <em>Vinted</em> en têtes. Et il va sans dire que ces livres ne sont pas du tout taxés (mais certains sites prennent une commission&hellip;).</p>
+<p>Or de nombreuses librairies subissent une situation économique tendue, à l’instar d’un nombre important d’éditeurs. Les écrivains, quant à eux, ne touchent qu’une misère sur leur travail.</p>
+<p>Ces points-là sont importants, et la question est délicate, mais il me semble que la vie d’un livre ne doit pas se limiter à l’achat neuf, qu’il est fait pour circuler entre plusieurs mains, que sa durée de vie doit être la plus étendue possible. C’est bien sûr un bon sens écologique : au lieu que chacun achète le même livre, autant amortir la pollution liée à sa production en multipliant son usage. De plus, la culture à moindre coût a toujours été une force de notre société. Pouvoir se procurer Madame Bovary pour 3 euros à la librairie du coin relève d’un petit miracle. Les offres de médiathèques gratuites se multiplient, et surpassent souvent largement les alternatives : une trentaine de livres à emprunter en même temps, un choix extrêmement diversifié, la possibilité de passer commande… Or le livre d’occasion s’insère précisément dans cette symbolique d’une circulation culturelle égalitaire et d’une transmission d’idées fluide, où la capitalisation du livre doit être cantonnée à une sphère limitée en faveur d’une maximisation de l’acquisition et des échanges intellectuels.</p>
+<p>J’aime soutenir les librairies indépendantes et je vois d’un mauvais œil le développement des sites de commande en ligne. Mais aucun profil de lecteur n’est complètement tranché sur une seule habitude de consommation. Au contraire, un lecteur curieux va varier les sources de son plaisir : la librairie reste le premier choix, mais en fonction des stocks disponibles et des prix, il peut se contenter de l’occasion, d’un emprunt, voire d’un achat (moins cher) sur liseuse ou sur un site internet… Il peut apprécier les conseils d’un libraire, tout comme les suggestions d’une médiathèque ou les coups de cœur d’un ami. Il achète, revend, prête, emprunte, donne le livre : en bref, il le met en mouvement. Disons-le de manière légèrement caricaturale : un livre est fait pour circuler, et non pour prendre la poussière sur une étagère !</p>
+<p>L’enjeu de l’achat du livre masque la problématique induite : celle de la réduction du temps de lecture. A quoi bon pousser les gens à acheter plus de livres, si au final ils ne prennent (n’ont) pas le temps de les lire ? Les français lisent en moyenne une vingtaine de livres par an. Ce nombre est en baisse depuis des années, et l’on peine à insuffler un plus ample intérêt pour la lecture aux jeunes générations, qui ont des occupations culturelles plus diversifiées. Moins le temps de lire, donc ! Inévitablement, les achats en librairie sont moins fréquents.</p>
+<p>Peut-être l’édition doit-elle repenser son catalogue, afin d’être plus attrayante vis-à-vis du lecteur moderne ? Il semble que la tendance aille vers le livre premium, l’édition deluxe, et autres formats collectors qui sont de qualité plus élevée et proposent plus de choses que le simple texte : gravures, encres de différentes couleurs, couvertures en matériaux plus nobles, « goodies »… Autant d’arguments de vouloir posséder l’objet, non plus considéré pour le simple texte qu’il contient, mais en tant qu’œuvre d’art globale, que l’on prend plaisir à regarder, à feuilleter, même avant ou après la lecture. Cela renouerait avec la mode des livres de collection déjà en vogue au XIXème siècle.</p>
+<p>Il y a de nouvelles maisons d’édition qui percent, notamment dans le domaine de la romance fantasy, et qui parviennent à réinventer l’objet livre, à lui redonner des éléments de décoration et de frises comparables aux beaux livres en cuir de nos aïeux.
+Et puis la romance fantasy propose une composante érotique qui peut jouer dans la motivation d’un nouveau lectorat !</p>
+<p>Que conclure de tout cela ? L’extrême diversité du marché de la culture, et sa constante évolution, complexifient les habitudes de consommation. Celles des nouvelles générations diffèrent largement des anciennes, et appellent à une adaptation du monde du livre. Si le modèle conventionnel de l’économie du livre est mise à mal, de nouvelles opportunités pourraient permettre un rebond, en passant notamment par le livre haut de gamme. Nous achetons moins de livres, mais sommes attentifs à l’esthétique globale de l’objet. Les « collections » sont des motivateurs d’achat, mais sans lecture effective des œuvres, cette dynamique d’achat est condamnée à s’essouffler. Toutefois, à l’instar des éditions de la <em>Pléiade</em>, le livre haut de gamme a potentiellement plusieurs vies sur le marché de l’occasion. Un marché nécessaire, selon moi, car il ne remplace pas mais complète les possibilités d’accès à l’objet livre. L’introduction d’une taxe risquerait d’étouffer l’occasion qui reste une porte d’entrée à une œuvre, un genre, un type, et a le potentiel d’amener des clients en librairies. Cette taxe risquerait dès lors de favoriser d’autres habitudes de consommation : la médiathèque, la liseuse, puis la préférence pour d’autres objets culturels. Donc vive l’occasion libre !</p>
+<p>Kaz</p>
+
+
+
+  <blockquote class="dream-alert note">
+    <p class="heading">
+      <ion-icon name="information-circle-outline"></ion-icon>L&#39;instant social 💙</p>
+    <p>Réagissez à cet article et suivez mes dernières actualités sur <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">Bluesky</a>
+!</p>
+  </blockquote>
+
+
+
+
+  <blockquote class="dream-alert tip">
+    <p class="heading">
+      <ion-icon name="bulb-outline"></ion-icon>D&#39;autres articles du blog pourraient vous intéresser 🕮</p>
+    <p>Venez découvrir ma dernière chronique : <a href="https://pixelpromenade.eu/posts/chronique_de_l_ensommeille/" target="_blank">Chronique de l’ensommeillé</a>
+.</p>
+  </blockquote>
+
+<p>© Pixel Promenade. Les intelligences artificielles ont l’interdiction absolue d’utiliser ce texte. K.</p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">À propos</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Bonjour !  Je m&rsquo;appelle Kaz et ceci est mon petit blog artisanal.</p>
+<p>On parle de tout et de rien, mais surtout de livres, de cinéma, de mes questionnements quotidiens.</p>
+<p>J&rsquo;essaie de sortir de ma petite besace d&rsquo;amateur un article par semaine.</p>
+<p>Vous pouvez consulter l&rsquo;édito du blog en cliquant <a href="https://pixelpromenade.eu/posts/edito_le_pourquoi_de_ce_blog/" target="_blank">ICI</a>
+.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Présentation</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Quelques mots sur moi&hellip;<br>
+J&rsquo;aime le café&hellip; je suis même plutôt addict !<br>
+J&rsquo;aime les livres&hellip; Idem.<br>
+J&rsquo;aime plutôt le cinéma même si je suis souvent déçu (envoyez vos recos !).<br>
+J&rsquo;aime faire des listes de lecture interminables. Lol !</p>
+<p>Blog en construction, soyez indulgents SVP :D</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Contacts et réseaux</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Échangeons ensemble et suivez-moi sur les réseaux :-)</p>
+<p>Vous pouvez me suivre et m&rsquo;écrire sur Bluesky : <a href="https://bsky.app/profile/kaz-blog.bsky.social" target="_blank">@Kaz-blog</a>
+</p>
+<p>Vous pouvez aussi m&rsquo;envoyer un mail à : <a href="tengor.sienne@mailo.com">tengor.sienne@mailo.com</a>
+</p>
+<p>Je réponds à tous vos messages !</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 - 2026 Pixel Promenade
+  </p>
+  
+
+  
+  <p>Blog expérimental - Un article par semaine</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
